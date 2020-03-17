@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"log"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -23,14 +24,14 @@ func convertLinkTitle(source string) (target string) {
 
 	// 拼接链接标题
 	subTitle := strings.Join(parts, " ")
-	return fmt.Sprintf("\n\n## [%s](./%s)", subTitle, source)
+	return fmt.Sprintf("## [%s](./%s)", subTitle, source)
 }
 
 func updateIndex(path string, parent *string) {
 	// 创建 index.md
 	indexFile, err := os.Create(path + "/index.md")
 	if err != nil {
-		fmt.Printf("%#v\n", err)
+		log.Fatalf("Index creating error: %#v\n", err)
 		return
 	}
 
@@ -44,9 +45,9 @@ func updateIndex(path string, parent *string) {
 
 	// 添加上级目录链接
 	if parent == nil {
-		indexFile.WriteString("## [..](../index.md)")
+		indexFile.WriteString("## [..](../index.md)\n\n")
 	} else {
-		indexFile.WriteString(*parent)
+		indexFile.WriteString(*parent + "\n\n")
 	}
 
 	// 遍历文件名，追加到 index.md
@@ -69,22 +70,21 @@ func updateIndex(path string, parent *string) {
 
 		// 链接名称转换
 		link := convertLinkTitle(fileName)
-		fmt.Printf("%v\n", link)
+		log.Printf("Link: %v\n", link)
 
 		// 写入链接
-		_, err := indexFile.WriteString(link)
+		_, err := indexFile.WriteString(link + "\n\n")
 		if err != nil {
-			fmt.Printf("%#v\n", err)
+			log.Fatalf("Link writing error: %#v\n", err)
 			indexFile.Close()
 			return
 		}
 	}
 
 	// 关闭 index.md 文件
-	indexFile.WriteString("\n\n---\n")
 	indexFile.Close()
 
-	fmt.Printf("%v\n", path)
+	log.Printf("Walking over: %v\n", path)
 }
 
 func main() {

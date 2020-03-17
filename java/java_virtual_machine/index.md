@@ -4,4 +4,3 @@
 
 ## [Java Memory Model](./java_memory_model)
 
----
