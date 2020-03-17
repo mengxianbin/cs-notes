@@ -9,11 +9,17 @@ import (
 	"strings"
 )
 
-func convertLinkName(source string) (target string) {
+// 转换链接标题
+func convertLinkTitle(source string) (target string) {
+	// 文件名按下划线拆分
 	parts := strings.Split(source, "_")
+
+	// 单词首字母大写
 	for i, part := range parts {
 		parts[i] = strings.Title(part)
 	}
+
+	// 拼接链接标题
 	subTitle := strings.Join(parts, " ")
 	return fmt.Sprintf("\n\n## [%s](./%s)", subTitle, source)
 }
@@ -60,7 +66,7 @@ func updateIndex(path string, parent *string) {
 		}
 
 		// 链接名称转换
-		link := convertLinkName(fileName)
+		link := convertLinkTitle(fileName)
 		fmt.Printf("%v\n", link)
 
 		// 写入链接
