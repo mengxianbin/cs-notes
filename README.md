@@ -4,7 +4,7 @@
 
 * [Read](https://mengxianbin.github.io/cs-note)
 * Write
-    * add or update markdown files
+    * add or update markdown files with **`snake_case`** names
     * go run `update.go`
     * commit and push
 
