@@ -9,6 +9,8 @@ import (
 	"strings"
 )
 
+var ignoreReg = regexp.MustCompile("(README|index)")
+
 // 转换链接标题
 func convertLinkTitle(source string) (target string) {
 	// 文件名按下划线拆分
@@ -25,17 +27,18 @@ func convertLinkTitle(source string) (target string) {
 }
 
 func updateIndex(path string, parent *string) {
-	// 读取文件列表
-	files, err := ioutil.ReadDir(path)
-	if err != nil {
-		// empty directory
-		return
-	}
-
 	// 创建 index.md
 	indexFile, err := os.Create(path + "/index.md")
 	if err != nil {
 		fmt.Printf("%#v\n", err)
+		return
+	}
+
+	// 读取文件列表
+	files, err := ioutil.ReadDir(path)
+	if err != nil {
+		// empty directory
+		indexFile.Close()
 		return
 	}
 
@@ -55,10 +58,9 @@ func updateIndex(path string, parent *string) {
 		fileName := file.Name()
 		if file.IsDir() {
 			// 处理子目录
-			updateIndex(file.Name(), nil)
+			updateIndex(path+"/"+file.Name(), nil)
 		} else {
-			reg := regexp.MustCompile("(README|index)")
-			if filepath.Ext(file.Name()) != ".md" || reg.MatchString(file.Name()) {
+			if filepath.Ext(file.Name()) != ".md" || ignoreReg.MatchString(file.Name()) {
 				continue
 			}
 			// 截取文件名

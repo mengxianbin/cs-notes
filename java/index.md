@@ -4,8 +4,8 @@
 
 ## [Collection](./collection)
 
-## [Jvm](./jvm)
+## [Executor](./executor)
 
-## [Multi Thread](./multi_thread)
+## [Java Virtual Machine](./java_virtual_machine)
 
 ---
