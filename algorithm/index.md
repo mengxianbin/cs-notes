@@ -1,5 +1,3 @@
 ## [..](../index.md)
 
-## [Linux](./linux)
-
 ---

@@ -1,14 +1,15 @@
-
 ## [..](https://mengxianbin.github.io)
 
-## Algorithm
+## [Algorithm](./algorithm)
 
-## Design Patterns
+## [Design Patterns](./design_patterns)
 
-## Java
+## [Go](./go)
 
-## [Operate System](./operate_system/index.md)
+## [Java](./java)
 
-## Others
+## [Operate System](./operate_system)
+
+## [Others](./others)
 
 ---
