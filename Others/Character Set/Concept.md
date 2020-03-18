@@ -7,7 +7,7 @@
         * 外码
             * Windows: GBK when using Chinese (Simplified)
             * Linux: UTF-8
-            * Linux: UTF-8
+            * MacOS: UTF-8
 
 * 码点
     * 字符
