@@ -2,4 +2,4 @@
 [Cs-Note](https://mengxianbin.github.io/cs-note) /
 [Operate System](https://mengxianbin.github.io/cs-note/operate_system) /
 
-## [Linux](./linux)
+## [Linux](https://mengxianbin.github.io/cs-note/content/operate_system/linux)

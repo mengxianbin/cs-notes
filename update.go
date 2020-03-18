@@ -44,7 +44,7 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	content := string(fd)
 
 	// 创建多级目录
-	newParent := fmt.Sprintf("./%s/%s", contentDir, parent[2:])
+	newParent := fmt.Sprintf("%s/%s", contentDir, parent[2:])
 	err = os.MkdirAll(newParent, 0777)
 	if err != nil {
 		log.Printf("Directory making error: %#v\n", err)
@@ -87,7 +87,7 @@ func toPathLink(home string, parents *list.List) string {
 // GenerateIndex 为目录递归生成 index.md
 func GenerateIndex(path string, home string, parents *list.List) (err error) {
 	// 生成索引目录
-	indexDir := fmt.Sprintf("./%s/%s", contentDir, path)
+	indexDir := fmt.Sprintf("%s/%s", contentDir, path)
 	err = os.MkdirAll(indexDir, 0777)
 	if err != nil {
 		log.Printf("Directory making error: %#v\n", err)
@@ -131,31 +131,32 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 			continue
 		}
 
-		var uri string
+		subUri := file.Name()
+		if path != "." {
+			subUri = fmt.Sprintf("%s/%s", path, file.Name())
+		}
+
 		if file.IsDir() { // 处理目录
 			if ignoredDirReg.MatchString(file.Name()) {
 				continue
 			}
 
 			parents.PushBack(file.Name())
-			err = GenerateIndex(path+"/"+file.Name(), home, parents)
+			err = GenerateIndex(subUri, home, parents)
 			parents.Remove(parents.Back())
-
-			uri = "./" + file.Name()
 		} else { // 处理文件
 			if filepath.Ext(file.Name()) != ".md" || ignoredFileReg.MatchString(file.Name()) {
 				continue
 			}
 
-			var mdPath string
-			mdPath, err = writeMarkdown(path, file.Name(), home, parents)
-			uri = fmt.Sprintf("%s/%s/%s", home, parents.Front().Value, mdPath[2:])
+			_, err = writeMarkdown(path, file.Name(), home, parents)
 		}
 
 		// 累计有效文件数
 		itemCount++
 
 		// 生成链接
+		uri := fmt.Sprintf("%s/%s/%s/%s", home, parents.Front().Value, contentDir, subUri)
 		link := fmt.Sprintf("## [%s](%s)", toTitle(file.Name()), uri)
 		log.Printf("Link: %s\n", link)
 

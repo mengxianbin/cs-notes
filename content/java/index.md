@@ -2,14 +2,14 @@
 [Cs-Note](https://mengxianbin.github.io/cs-note) /
 [Java](https://mengxianbin.github.io/cs-note/java) /
 
-## [Basic](./basic)
+## [Basic](https://mengxianbin.github.io/cs-note/content/java/basic)
 
-## [Collection](./collection)
+## [Collection](https://mengxianbin.github.io/cs-note/content/java/collection)
 
-## [Executor](./executor)
+## [Executor](https://mengxianbin.github.io/cs-note/content/java/executor)
 
-## [Java Virtual Machine](./java_virtual_machine)
+## [Java Virtual Machine](https://mengxianbin.github.io/cs-note/content/java/java_virtual_machine)
 
-## [Synchronization](./synchronization)
+## [Synchronization](https://mengxianbin.github.io/cs-note/content/java/synchronization)
 
-## [Tool](./tool)
+## [Tool](https://mengxianbin.github.io/cs-note/content/java/tool)

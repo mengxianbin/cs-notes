@@ -1,14 +1,14 @@
 [Home](https://mengxianbin.github.io) /
 [Cs-Note](https://mengxianbin.github.io/cs-note) /
 
-## [Algorithm](./algorithm)
+## [Algorithm](https://mengxianbin.github.io/cs-note/content/algorithm)
 
-## [Design Patterns](./design_patterns)
+## [Design Patterns](https://mengxianbin.github.io/cs-note/content/design_patterns)
 
-## [Go](./go)
+## [Go](https://mengxianbin.github.io/cs-note/content/go)
 
-## [Java](./java)
+## [Java](https://mengxianbin.github.io/cs-note/content/java)
 
-## [Operate System](./operate_system)
+## [Operate System](https://mengxianbin.github.io/cs-note/content/operate_system)
 
-## [Others](./others)
+## [Others](https://mengxianbin.github.io/cs-note/content/others)
