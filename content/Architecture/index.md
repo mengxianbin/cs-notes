@@ -24,6 +24,8 @@
 
 ## [Theory](https://mengxianbin.github.io/cs-note/content/Architecture/Theory)
 
+## [Tracing](https://mengxianbin.github.io/cs-note/content/Architecture/Tracing)
+
 ## [ZooKeeper](https://mengxianbin.github.io/cs-note/content/Architecture/ZooKeeper)
 
 ## [gRPC](https://mengxianbin.github.io/cs-note/content/Architecture/gRPC)

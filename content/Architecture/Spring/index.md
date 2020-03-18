@@ -7,6 +7,4 @@
 
 ## [Cloud](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Cloud)
 
-## [Spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Spring)
-
-## [SpringMVC](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/SpringMVC)
+## [Framework](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Framework)
