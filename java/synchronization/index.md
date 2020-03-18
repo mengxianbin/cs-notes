@@ -1,6 +1,9 @@
 [Home](https://mengxianbin.github.io) /
 [Cs-Note](https://mengxianbin.github.io/cs-note) /
 [Java](https://mengxianbin.github.io/cs-note/java) /
-[Java Virtual Machine](https://mengxianbin.github.io/cs-note/java/java_virtual_machine) /
 
-# TO DO
+## [Object Header](./object_header.md)
+
+## [Synchronized](./synchronized.md)
+
+## [Volatile](./volatile.md)

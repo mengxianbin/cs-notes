@@ -1,6 +1,7 @@
 package main
 
 import (
+	"container/list"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -12,42 +13,55 @@ import (
 
 var ignoreReg = regexp.MustCompile("(README|index)")
 
-// 转换链接标题
-func convertLinkTitle(source string) (target string) {
+// 将目录名转换为标题格式
+func toTitle(source string) string {
+	// 去除扩展名
+	name := strings.ReplaceAll(source, ".md", "")
+
 	// 文件名按下划线拆分
-	parts := strings.Split(source, "_")
+	parts := strings.Split(name, "_")
 
 	// 单词首字母大写
 	for i, part := range parts {
 		parts[i] = strings.Title(part)
 	}
 
-	// 拼接链接标题
-	subTitle := strings.Join(parts, " ")
-	return fmt.Sprintf("## [%s](./%s)", subTitle, source)
+	// 拼接链接
+	return strings.Join(parts, " ")
 }
 
-func updateIndex(path string, parent *string) {
+// GenerateIndex 为目录递归生成 index.md
+func GenerateIndex(path string, home string, parents *list.List) {
 	// 创建 index.md
 	indexFile, err := os.Create(path + "/index.md")
 	if err != nil {
 		log.Fatalf("Index creating error: %#v\n", err)
-		return
+	}
+
+	// 添加上级目录链接
+	parent := home
+	indexFile.WriteString(fmt.Sprintf("[Home](%s) /", parent))
+	for p := parents.Front(); p != parents.Back(); p = p.Next() {
+		parent = fmt.Sprintf("%s/%s", parent, p.Value)
+		indexFile.WriteString(fmt.Sprintf("\n[%s](%s) /", toTitle(p.Value.(string)), parent))
+	}
+
+	// 定义文件写结束操作
+	itemCount := 0
+	finishWrite := func(f *os.File, itemCount int) {
+		if itemCount == 0 {
+			f.WriteString("\n\n# TO DO")
+		}
+
+		f.WriteString("\n")
+		f.Close()
 	}
 
 	// 读取文件列表
 	files, err := ioutil.ReadDir(path)
 	if err != nil {
-		// empty directory
-		indexFile.Close()
-		return
-	}
-
-	// 添加上级目录链接
-	if parent == nil {
-		indexFile.WriteString("## [..](../index.md)\n\n")
-	} else {
-		indexFile.WriteString(*parent + "\n\n")
+		finishWrite(indexFile, itemCount)
+		log.Fatalf("Directory reading error: %#v\n", err)
 	}
 
 	// 遍历文件名，追加到 index.md
@@ -56,38 +70,36 @@ func updateIndex(path string, parent *string) {
 			continue
 		}
 
-		fileName := file.Name()
 		if file.IsDir() {
 			// 处理子目录
-			updateIndex(path+"/"+file.Name(), nil)
+			parents.PushBack(file.Name())
+			GenerateIndex(path+"/"+file.Name(), home, parents)
+			parents.Remove(parents.Back())
 		} else {
 			if filepath.Ext(file.Name()) != ".md" || ignoreReg.MatchString(file.Name()) {
 				continue
 			}
-			// 截取文件名
-			fileName = file.Name()[:len(fileName)-3]
 		}
+		itemCount++
 
-		// 链接名称转换
-		link := convertLinkTitle(fileName)
-		log.Printf("Link: %v\n", link)
+		// 生成链接
+		link := fmt.Sprintf("## [%s](./%s)", toTitle(file.Name()), file.Name())
+		log.Printf("Link: %s\n", link)
 
 		// 写入链接
-		_, err := indexFile.WriteString(link + "\n\n")
+		_, err := indexFile.WriteString("\n\n" + link)
 		if err != nil {
-			log.Fatalf("Link writing error: %#v\n", err)
 			indexFile.Close()
-			return
+			log.Fatalf("Link writing error: %#v\n", err)
 		}
 	}
 
-	// 关闭 index.md 文件
-	indexFile.Close()
-
-	log.Printf("Walking over: %v\n", path)
+	// 结束 index.md 写操作
+	finishWrite(indexFile, itemCount)
 }
 
 func main() {
-	parent := "## [..](https://mengxianbin.github.io)"
-	updateIndex(".", &parent)
+	parents := list.New()
+	parents.PushBack("cs-note")
+	GenerateIndex(".", "https://mengxianbin.github.io", parents)
 }

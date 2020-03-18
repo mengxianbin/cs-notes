@@ -1,4 +1,4 @@
-## [..](https://mengxianbin.github.io)
+[Home](https://mengxianbin.github.io) /
 
 ## [Algorithm](./algorithm)
 
@@ -11,4 +11,3 @@
 ## [Operate System](./operate_system)
 
 ## [Others](./others)
-
