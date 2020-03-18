@@ -18,6 +18,8 @@
 
 ## [Network](https://mengxianbin.github.io/cs-note/content/Architecture/Network)
 
+## [Nginx](https://mengxianbin.github.io/cs-note/content/Architecture/Nginx)
+
 ## [Redis](https://mengxianbin.github.io/cs-note/content/Architecture/Redis)
 
 ## [Spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring)

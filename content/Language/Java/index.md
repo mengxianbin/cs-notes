@@ -13,4 +13,6 @@
 
 ## [Others](https://mengxianbin.github.io/cs-note/content/Language/Java/Others)
 
+## [Thread](https://mengxianbin.github.io/cs-note/content/Language/Java/Thread)
+
 ## [Tool](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool)
