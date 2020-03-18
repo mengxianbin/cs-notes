@@ -4,4 +4,3 @@
 [Linux](https://mengxianbin.github.io/cs-note/operate_system/linux) /
 [Keymap](https://mengxianbin.github.io/cs-note/operate_system/linux/keymap) /
 
-## [Vim](https://mengxianbin.github.io/cs-note/.generated/operate_system/linux/keymap/vim.md)

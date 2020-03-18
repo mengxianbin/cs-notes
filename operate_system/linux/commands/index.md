@@ -4,12 +4,12 @@
 [Linux](https://mengxianbin.github.io/cs-note/operate_system/linux) /
 [Commands](https://mengxianbin.github.io/cs-note/operate_system/linux/commands) /
 
-## [Kill](./kill.md)
+## [Kill](https://mengxianbin.github.io/cs-note/.generated/operate_system/linux/commands/kill.md)
 
-## [Lsof](./lsof.md)
+## [Lsof](https://mengxianbin.github.io/cs-note/.generated/operate_system/linux/commands/lsof.md)
 
-## [Man](./man.md)
+## [Man](https://mengxianbin.github.io/cs-note/.generated/operate_system/linux/commands/man.md)
 
-## [Netstat](./netstat.md)
+## [Netstat](https://mengxianbin.github.io/cs-note/.generated/operate_system/linux/commands/netstat.md)
 
-## [Ps](./ps.md)
+## [Ps](https://mengxianbin.github.io/cs-note/.generated/operate_system/linux/commands/ps.md)

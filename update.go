@@ -30,38 +30,88 @@ func toTitle(source string) string {
 	return strings.Join(parts, " ")
 }
 
-// GenerateIndex 为目录递归生成 index.md
-func GenerateIndex(path string, home string, parents *list.List) {
-	// 创建 index.md
-	indexFile, err := os.Create(path + "/index.md")
+func writeMarkdown(parent string, fileName string, home string, parents *list.List) (string, error) {
+	// 读取原始文件
+	fi, err := os.Open(fmt.Sprintf("%s/%s", parent, fileName))
 	if err != nil {
-		log.Fatalf("Index creating error: %#v\n", err)
+		log.Printf("Markdown reading error: %#v\n", err)
+		panic(err)
+	}
+	defer func() { _ = fi.Close() }()
+	fd, err := ioutil.ReadAll(fi)
+	content := string(fd)
+
+	// 创建多级目录
+	newParent := fmt.Sprintf("./.generated/%s", parent[2:])
+	err = os.MkdirAll(newParent, 0777)
+	if err != nil {
+		log.Printf("Directory making error: %#v\n", err)
+		panic(err)
+	}
+
+	// 创建 markdown
+	newPath := newParent + "/" + fileName
+	file, err := os.Create(newPath)
+	if err != nil {
+		log.Printf("Markdown creating error: %#v\n", err)
+		panic(err)
 	}
 
 	// 添加上级目录链接
+	pathLink := toPathLink(home, parents)
+	_, err = file.WriteString(pathLink)
+
+	// 添加原始文件内容
+	_, err = file.WriteString("\n\n")
+	_, err = file.WriteString(content)
+
+	// 关闭文件
+	err = file.Close()
+
+	return newPath, err
+}
+
+func toPathLink(home string, parents *list.List) string {
 	parent := home
-	indexFile.WriteString(fmt.Sprintf("[Home](%s) /", parent))
+	link := fmt.Sprintf("[Home](%s) /", parent)
 	for p := parents.Front(); p != nil; p = p.Next() {
 		parent = fmt.Sprintf("%s/%s", parent, p.Value)
-		indexFile.WriteString(fmt.Sprintf("\n[%s](%s) /", toTitle(p.Value.(string)), parent))
+		link += fmt.Sprintf("\n[%s](%s) /", toTitle(p.Value.(string)), parent)
 	}
+
+	return link
+}
+
+// GenerateIndex 为目录递归生成 index.md
+func GenerateIndex(path string, home string, parents *list.List) (err error) {
+	// 创建 index.md
+	indexFile, err := os.Create(path + "/index.md")
+	if err != nil {
+		log.Printf("Index creating error: %#v\n", err)
+		panic(err)
+	}
+
+	// 添加上级目录链接
+	pathLink := toPathLink(home, parents)
+	_, err = indexFile.WriteString(pathLink)
 
 	// 定义结束操作
 	itemCount := 0
-	finish := func(f *os.File, itemCount int) {
+	defer func() {
 		if itemCount == 0 {
-			f.WriteString("\n\n# TO DO")
+			_, err = indexFile.WriteString("\n\n# TO DO")
 		}
 
-		f.WriteString("\n")
-		f.Close()
-	}
+		_, err = indexFile.WriteString("\n")
+		err = indexFile.Close()
+		log.Printf("Index file closed: path=%s, itemCount=%d.", path, itemCount)
+	}()
 
 	// 读取文件列表
 	files, err := ioutil.ReadDir(path)
 	if err != nil {
-		finish(indexFile, itemCount)
-		log.Fatalf("Directory reading error: %#v\n", err)
+		log.Printf("Directory reading error: %#v\n", err)
+		panic(err)
 	}
 
 	// 遍历文件名，追加到 index.md
@@ -70,38 +120,44 @@ func GenerateIndex(path string, home string, parents *list.List) {
 			continue
 		}
 
-		if file.IsDir() {
-			// 处理子目录
+		var uri string
+		if file.IsDir() { // 处理目录
 			parents.PushBack(file.Name())
-			GenerateIndex(path+"/"+file.Name(), home, parents)
+			err = GenerateIndex(path+"/"+file.Name(), home, parents)
 			parents.Remove(parents.Back())
-		} else {
+
+			uri = "./" + file.Name()
+		} else { // 处理文件
 			if filepath.Ext(file.Name()) != ".md" || ignoreReg.MatchString(file.Name()) {
 				continue
 			}
+
+			var mdPath string
+			mdPath, err = writeMarkdown(path, file.Name(), home, parents)
+			uri = fmt.Sprintf("%s/%s/%s", home, parents.Front().Value, mdPath[2:])
 		}
 
 		// 累计有效文件数
 		itemCount++
 
 		// 生成链接
-		link := fmt.Sprintf("## [%s](./%s)", toTitle(file.Name()), file.Name())
+		link := fmt.Sprintf("## [%s](%s)", toTitle(file.Name()), uri)
 		log.Printf("Link: %s\n", link)
 
 		// 写入链接
 		_, err := indexFile.WriteString("\n\n" + link)
 		if err != nil {
-			indexFile.Close()
-			log.Fatalf("Link writing error: %#v\n", err)
+			err := indexFile.Close()
+			log.Printf("Link writing error: %#v\n", err)
+			panic(err)
 		}
 	}
 
-	// 结束 index.md 写操作
-	finish(indexFile, itemCount)
+	return err
 }
 
 func main() {
 	parents := list.New()
 	parents.PushBack("cs-note")
-	GenerateIndex(".", "https://mengxianbin.github.io", parents)
+	_ = GenerateIndex(".", "https://mengxianbin.github.io", parents)
 }

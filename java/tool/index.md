@@ -3,14 +3,14 @@
 [Java](https://mengxianbin.github.io/cs-note/java) /
 [Tool](https://mengxianbin.github.io/cs-note/java/tool) /
 
-## [Eclipse Memory Analyzer](./eclipse_memory_analyzer.md)
+## [Eclipse Memory Analyzer](https://mengxianbin.github.io/cs-note/.generated/java/tool/eclipse_memory_analyzer.md)
 
-## [Jinfo](./jinfo.md)
+## [Jinfo](https://mengxianbin.github.io/cs-note/.generated/java/tool/jinfo.md)
 
-## [Jmap](./jmap.md)
+## [Jmap](https://mengxianbin.github.io/cs-note/.generated/java/tool/jmap.md)
 
-## [Jps](./jps.md)
+## [Jps](https://mengxianbin.github.io/cs-note/.generated/java/tool/jps.md)
 
-## [Jstack](./jstack.md)
+## [Jstack](https://mengxianbin.github.io/cs-note/.generated/java/tool/jstack.md)
 
-## [Visualvm](./visualvm.md)
+## [Visualvm](https://mengxianbin.github.io/cs-note/.generated/java/tool/visualvm.md)
