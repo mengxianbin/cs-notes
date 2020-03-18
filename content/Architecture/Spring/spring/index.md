@@ -2,6 +2,6 @@
 [cs-note](https://mengxianbin.github.io/cs-note) /
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring) /
-[spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/spring) /
+[Spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Spring) /
 
 # TO DO
