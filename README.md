@@ -4,7 +4,7 @@
 
 * [Read](content)
 * Write
-    * add or update markdown files with **`snake_case`** names
+    * add or update markdown files
     * go run `update.go`
     * commit and push
 
