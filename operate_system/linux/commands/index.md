@@ -2,6 +2,7 @@
 [Cs-Note](https://mengxianbin.github.io/cs-note) /
 [Operate System](https://mengxianbin.github.io/cs-note/operate_system) /
 [Linux](https://mengxianbin.github.io/cs-note/operate_system/linux) /
+[Commands](https://mengxianbin.github.io/cs-note/operate_system/linux/commands) /
 
 ## [Kill](./kill.md)
 

@@ -41,14 +41,14 @@ func GenerateIndex(path string, home string, parents *list.List) {
 	// 添加上级目录链接
 	parent := home
 	indexFile.WriteString(fmt.Sprintf("[Home](%s) /", parent))
-	for p := parents.Front(); p != parents.Back(); p = p.Next() {
+	for p := parents.Front(); p != nil; p = p.Next() {
 		parent = fmt.Sprintf("%s/%s", parent, p.Value)
 		indexFile.WriteString(fmt.Sprintf("\n[%s](%s) /", toTitle(p.Value.(string)), parent))
 	}
 
-	// 定义文件写结束操作
+	// 定义结束操作
 	itemCount := 0
-	finishWrite := func(f *os.File, itemCount int) {
+	finish := func(f *os.File, itemCount int) {
 		if itemCount == 0 {
 			f.WriteString("\n\n# TO DO")
 		}
@@ -60,7 +60,7 @@ func GenerateIndex(path string, home string, parents *list.List) {
 	// 读取文件列表
 	files, err := ioutil.ReadDir(path)
 	if err != nil {
-		finishWrite(indexFile, itemCount)
+		finish(indexFile, itemCount)
 		log.Fatalf("Directory reading error: %#v\n", err)
 	}
 
@@ -80,6 +80,8 @@ func GenerateIndex(path string, home string, parents *list.List) {
 				continue
 			}
 		}
+
+		// 累计有效文件数
 		itemCount++
 
 		// 生成链接
@@ -95,7 +97,7 @@ func GenerateIndex(path string, home string, parents *list.List) {
 	}
 
 	// 结束 index.md 写操作
-	finishWrite(indexFile, itemCount)
+	finish(indexFile, itemCount)
 }
 
 func main() {
