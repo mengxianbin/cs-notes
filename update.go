@@ -15,21 +15,8 @@ var contentDir = "content"
 var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s)", contentDir))
 var ignoredFileReg = regexp.MustCompile("(README|index)")
 
-// 将目录名转换为标题格式
-func toTitle(source string) string {
-	// 去除扩展名
-	name := strings.ReplaceAll(source, ".md", "")
-
-	// 文件名按下划线拆分
-	parts := strings.Split(name, "_")
-
-	// 单词首字母大写
-	for i, part := range parts {
-		parts[i] = strings.Title(part)
-	}
-
-	// 拼接链接
-	return strings.Join(parts, " ")
+func uriEncode(input string) string {
+	return strings.ReplaceAll(input, " ", "%20")
 }
 
 func writeMarkdown(parent string, fileName string, home string, parents *list.List) (string, error) {
@@ -92,7 +79,7 @@ func toPathLink(home string, parents *list.List) string {
 
 	// path list
 	for p := parents.Front().Next(); p != nil; p = p.Next() {
-		path = fmt.Sprintf("%s/%s", path, p.Value)
+		path = fmt.Sprintf("%s/%s", path, uriEncode(p.Value.(string)))
 		link += fmt.Sprintf("\n[%s](%s) /", p.Value.(string), path)
 	}
 
@@ -177,8 +164,7 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 
 		// 生成链接
 		uri := fmt.Sprintf("%s/%s/%s/%s", home, parents.Front().Value, contentDir, linkPath)
-		encoded := strings.ReplaceAll(uri, " ", "%20")
-		link := fmt.Sprintf("## [%s](%s)", linkTitle, encoded)
+		link := fmt.Sprintf("## [%s](%s)", linkTitle, uriEncode(uri))
 		log.Printf("Link: %s\n", link)
 
 		// 写入链接
