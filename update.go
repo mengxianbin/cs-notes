@@ -87,8 +87,7 @@ func toPathLink(home string, parents *list.List) string {
 // GenerateIndex 为目录递归生成 index.md
 func GenerateIndex(path string, home string, parents *list.List) (err error) {
 	// 生成索引目录
-	//indexDir := fmt.Sprintf("%s/%s", contentDir, path)
-	indexDir := path
+	indexDir := fmt.Sprintf("%s/%s", contentDir, path)
 	err = os.MkdirAll(indexDir, 0777)
 	if err != nil {
 		log.Printf("Directory making error: %#v\n", err)
@@ -151,14 +150,14 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 			}
 
 			_, err = writeMarkdown(path, file.Name(), home, parents)
+			subUri = subUri[:len(subUri)-3]
 		}
 
 		// 累计有效文件数
 		itemCount++
 
 		// 生成链接
-		//uri := fmt.Sprintf("%s/%s/%s/%s", home, parents.Front().Value, contentDir, subUri)
-		uri := fmt.Sprintf("%s/%s/%s", home, parents.Front().Value, subUri)
+		uri := fmt.Sprintf("%s/%s/%s/%s", home, parents.Front().Value, contentDir, subUri)
 		link := fmt.Sprintf("## [%s](%s)", toTitle(file.Name()), uri)
 		log.Printf("Link: %s\n", link)
 
