@@ -63,6 +63,10 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	pathLink := toPathLink(home, parents)
 	_, err = file.WriteString(pathLink)
 
+	if len(strings.Trim(content, "")) == 0 {
+		content = "# TO DO\n"
+	}
+
 	// 添加原始文件内容
 	_, err = file.WriteString("\n\n")
 	_, err = file.WriteString(content)
