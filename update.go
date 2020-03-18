@@ -44,7 +44,7 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	content := string(fd)
 
 	// 创建多级目录
-	newParent := fmt.Sprintf("%s/%s", contentDir, parent[2:])
+	newParent := fmt.Sprintf("%s/%s", contentDir, parent)
 	err = os.MkdirAll(newParent, 0777)
 	if err != nil {
 		log.Printf("Directory making error: %#v\n", err)
@@ -175,6 +175,7 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 
 func main() {
 	// 清理旧索引文件
+	_ = os.RemoveAll(contentDir)
 	_ = filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
 		if !info.IsDir() && info.Name() == "index.md" {
 			_ = os.Remove(path)
