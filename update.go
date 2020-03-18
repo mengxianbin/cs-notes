@@ -86,10 +86,19 @@ func toPathLink(home string, parents *list.List) string {
 
 // GenerateIndex 为目录递归生成 index.md
 func GenerateIndex(path string, home string, parents *list.List) (err error) {
-	// 创建 index.md
-	indexFile, err := os.Create(path + "/index.md")
+	// 生成索引目录
+	indexDir := fmt.Sprintf("./%s/%s", contentDir, path)
+	err = os.MkdirAll(indexDir, 0777)
 	if err != nil {
-		log.Printf("Index creating error: %#v\n", err)
+		log.Printf("Directory making error: %#v\n", err)
+		panic(err)
+	}
+
+	// 创建 index.md
+	indexPath := fmt.Sprintf("%s/index.md", indexDir)
+	indexFile, err := os.Create(indexPath)
+	if err != nil {
+		log.Printf("Index creating error: %s, %#v\n", indexPath, err)
 		panic(err)
 	}
 
@@ -163,6 +172,16 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 }
 
 func main() {
+	// 清理旧索引文件
+	_ = filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
+		if !info.IsDir() && info.Name() == "index.md" {
+			_ = os.Remove(path)
+		}
+
+		return nil
+	})
+
+	// 生成新索引文件
 	parents := list.New()
 	parents.PushBack("cs-note")
 	_ = GenerateIndex(".", "https://mengxianbin.github.io", parents)
