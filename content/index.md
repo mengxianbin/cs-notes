@@ -1,5 +1,5 @@
 [Home](https://mengxianbin.github.io) /
-[Cs-Note](https://mengxianbin.github.io/cs-note) /
+[cs-note](https://mengxianbin.github.io/cs-note) /
 
 ## [Algorithm](https://mengxianbin.github.io/cs-note/content/algorithm)
 

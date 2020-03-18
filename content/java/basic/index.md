@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
-[Cs-Note](https://mengxianbin.github.io/cs-note) /
-[Java](https://mengxianbin.github.io/cs-note/java) /
-[Basic](https://mengxianbin.github.io/cs-note/java/basic) /
+[cs-note](https://mengxianbin.github.io/cs-note) /
+[Java](https://mengxianbin.github.io/cs-note/content/java) /
+[Basic](https://mengxianbin.github.io/cs-note/content/java/basic) /
 
 # TO DO

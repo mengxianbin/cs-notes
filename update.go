@@ -74,9 +74,20 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 }
 
 func toPathLink(home string, parents *list.List) string {
+	// home
 	parent := home
 	link := fmt.Sprintf("[Home](%s) /", parent)
-	for p := parents.Front(); p != nil; p = p.Next() {
+
+	// repo
+	repoName := parents.Front().Value.(string)
+	parent = fmt.Sprintf("%s/%s", parent, repoName)
+	link += fmt.Sprintf("\n[%s](%s) /", repoName, parent)
+
+	// content
+	parent = fmt.Sprintf("%s/%s", parent, contentDir)
+
+	// path list
+	for p := parents.Front().Next(); p != nil; p = p.Next() {
 		parent = fmt.Sprintf("%s/%s", parent, p.Value)
 		link += fmt.Sprintf("\n[%s](%s) /", toTitle(p.Value.(string)), parent)
 	}

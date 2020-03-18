@@ -1,7 +1,7 @@
 [Home](https://mengxianbin.github.io) /
-[Cs-Note](https://mengxianbin.github.io/cs-note) /
-[Java](https://mengxianbin.github.io/cs-note/java) /
-[Synchronization](https://mengxianbin.github.io/cs-note/java/synchronization) /
+[cs-note](https://mengxianbin.github.io/cs-note) /
+[Java](https://mengxianbin.github.io/cs-note/content/java) /
+[Synchronization](https://mengxianbin.github.io/cs-note/content/java/synchronization) /
 
 * <https://wiki.openjdk.java.net/display/HotSpot/Synchronization>
 * <https://wiki.openjdk.java.net/display/HotSpot/CompressedOops>

@@ -1,5 +1,5 @@
 [Home](https://mengxianbin.github.io) /
-[Cs-Note](https://mengxianbin.github.io/cs-note) /
-[Others](https://mengxianbin.github.io/cs-note/others) /
+[cs-note](https://mengxianbin.github.io/cs-note) /
+[Others](https://mengxianbin.github.io/cs-note/content/others) /
 
 # TO DO
