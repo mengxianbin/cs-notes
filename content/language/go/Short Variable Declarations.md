@@ -1,7 +1,6 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
 [Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
-[Tool](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool) /
+[Go](https://mengxianbin.github.io/cs-note/content/Language/Go) /
 
-# TO DO
+<https://tour.golang.org/basics/10>

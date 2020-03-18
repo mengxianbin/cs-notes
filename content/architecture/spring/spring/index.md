@@ -1,7 +1,7 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[architecture](https://mengxianbin.github.io/cs-note/content/architecture) /
-[spring](https://mengxianbin.github.io/cs-note/content/architecture/spring) /
-[spring](https://mengxianbin.github.io/cs-note/content/architecture/spring/spring) /
+[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
+[Spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring) /
+[spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/spring) /
 
 # TO DO

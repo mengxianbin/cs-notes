@@ -1,7 +1,7 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[language](https://mengxianbin.github.io/cs-note/content/language) /
-[java](https://mengxianbin.github.io/cs-note/content/language/java) /
-[tool](https://mengxianbin.github.io/cs-note/content/language/java/tool) /
+[Language](https://mengxianbin.github.io/cs-note/content/Language) /
+[Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
+[Tool](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool) /
 
 # TO DO

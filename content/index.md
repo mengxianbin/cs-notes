@@ -1,14 +1,14 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
 
+## [Algorithm](https://mengxianbin.github.io/cs-note/content/Algorithm)
+
+## [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture)
+
 ## [Design Patterns](https://mengxianbin.github.io/cs-note/content/Design%20Patterns)
+
+## [Language](https://mengxianbin.github.io/cs-note/content/Language)
 
 ## [Operate System](https://mengxianbin.github.io/cs-note/content/Operate%20System)
 
-## [algorithm](https://mengxianbin.github.io/cs-note/content/algorithm)
-
-## [architecture](https://mengxianbin.github.io/cs-note/content/architecture)
-
-## [language](https://mengxianbin.github.io/cs-note/content/language)
-
-## [others](https://mengxianbin.github.io/cs-note/content/others)
+## [Others](https://mengxianbin.github.io/cs-note/content/Others)

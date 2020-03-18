@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[architecture](https://mengxianbin.github.io/cs-note/content/architecture) /
-[dubbo](https://mengxianbin.github.io/cs-note/content/architecture/dubbo) /
+[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
+[Dubbo](https://mengxianbin.github.io/cs-note/content/Architecture/Dubbo) /
 
 # TO DO

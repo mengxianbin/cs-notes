@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
 [Operate System](https://mengxianbin.github.io/cs-note/content/Operate System) /
-[linux](https://mengxianbin.github.io/cs-note/content/Operate System/linux) /
+[Linux](https://mengxianbin.github.io/cs-note/content/Operate System/Linux) /
 
-## [commands](https://mengxianbin.github.io/cs-note/content/Operate%20System/linux/commands)
+## [Commands](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands)
 
-## [keymap](https://mengxianbin.github.io/cs-note/content/Operate%20System/linux/keymap)
+## [Key Map](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Key%20Map)

@@ -1,7 +1,7 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[architecture](https://mengxianbin.github.io/cs-note/content/architecture) /
+[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 
-## [dubbo](https://mengxianbin.github.io/cs-note/content/architecture/dubbo)
+## [Dubbo](https://mengxianbin.github.io/cs-note/content/Architecture/Dubbo)
 
-## [spring](https://mengxianbin.github.io/cs-note/content/architecture/spring)
+## [Spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring)

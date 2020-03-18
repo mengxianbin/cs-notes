@@ -1,12 +1,12 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[architecture](https://mengxianbin.github.io/cs-note/content/architecture) /
-[spring](https://mengxianbin.github.io/cs-note/content/architecture/spring) /
+[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
+[Spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring) /
 
-## [SpringMVC](https://mengxianbin.github.io/cs-note/content/architecture/spring/SpringMVC)
+## [SpringMVC](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/SpringMVC)
 
-## [boot](https://mengxianbin.github.io/cs-note/content/architecture/spring/boot)
+## [boot](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/boot)
 
-## [cloud](https://mengxianbin.github.io/cs-note/content/architecture/spring/cloud)
+## [cloud](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/cloud)
 
-## [spring](https://mengxianbin.github.io/cs-note/content/architecture/spring/spring)
+## [spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/spring)

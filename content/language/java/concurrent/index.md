@@ -1,9 +1,9 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[language](https://mengxianbin.github.io/cs-note/content/language) /
-[java](https://mengxianbin.github.io/cs-note/content/language/java) /
-[concurrent](https://mengxianbin.github.io/cs-note/content/language/java/concurrent) /
+[Language](https://mengxianbin.github.io/cs-note/content/Language) /
+[Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
+[Concurrent](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent) /
 
-## [executor](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/executor)
+## [Executor](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Executor)
 
-## [synchronization](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization)
+## [Synchronization](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization)

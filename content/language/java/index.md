@@ -1,16 +1,16 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[language](https://mengxianbin.github.io/cs-note/content/language) /
-[java](https://mengxianbin.github.io/cs-note/content/language/java) /
+[Language](https://mengxianbin.github.io/cs-note/content/Language) /
+[Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
 
-## [basic](https://mengxianbin.github.io/cs-note/content/language/java/basic)
+## [Basic](https://mengxianbin.github.io/cs-note/content/Language/Java/Basic)
 
-## [collection](https://mengxianbin.github.io/cs-note/content/language/java/collection)
+## [Collection](https://mengxianbin.github.io/cs-note/content/Language/Java/Collection)
 
-## [concurrent](https://mengxianbin.github.io/cs-note/content/language/java/concurrent)
+## [Concurrent](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent)
 
-## [java_virtual_machine](https://mengxianbin.github.io/cs-note/content/language/java/java_virtual_machine)
+## [JVM](https://mengxianbin.github.io/cs-note/content/Language/Java/JVM)
 
-## [others](https://mengxianbin.github.io/cs-note/content/language/java/others)
+## [Others](https://mengxianbin.github.io/cs-note/content/Language/Java/Others)
 
-## [tool](https://mengxianbin.github.io/cs-note/content/language/java/tool)
+## [Tool](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool)

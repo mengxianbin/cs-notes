@@ -2,9 +2,6 @@
 [cs-note](https://mengxianbin.github.io/cs-note) /
 [Operate System](https://mengxianbin.github.io/cs-note/content/Operate System) /
 [Linux](https://mengxianbin.github.io/cs-note/content/Operate System/Linux) /
-[Commands](https://mengxianbin.github.io/cs-note/content/Operate System/Linux/Commands) /
+[Key Map](https://mengxianbin.github.io/cs-note/content/Operate System/Linux/Key Map) /
 
-```sh
-kill -9 PID
-kill -15 PID
-```
+## [vim](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Key%20Map/vim)
