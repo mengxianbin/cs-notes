@@ -5,9 +5,7 @@
 
 ## [Design Patterns](https://mengxianbin.github.io/cs-note/content/design_patterns)
 
-## [Go](https://mengxianbin.github.io/cs-note/content/go)
-
-## [Java](https://mengxianbin.github.io/cs-note/content/java)
+## [Language](https://mengxianbin.github.io/cs-note/content/language)
 
 ## [Operate System](https://mengxianbin.github.io/cs-note/content/operate_system)
 

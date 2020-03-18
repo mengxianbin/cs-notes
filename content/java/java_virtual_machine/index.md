@@ -1,8 +1,0 @@
-[Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note) /
-[Java](https://mengxianbin.github.io/cs-note/content/java) /
-[Java Virtual Machine](https://mengxianbin.github.io/cs-note/content/java/java_virtual_machine) /
-
-## [Class Loader](https://mengxianbin.github.io/cs-note/content/java/java_virtual_machine/class_loader)
-
-## [Java Memory Model](https://mengxianbin.github.io/cs-note/content/java/java_virtual_machine/java_memory_model)
