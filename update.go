@@ -79,21 +79,21 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 
 func toPathLink(home string, parents *list.List) string {
 	// home
-	parent := home
-	link := fmt.Sprintf("[Home](%s) /", parent)
+	path := home
+	link := fmt.Sprintf("[Home](%s) /", path)
 
 	// repo
 	repoName := parents.Front().Value.(string)
-	parent = fmt.Sprintf("%s/%s", parent, repoName)
-	link += fmt.Sprintf("\n[%s](%s) /", repoName, parent)
+	path = fmt.Sprintf("%s/%s", path, repoName)
+	link += fmt.Sprintf("\n[%s](%s) /", repoName, path)
 
 	// content
-	parent = fmt.Sprintf("%s/%s", parent, contentDir)
+	path = fmt.Sprintf("%s/%s", path, contentDir)
 
 	// path list
 	for p := parents.Front().Next(); p != nil; p = p.Next() {
-		parent = fmt.Sprintf("%s/%s", parent, p.Value)
-		link += fmt.Sprintf("\n[%s](%s) /", toTitle(p.Value.(string)), parent)
+		path = fmt.Sprintf("%s/%s", path, p.Value)
+		link += fmt.Sprintf("\n[%s](%s) /", p.Value.(string), path)
 	}
 
 	return link
@@ -150,9 +150,11 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 			continue
 		}
 
-		subUri := file.Name()
+		// 拼接链接相对路径
+		linkTitle := file.Name()
+		linkPath := linkTitle
 		if path != "." {
-			subUri = fmt.Sprintf("%s/%s", path, file.Name())
+			linkPath = fmt.Sprintf("%s/%s", path, file.Name())
 		}
 
 		if file.IsDir() { // 处理目录
@@ -161,7 +163,7 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 			}
 
 			parents.PushBack(file.Name())
-			err = GenerateIndex(subUri, home, parents)
+			err = GenerateIndex(linkPath, home, parents)
 			parents.Remove(parents.Back())
 		} else { // 处理文件
 			if filepath.Ext(file.Name()) != ".md" || ignoredFileReg.MatchString(file.Name()) {
@@ -169,15 +171,14 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 			}
 
 			_, err = writeMarkdown(path, file.Name(), home, parents)
-			subUri = subUri[:len(subUri)-3]
+			linkTitle = linkTitle[:len(linkTitle)-3]
+			linkPath = linkPath[:len(linkPath)-3]
 		}
 
-		// 累计有效文件数
-		itemCount++
-
 		// 生成链接
-		uri := fmt.Sprintf("%s/%s/%s/%s", home, parents.Front().Value, contentDir, subUri)
-		link := fmt.Sprintf("## [%s](%s)", toTitle(file.Name()), uri)
+		uri := fmt.Sprintf("%s/%s/%s/%s", home, parents.Front().Value, contentDir, linkPath)
+		encoded := strings.ReplaceAll(uri, " ", "%20")
+		link := fmt.Sprintf("## [%s](%s)", linkTitle, encoded)
 		log.Printf("Link: %s\n", link)
 
 		// 写入链接
@@ -187,6 +188,9 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 			log.Printf("Link writing error: %#v\n", err)
 			panic(err)
 		}
+
+		// 累计有效文件数
+		itemCount++
 	}
 
 	return err

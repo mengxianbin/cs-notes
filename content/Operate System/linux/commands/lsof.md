@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[Operate System](https://mengxianbin.github.io/cs-note/content/operate_system) /
-[Linux](https://mengxianbin.github.io/cs-note/content/operate_system/linux) /
-[Commands](https://mengxianbin.github.io/cs-note/content/operate_system/linux/commands) /
+[Operate System](https://mengxianbin.github.io/cs-note/content/Operate System) /
+[linux](https://mengxianbin.github.io/cs-note/content/Operate System/linux) /
+[commands](https://mengxianbin.github.io/cs-note/content/Operate System/linux/commands) /
 
 ```sh
 # lsof -i:8000

@@ -1,7 +1,7 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[Language](https://mengxianbin.github.io/cs-note/content/language) /
+[language](https://mengxianbin.github.io/cs-note/content/language) /
 
-## [Go](https://mengxianbin.github.io/cs-note/content/language/go)
+## [go](https://mengxianbin.github.io/cs-note/content/language/go)
 
-## [Java](https://mengxianbin.github.io/cs-note/content/language/java)
+## [java](https://mengxianbin.github.io/cs-note/content/language/java)

@@ -1,20 +1,20 @@
 [Home](https://mengxianbin.github.io) /
 [cs-note](https://mengxianbin.github.io/cs-note) /
-[Language](https://mengxianbin.github.io/cs-note/content/language) /
-[Java](https://mengxianbin.github.io/cs-note/content/language/java) /
-[Concurrent](https://mengxianbin.github.io/cs-note/content/language/java/concurrent) /
-[Synchronization](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization) /
+[language](https://mengxianbin.github.io/cs-note/content/language) /
+[java](https://mengxianbin.github.io/cs-note/content/language/java) /
+[concurrent](https://mengxianbin.github.io/cs-note/content/language/java/concurrent) /
+[synchronization](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization) /
 
-## [Abstract Queued Synchronizer](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/abstract_queued_synchronizer)
+## [abstract_queued_synchronizer](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/abstract_queued_synchronizer)
 
-## [Condition](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/condition)
+## [condition](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/condition)
 
-## [Object](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/object)
+## [object](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/object)
 
-## [Object Header](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/object_header)
+## [object_header](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/object_header)
 
-## [Synchronized](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/synchronized)
+## [synchronized](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/synchronized)
 
-## [Thread](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/thread)
+## [thread](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/thread)
 
-## [Volatile](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/volatile)
+## [volatile](https://mengxianbin.github.io/cs-note/content/language/java/concurrent/synchronization/volatile)
