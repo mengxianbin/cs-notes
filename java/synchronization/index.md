@@ -3,8 +3,8 @@
 [Java](https://mengxianbin.github.io/cs-note/java) /
 [Synchronization](https://mengxianbin.github.io/cs-note/java/synchronization) /
 
-## [Object Header](https://mengxianbin.github.io/cs-note/.generated/java/synchronization/object_header.md)
+## [Object Header](https://mengxianbin.github.io/cs-note/content/java/synchronization/object_header.md)
 
-## [Synchronized](https://mengxianbin.github.io/cs-note/.generated/java/synchronization/synchronized.md)
+## [Synchronized](https://mengxianbin.github.io/cs-note/content/java/synchronization/synchronized.md)
 
-## [Volatile](https://mengxianbin.github.io/cs-note/.generated/java/synchronization/volatile.md)
+## [Volatile](https://mengxianbin.github.io/cs-note/content/java/synchronization/volatile.md)

@@ -11,7 +11,9 @@ import (
 	"strings"
 )
 
-var ignoreReg = regexp.MustCompile("(README|index)")
+var contentDir = "content"
+var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s)", contentDir))
+var ignoredFileReg = regexp.MustCompile("(README|index)")
 
 // 将目录名转换为标题格式
 func toTitle(source string) string {
@@ -42,7 +44,7 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	content := string(fd)
 
 	// 创建多级目录
-	newParent := fmt.Sprintf("./.generated/%s", parent[2:])
+	newParent := fmt.Sprintf("./%s/%s", contentDir, parent[2:])
 	err = os.MkdirAll(newParent, 0777)
 	if err != nil {
 		log.Printf("Directory making error: %#v\n", err)
@@ -122,13 +124,17 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 
 		var uri string
 		if file.IsDir() { // 处理目录
+			if ignoredDirReg.MatchString(file.Name()) {
+				continue
+			}
+
 			parents.PushBack(file.Name())
 			err = GenerateIndex(path+"/"+file.Name(), home, parents)
 			parents.Remove(parents.Back())
 
 			uri = "./" + file.Name()
 		} else { // 处理文件
-			if filepath.Ext(file.Name()) != ".md" || ignoreReg.MatchString(file.Name()) {
+			if filepath.Ext(file.Name()) != ".md" || ignoredFileReg.MatchString(file.Name()) {
 				continue
 			}
 
