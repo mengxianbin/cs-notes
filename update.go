@@ -101,6 +101,10 @@ func toPathLink(home string, parents *list.List) string {
 
 // GenerateIndex 为目录递归生成 index.md
 func GenerateIndex(path string, home string, parents *list.List) (err error) {
+	// 生成 .gitkeep 文件
+	keep, err := os.Create(fmt.Sprintf("%s/.gitkeep", path))
+	err = keep.Close()
+
 	// 生成索引目录
 	indexDir := fmt.Sprintf("%s/%s", contentDir, path)
 	err = os.MkdirAll(indexDir, 0777)

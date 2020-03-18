@@ -7,10 +7,10 @@
 
 ## [Collection](https://mengxianbin.github.io/cs-note/content/language/java/collection)
 
-## [Executor](https://mengxianbin.github.io/cs-note/content/language/java/executor)
+## [Concurrent](https://mengxianbin.github.io/cs-note/content/language/java/concurrent)
 
 ## [Java Virtual Machine](https://mengxianbin.github.io/cs-note/content/language/java/java_virtual_machine)
 
-## [Synchronization](https://mengxianbin.github.io/cs-note/content/language/java/synchronization)
+## [Others](https://mengxianbin.github.io/cs-note/content/language/java/others)
 
 ## [Tool](https://mengxianbin.github.io/cs-note/content/language/java/tool)
