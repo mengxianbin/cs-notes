@@ -3,7 +3,7 @@
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker) /
 [Commands](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands) /
-[events](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands/events) /
+[events](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands/events)
 
 * containers
     * create

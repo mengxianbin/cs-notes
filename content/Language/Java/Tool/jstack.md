@@ -3,6 +3,6 @@
 [Language](https://mengxianbin.github.io/cs-note/content/Language) /
 [Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
 [Tool](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool) /
-[jstack](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/jstack) /
+[jstack](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/jstack)
 
 # TO DO

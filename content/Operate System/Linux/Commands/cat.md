@@ -3,6 +3,6 @@
 [Operate System](https://mengxianbin.github.io/cs-note/content/Operate%20System) /
 [Linux](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux) /
 [Commands](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands) /
-[cat](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/cat) /
+[cat](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/cat)
 
 # TO DO

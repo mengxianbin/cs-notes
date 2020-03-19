@@ -2,7 +2,7 @@
 [cs-note](https://mengxianbin.github.io/cs-note/content) /
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker) /
-[cgroup](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/cgroup) /
+[cgroup](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/cgroup)
 
 * cgroup
     * control group

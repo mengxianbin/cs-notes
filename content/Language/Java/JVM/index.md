@@ -2,7 +2,7 @@
 [cs-note](https://mengxianbin.github.io/cs-note/content) /
 [Language](https://mengxianbin.github.io/cs-note/content/Language) /
 [Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
-[JVM](https://mengxianbin.github.io/cs-note/content/Language/Java/JVM) /
+[JVM](https://mengxianbin.github.io/cs-note/content/Language/Java/JVM)
 
 ## [ClassLoader](https://mengxianbin.github.io/cs-note/content/Language/Java/JVM/ClassLoader)
 

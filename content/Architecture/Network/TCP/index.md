@@ -2,6 +2,6 @@
 [cs-note](https://mengxianbin.github.io/cs-note/content) /
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Network](https://mengxianbin.github.io/cs-note/content/Architecture/Network) /
-[TCP](https://mengxianbin.github.io/cs-note/content/Architecture/Network/TCP) /
+[TCP](https://mengxianbin.github.io/cs-note/content/Architecture/Network/TCP)
 
 # TO DO

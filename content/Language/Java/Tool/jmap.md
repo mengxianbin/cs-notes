@@ -3,6 +3,6 @@
 [Language](https://mengxianbin.github.io/cs-note/content/Language) /
 [Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
 [Tool](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool) /
-[jmap](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/jmap) /
+[jmap](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/jmap)
 
 # TO DO

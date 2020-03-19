@@ -2,7 +2,7 @@
 [cs-note](https://mengxianbin.github.io/cs-note/content) /
 [Operate System](https://mengxianbin.github.io/cs-note/content/Operate%20System) /
 [Linux](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux) /
-[Commands](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands) /
+[Commands](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands)
 
 ## [awk](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/awk)
 

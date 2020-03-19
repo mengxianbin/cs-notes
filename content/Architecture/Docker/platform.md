@@ -2,7 +2,7 @@
 [cs-note](https://mengxianbin.github.io/cs-note/content) /
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker) /
-[platform](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/platform) /
+[platform](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/platform)
 
 * Linux
 * Windows

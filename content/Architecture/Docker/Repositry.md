@@ -2,7 +2,7 @@
 [cs-note](https://mengxianbin.github.io/cs-note/content) /
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker) /
-[Repositry](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Repositry) /
+[Repositry](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Repositry)
 
 * Docker Hub
 * Private

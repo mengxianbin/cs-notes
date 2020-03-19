@@ -3,6 +3,6 @@
 [Language](https://mengxianbin.github.io/cs-note/content/Language) /
 [Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
 [Tool](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool) /
-[visualvm](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/visualvm) /
+[visualvm](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/visualvm)
 
 # TO DO
