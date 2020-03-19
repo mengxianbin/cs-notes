@@ -5,7 +5,7 @@
 * [Read](content)
 * Write
     * add or update markdown files
-    * go run `update.go`
+    * go run `update.go` to regenerate the `content` directory
     * commit and push
 
 ---
