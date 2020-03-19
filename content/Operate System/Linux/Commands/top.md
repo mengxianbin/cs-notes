@@ -4,4 +4,7 @@
 [Linux](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux) /
 [Commands](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands) /
 
-# TO DO
+* top
+    * VIRT: 虚拟内存
+    * RES: 物理内存
+    * SHR: 共享内存

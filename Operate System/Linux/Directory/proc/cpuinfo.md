@@ -1,0 +1,2 @@
+* physical id
+* processor
