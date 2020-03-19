@@ -13,3 +13,5 @@
 ## [netstat](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/netstat)
 
 ## [ps](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/ps)
+
+## [top](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/top)

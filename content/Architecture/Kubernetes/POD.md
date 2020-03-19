@@ -3,6 +3,16 @@
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Kubernetes](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes) /
 
-## [POD](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes/POD)
+* 生命周期
 
-## [服务依赖](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes/服务依赖)
+* intra container
+
+* init container
+* main container
+    * post start hook
+    * probe
+        * readiness
+        * liveness
+    * pre stop hook
+
+---

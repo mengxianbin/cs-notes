@@ -1,0 +1,23 @@
+* containers
+    * create
+    * destroy
+    * attach
+    * detach
+    * start
+    * stop
+    * restart
+* images
+    * pull
+    * push
+    * tag
+    * untag
+* volumes
+    * create
+    * destroy
+    * mount
+    * unmount
+* networks
+    * create
+    * destroy
+    * connect
+    * disconnect

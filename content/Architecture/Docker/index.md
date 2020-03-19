@@ -3,22 +3,40 @@
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker) /
 
+## [Background](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Background)
+
+## [Commands](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands)
+
+## [Configuration](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Configuration)
+
+## [Docker Compose](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Docker%20Compose)
+
+## [Docker Swarm](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Docker%20Swarm)
+
+## [Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Docker)
+
+## [Dockerfile](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Dockerfile)
+
+## [ENV Independent](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/ENV%20Independent)
+
+## [Image](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Image)
+
 ## [Linux Container](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Linux%20Container)
+
+## [Mechanism](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Mechanism)
+
+## [Repositry](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Repositry)
+
+## [Visualization](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Visualization)
+
+## [Workflow](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Workflow)
 
 ## [cgroup](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/cgroup)
 
 ## [namespace](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/namespace)
 
+## [platform](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/platform)
+
 ## [unionFS](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/unionFS)
 
-## [与虚拟机有何不同](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/与虚拟机有何不同)
-
-## [什么是 Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/什么是%20Docker)
-
-## [内部机制](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/内部机制)
-
-## [如何环境无关](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/如何环境无关)
-
-## [背景](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/背景)
-
-## [虚拟化](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/虚拟化)
+## [vs VM](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/vs%20VM)
