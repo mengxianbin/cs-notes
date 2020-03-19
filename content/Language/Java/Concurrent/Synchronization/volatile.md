@@ -4,5 +4,6 @@
 [Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
 [Concurrent](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent) /
 [Synchronization](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization) /
+[volatile](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization/volatile) /
 
 # TO DO

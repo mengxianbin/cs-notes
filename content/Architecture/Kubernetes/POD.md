@@ -2,6 +2,7 @@
 [cs-note](https://mengxianbin.github.io/cs-note/content) /
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Kubernetes](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes) /
+[POD](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes/POD) /
 
 * 生命周期
 

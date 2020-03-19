@@ -3,6 +3,7 @@
 [Operate System](https://mengxianbin.github.io/cs-note/content/Operate%20System) /
 [Linux](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux) /
 [Commands](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands) /
+[kill](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/kill) /
 
 ```sh
 kill -9 PID

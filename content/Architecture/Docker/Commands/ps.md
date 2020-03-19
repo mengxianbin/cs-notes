@@ -3,6 +3,7 @@
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker) /
 [Commands](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands) /
+[ps](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands/ps) /
 
 * docker ps
     * -a

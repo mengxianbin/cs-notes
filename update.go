@@ -47,7 +47,9 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	}
 
 	// 添加上级目录链接
+	parents.PushBack(fileName[:len(fileName)-3])
 	pathLink := toPathLink(home, parents)
+	parents.Remove(parents.Back())
 	_, err = file.WriteString(pathLink)
 
 	if len(strings.Trim(content, "")) == 0 {
