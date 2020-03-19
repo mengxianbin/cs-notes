@@ -14,4 +14,6 @@
 
 ## [ps](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/ps)
 
+## [tar](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/tar)
+
 ## [top](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/top)
