@@ -5,6 +5,8 @@
 
 ## [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture)
 
+## [Books](https://mengxianbin.github.io/cs-note/content/Books)
+
 ## [Design Patterns](https://mengxianbin.github.io/cs-note/content/Design%20Patterns)
 
 ## [Language](https://mengxianbin.github.io/cs-note/content/Language)

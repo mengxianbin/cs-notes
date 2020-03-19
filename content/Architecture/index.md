@@ -2,6 +2,8 @@
 [cs-note](https://mengxianbin.github.io/cs-note) /
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 
+## [Database Connection Pool](https://mengxianbin.github.io/cs-note/content/Architecture/Database%20Connection%20Pool)
+
 ## [Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker)
 
 ## [Dubbo](https://mengxianbin.github.io/cs-note/content/Architecture/Dubbo)
@@ -10,7 +12,7 @@
 
 ## [Kubernetes](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes)
 
-## [MQ](https://mengxianbin.github.io/cs-note/content/Architecture/MQ)
+## [Message Queue](https://mengxianbin.github.io/cs-note/content/Architecture/Message%20Queue)
 
 ## [MongoDB](https://mengxianbin.github.io/cs-note/content/Architecture/MongoDB)
 
@@ -21,6 +23,8 @@
 ## [Network](https://mengxianbin.github.io/cs-note/content/Architecture/Network)
 
 ## [Nginx](https://mengxianbin.github.io/cs-note/content/Architecture/Nginx)
+
+## [Object Relational Mapping](https://mengxianbin.github.io/cs-note/content/Architecture/Object%20Relational%20Mapping)
 
 ## [Redis](https://mengxianbin.github.io/cs-note/content/Architecture/Redis)
 
