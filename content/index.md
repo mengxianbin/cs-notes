@@ -7,7 +7,7 @@
 
 ## [Books](https://mengxianbin.github.io/cs-note/content/Books/)
 
-## [Design Patterns](https://mengxianbin.github.io/cs-note/content/Design%20Patterns/)
+## [Design](https://mengxianbin.github.io/cs-note/content/Design/)
 
 ## [Game](https://mengxianbin.github.io/cs-note/content/Game/)
 

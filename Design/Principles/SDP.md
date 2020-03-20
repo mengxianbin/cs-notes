@@ -1,0 +1,1 @@
+# The Stable Dependencies Principle
