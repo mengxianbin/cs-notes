@@ -4,7 +4,7 @@
 
 ## [Assembly](https://mengxianbin.github.io/cs-note/content/Language/Assembly)
 
-## [C#](https://mengxianbin.github.io/cs-note/content/Language/C#)
+## [C#](https://mengxianbin.github.io/cs-note/content/Language/C%23)
 
 ## [C++](https://mengxianbin.github.io/cs-note/content/Language/C++)
 
