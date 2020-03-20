@@ -13,6 +13,6 @@
 
 ## [Language](https://mengxianbin.github.io/cs-note/content/Language/)
 
-## [Operate System](https://mengxianbin.github.io/cs-note/content/Operate%20System/)
+## [Operating System](https://mengxianbin.github.io/cs-note/content/Operating%20System/)
 
 ## [Others](https://mengxianbin.github.io/cs-note/content/Others/)
