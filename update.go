@@ -14,7 +14,7 @@ import (
 
 var contentDir = "content"
 var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s)", contentDir))
-var ignoredFileReg = regexp.MustCompile("(README|index)")
+var ignoredFileReg = regexp.MustCompile("(README|index|404)")
 
 func uriEncode(input string) string {
 	// return strings.ReplaceAll(input, " ", "%20")
