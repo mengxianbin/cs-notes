@@ -6,4 +6,6 @@
 
 ## [Interface](https://mengxianbin.github.io/cs-note/content/Operate%20System/Theory/What%20Is%20OS/Interface)
 
+## [Machine Extension](https://mengxianbin.github.io/cs-note/content/Operate%20System/Theory/What%20Is%20OS/Machine%20Extension)
+
 ## [Resource Management](https://mengxianbin.github.io/cs-note/content/Operate%20System/Theory/What%20Is%20OS/Resource%20Management)
