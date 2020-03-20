@@ -5,9 +5,9 @@
 
 ## [Background](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Background)
 
-## [Commands](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands)
+## [Commands](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands/)
 
-## [Configuration](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Configuration)
+## [Configuration](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Configuration/)
 
 ## [Docker Compose](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Docker%20Compose)
 
@@ -15,7 +15,7 @@
 
 ## [Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Docker)
 
-## [Dockerfile](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Dockerfile)
+## [Dockerfile](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Dockerfile/)
 
 ## [ENV Independent](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/ENV%20Independent)
 

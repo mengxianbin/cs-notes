@@ -17,8 +17,6 @@ var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s)", contentDir))
 var ignoredFileReg = regexp.MustCompile("(README|index|404)")
 
 func uriEncode(input string) string {
-	// return strings.ReplaceAll(input, " ", "%20")
-	// return url.QueryEscape(input)
 	return url.PathEscape(input)
 }
 
@@ -141,6 +139,7 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 
 		// 拼接链接相对路径
 		var linkTitle string
+		var linkPath string
 		if file.IsDir() { // 处理目录
 			if ignoredDirReg.MatchString(file.Name()) {
 				continue
@@ -151,17 +150,19 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 			parents.Remove(parents.Back())
 
 			linkTitle = file.Name()
+			linkPath = fmt.Sprintf("%s/%s/", parentLink, uriEncode(linkTitle))
 		} else { // 处理文件
 			if filepath.Ext(file.Name()) != ".md" || ignoredFileReg.MatchString(file.Name()) {
 				continue
 			}
 
 			_, err = writeMarkdown(path, file.Name(), home, parents)
+
 			linkTitle = file.Name()[:len(file.Name())-3]
+			linkPath = fmt.Sprintf("%s/%s", parentLink, uriEncode(linkTitle))
 		}
 
 		// 生成链接
-		linkPath := fmt.Sprintf("%s/%s", parentLink, uriEncode(linkTitle))
 		link := fmt.Sprintf("## [%s](%s)", linkTitle, linkPath)
 		log.Printf("Link: %s\n", link)
 
