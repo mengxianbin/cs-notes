@@ -3,4 +3,18 @@
 [Others](https://mengxianbin.github.io/cs-note/content/Others) /
 [XML](https://mengxianbin.github.io/cs-note/content/Others/XML)
 
-# TO DO
+## [DOM](https://mengxianbin.github.io/cs-note/content/Others/XML/DOM)
+
+## [DTD](https://mengxianbin.github.io/cs-note/content/Others/XML/DTD)
+
+## [Schema](https://mengxianbin.github.io/cs-note/content/Others/XML/Schema)
+
+## [XHTML](https://mengxianbin.github.io/cs-note/content/Others/XML/XHTML)
+
+## [XPath](https://mengxianbin.github.io/cs-note/content/Others/XML/XPath)
+
+## [XQuery](https://mengxianbin.github.io/cs-note/content/Others/XML/XQuery)
+
+## [XSL](https://mengxianbin.github.io/cs-note/content/Others/XML/XSL)
+
+## [XSLT](https://mengxianbin.github.io/cs-note/content/Others/XML/XSLT)
