@@ -8,5 +8,3 @@
 ## [Directory](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Directory/)
 
 ## [Vim](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Vim/)
-
-## [iptables](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/iptables/)

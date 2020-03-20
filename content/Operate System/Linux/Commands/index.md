@@ -40,6 +40,8 @@
 
 ## [ifconfig](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/ifconfig)
 
+## [iptables](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/iptables)
+
 ## [kill](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/kill)
 
 ## [less](https://mengxianbin.github.io/cs-note/content/Operate%20System/Linux/Commands/less)
