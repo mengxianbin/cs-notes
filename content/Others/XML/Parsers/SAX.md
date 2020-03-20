@@ -2,14 +2,7 @@
 [cs-note](https://mengxianbin.github.io/cs-note/content) /
 [Others](https://mengxianbin.github.io/cs-note/content/Others) /
 [XML](https://mengxianbin.github.io/cs-note/content/Others/XML) /
-[Schema](https://mengxianbin.github.io/cs-note/content/Others/XML/Schema)
+[Parsers](https://mengxianbin.github.io/cs-note/content/Others/XML/Parsers) /
+[SAX](https://mengxianbin.github.io/cs-note/content/Others/XML/Parsers/SAX)
 
-# XML Scheme
-
-## Why Use an XML Schema?
-
-* describe its own format
-* keep a standard for interchanging data between independent groups
-* verify data.
-
----
+# TO DO
