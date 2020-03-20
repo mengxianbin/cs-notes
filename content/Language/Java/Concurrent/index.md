@@ -4,6 +4,6 @@
 [Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
 [Concurrent](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent)
 
-## [Executor](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Executor)
+## [Executor](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Executor/)
 
-## [Synchronization](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization)
+## [Synchronization](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization/)

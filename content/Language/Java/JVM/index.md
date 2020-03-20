@@ -4,6 +4,6 @@
 [Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
 [JVM](https://mengxianbin.github.io/cs-note/content/Language/Java/JVM)
 
-## [ClassLoader](https://mengxianbin.github.io/cs-note/content/Language/Java/JVM/ClassLoader)
+## [ClassLoader](https://mengxianbin.github.io/cs-note/content/Language/Java/JVM/ClassLoader/)
 
-## [JMM](https://mengxianbin.github.io/cs-note/content/Language/Java/JVM/JMM)
+## [JMM](https://mengxianbin.github.io/cs-note/content/Language/Java/JVM/JMM/)

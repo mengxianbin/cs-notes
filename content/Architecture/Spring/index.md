@@ -3,8 +3,8 @@
 [Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
 [Spring](https://mengxianbin.github.io/cs-note/content/Architecture/Spring)
 
-## [Boot](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Boot)
+## [Boot](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Boot/)
 
-## [Cloud](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Cloud)
+## [Cloud](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Cloud/)
 
-## [Framework](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Framework)
+## [Framework](https://mengxianbin.github.io/cs-note/content/Architecture/Spring/Framework/)
