@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
-[Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker) /
-[platform](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/platform)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Architecture](https://mengxianbin.github.io/cs-notes/content/Architecture) /
+[Docker](https://mengxianbin.github.io/cs-notes/content/Architecture/Docker) /
+[platform](https://mengxianbin.github.io/cs-notes/content/Architecture/Docker/platform)
 
 * Linux
 * Windows

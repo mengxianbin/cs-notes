@@ -1,15 +1,15 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Others](https://mengxianbin.github.io/cs-note/content/Others)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Others](https://mengxianbin.github.io/cs-notes/content/Others)
 
-## [Build](https://mengxianbin.github.io/cs-note/content/Others/Build/)
+## [Build](https://mengxianbin.github.io/cs-notes/content/Others/Build/)
 
-## [Character Set](https://mengxianbin.github.io/cs-note/content/Others/Character%20Set/)
+## [Character Set](https://mengxianbin.github.io/cs-notes/content/Others/Character%20Set/)
 
-## [DevOps](https://mengxianbin.github.io/cs-note/content/Others/DevOps/)
+## [DevOps](https://mengxianbin.github.io/cs-notes/content/Others/DevOps/)
 
-## [Test](https://mengxianbin.github.io/cs-note/content/Others/Test/)
+## [Test](https://mengxianbin.github.io/cs-notes/content/Others/Test/)
 
-## [VCS](https://mengxianbin.github.io/cs-note/content/Others/VCS/)
+## [VCS](https://mengxianbin.github.io/cs-notes/content/Others/VCS/)
 
-## [XML](https://mengxianbin.github.io/cs-note/content/Others/XML/)
+## [XML](https://mengxianbin.github.io/cs-notes/content/Others/XML/)

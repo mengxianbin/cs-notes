@@ -1,7 +1,7 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
-[Others](https://mengxianbin.github.io/cs-note/content/Language/Java/Others)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
+[Others](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others)
 
-## [Unsafe](https://mengxianbin.github.io/cs-note/content/Language/Java/Others/Unsafe)
+## [Unsafe](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others/Unsafe)

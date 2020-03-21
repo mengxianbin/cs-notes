@@ -1,18 +1,18 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Design](https://mengxianbin.github.io/cs-note/content/Design) /
-[Principles](https://mengxianbin.github.io/cs-note/content/Design/Principles)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Design](https://mengxianbin.github.io/cs-notes/content/Design) /
+[Principles](https://mengxianbin.github.io/cs-notes/content/Design/Principles)
 
-## [CCP](https://mengxianbin.github.io/cs-note/content/Design/Principles/CCP)
+## [CCP](https://mengxianbin.github.io/cs-notes/content/Design/Principles/CCP)
 
-## [CRP](https://mengxianbin.github.io/cs-note/content/Design/Principles/CRP)
+## [CRP](https://mengxianbin.github.io/cs-notes/content/Design/Principles/CRP)
 
-## [KISS](https://mengxianbin.github.io/cs-note/content/Design/Principles/KISS)
+## [KISS](https://mengxianbin.github.io/cs-notes/content/Design/Principles/KISS)
 
-## [LOD](https://mengxianbin.github.io/cs-note/content/Design/Principles/LOD)
+## [LOD](https://mengxianbin.github.io/cs-notes/content/Design/Principles/LOD)
 
-## [SAP](https://mengxianbin.github.io/cs-note/content/Design/Principles/SAP)
+## [SAP](https://mengxianbin.github.io/cs-notes/content/Design/Principles/SAP)
 
-## [SDP](https://mengxianbin.github.io/cs-note/content/Design/Principles/SDP)
+## [SDP](https://mengxianbin.github.io/cs-notes/content/Design/Principles/SDP)
 
-## [SOLID](https://mengxianbin.github.io/cs-note/content/Design/Principles/SOLID/)
+## [SOLID](https://mengxianbin.github.io/cs-notes/content/Design/Principles/SOLID/)

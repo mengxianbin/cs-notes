@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
-[ZooKeeper](https://mengxianbin.github.io/cs-note/content/Architecture/ZooKeeper)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Architecture](https://mengxianbin.github.io/cs-notes/content/Architecture) /
+[ZooKeeper](https://mengxianbin.github.io/cs-notes/content/Architecture/ZooKeeper)
 
 # TO DO

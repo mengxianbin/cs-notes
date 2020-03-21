@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
-[Kubernetes](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes) /
-[POD](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes/POD)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Architecture](https://mengxianbin.github.io/cs-notes/content/Architecture) /
+[Kubernetes](https://mengxianbin.github.io/cs-notes/content/Architecture/Kubernetes) /
+[POD](https://mengxianbin.github.io/cs-notes/content/Architecture/Kubernetes/POD)
 
 * 生命周期
 

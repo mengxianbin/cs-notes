@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[C#](https://mengxianbin.github.io/cs-note/content/Language/C%23)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[C#](https://mengxianbin.github.io/cs-notes/content/Language/C%23)
 
 # TO DO

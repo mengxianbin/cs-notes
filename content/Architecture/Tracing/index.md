@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
-[Tracing](https://mengxianbin.github.io/cs-note/content/Architecture/Tracing)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Architecture](https://mengxianbin.github.io/cs-notes/content/Architecture) /
+[Tracing](https://mengxianbin.github.io/cs-notes/content/Architecture/Tracing)
 
-## [Jaeger](https://mengxianbin.github.io/cs-note/content/Architecture/Tracing/Jaeger)
+## [Jaeger](https://mengxianbin.github.io/cs-notes/content/Architecture/Tracing/Jaeger)
 
-## [OpenTracing](https://mengxianbin.github.io/cs-note/content/Architecture/Tracing/OpenTracing)
+## [OpenTracing](https://mengxianbin.github.io/cs-notes/content/Architecture/Tracing/OpenTracing)

@@ -1,10 +1,10 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Operating System](https://mengxianbin.github.io/cs-note/content/Operating%20System) /
-[Linux](https://mengxianbin.github.io/cs-note/content/Operating%20System/Linux)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Operating System](https://mengxianbin.github.io/cs-notes/content/Operating%20System) /
+[Linux](https://mengxianbin.github.io/cs-notes/content/Operating%20System/Linux)
 
-## [Commands](https://mengxianbin.github.io/cs-note/content/Operating%20System/Linux/Commands/)
+## [Commands](https://mengxianbin.github.io/cs-notes/content/Operating%20System/Linux/Commands/)
 
-## [Directory](https://mengxianbin.github.io/cs-note/content/Operating%20System/Linux/Directory/)
+## [Directory](https://mengxianbin.github.io/cs-notes/content/Operating%20System/Linux/Directory/)
 
-## [Vim](https://mengxianbin.github.io/cs-note/content/Operating%20System/Linux/Vim/)
+## [Vim](https://mengxianbin.github.io/cs-notes/content/Operating%20System/Linux/Vim/)

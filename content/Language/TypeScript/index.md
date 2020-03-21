@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[TypeScript](https://mengxianbin.github.io/cs-note/content/Language/TypeScript)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[TypeScript](https://mengxianbin.github.io/cs-notes/content/Language/TypeScript)
 
 # TO DO

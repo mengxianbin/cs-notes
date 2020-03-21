@@ -1,10 +1,10 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
-[Concurrent](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent) /
-[Synchronization](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization) /
-[Object Header](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization/Object%20Header)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
+[Concurrent](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent) /
+[Synchronization](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization) /
+[Object Header](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Object%20Header)
 
 * <https://wiki.openjdk.java.net/display/HotSpot/Synchronization>
 * <https://wiki.openjdk.java.net/display/HotSpot/CompressedOops>

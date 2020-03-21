@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Design](https://mengxianbin.github.io/cs-note/content/Design) /
-[Refactoring](https://mengxianbin.github.io/cs-note/content/Design/Refactoring)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Design](https://mengxianbin.github.io/cs-notes/content/Design) /
+[Refactoring](https://mengxianbin.github.io/cs-notes/content/Design/Refactoring)
 
 # TO DO

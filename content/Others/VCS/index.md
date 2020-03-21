@@ -1,10 +1,10 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Others](https://mengxianbin.github.io/cs-note/content/Others) /
-[VCS](https://mengxianbin.github.io/cs-note/content/Others/VCS)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Others](https://mengxianbin.github.io/cs-notes/content/Others) /
+[VCS](https://mengxianbin.github.io/cs-notes/content/Others/VCS)
 
-## [Git](https://mengxianbin.github.io/cs-note/content/Others/VCS/Git/)
+## [Git](https://mengxianbin.github.io/cs-notes/content/Others/VCS/Git/)
 
-## [Guidelines](https://mengxianbin.github.io/cs-note/content/Others/VCS/Guidelines/)
+## [Guidelines](https://mengxianbin.github.io/cs-notes/content/Others/VCS/Guidelines/)
 
-## [SVN](https://mengxianbin.github.io/cs-note/content/Others/VCS/SVN/)
+## [SVN](https://mengxianbin.github.io/cs-notes/content/Others/VCS/SVN/)

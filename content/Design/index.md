@@ -1,9 +1,9 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Design](https://mengxianbin.github.io/cs-note/content/Design)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Design](https://mengxianbin.github.io/cs-notes/content/Design)
 
-## [Design Patterns](https://mengxianbin.github.io/cs-note/content/Design/Design%20Patterns/)
+## [Design Patterns](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/)
 
-## [Principles](https://mengxianbin.github.io/cs-note/content/Design/Principles/)
+## [Principles](https://mengxianbin.github.io/cs-notes/content/Design/Principles/)
 
-## [Refactoring](https://mengxianbin.github.io/cs-note/content/Design/Refactoring/)
+## [Refactoring](https://mengxianbin.github.io/cs-notes/content/Design/Refactoring/)

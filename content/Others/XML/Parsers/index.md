@@ -1,9 +1,9 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Others](https://mengxianbin.github.io/cs-note/content/Others) /
-[XML](https://mengxianbin.github.io/cs-note/content/Others/XML) /
-[Parsers](https://mengxianbin.github.io/cs-note/content/Others/XML/Parsers)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Others](https://mengxianbin.github.io/cs-notes/content/Others) /
+[XML](https://mengxianbin.github.io/cs-notes/content/Others/XML) /
+[Parsers](https://mengxianbin.github.io/cs-notes/content/Others/XML/Parsers)
 
-## [DOM4J](https://mengxianbin.github.io/cs-note/content/Others/XML/Parsers/DOM4J)
+## [DOM4J](https://mengxianbin.github.io/cs-notes/content/Others/XML/Parsers/DOM4J)
 
-## [SAX](https://mengxianbin.github.io/cs-note/content/Others/XML/Parsers/SAX)
+## [SAX](https://mengxianbin.github.io/cs-notes/content/Others/XML/Parsers/SAX)

@@ -1,6 +1,6 @@
-[content]: https://mengxianbin.github.io/cs-note/content
+[content]: https://mengxianbin.github.io/cs-notes/content
 
-# [cs-note][content]
+# [cs-notes][content]
 
 > brief computer science note  
 > keep updating  

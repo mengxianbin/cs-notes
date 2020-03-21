@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[Ruby](https://mengxianbin.github.io/cs-note/content/Language/Ruby)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[Ruby](https://mengxianbin.github.io/cs-notes/content/Language/Ruby)
 
 # TO DO

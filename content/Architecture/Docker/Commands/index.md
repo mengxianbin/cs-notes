@@ -1,13 +1,13 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
-[Docker](https://mengxianbin.github.io/cs-note/content/Architecture/Docker) /
-[Commands](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Architecture](https://mengxianbin.github.io/cs-notes/content/Architecture) /
+[Docker](https://mengxianbin.github.io/cs-notes/content/Architecture/Docker) /
+[Commands](https://mengxianbin.github.io/cs-notes/content/Architecture/Docker/Commands)
 
-## [events](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands/events)
+## [events](https://mengxianbin.github.io/cs-notes/content/Architecture/Docker/Commands/events)
 
-## [ps](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands/ps)
+## [ps](https://mengxianbin.github.io/cs-notes/content/Architecture/Docker/Commands/ps)
 
-## [run](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands/run)
+## [run](https://mengxianbin.github.io/cs-notes/content/Architecture/Docker/Commands/run)
 
-## [stats](https://mengxianbin.github.io/cs-note/content/Architecture/Docker/Commands/stats)
+## [stats](https://mengxianbin.github.io/cs-notes/content/Architecture/Docker/Commands/stats)

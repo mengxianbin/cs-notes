@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
-[Kubernetes](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Architecture](https://mengxianbin.github.io/cs-notes/content/Architecture) /
+[Kubernetes](https://mengxianbin.github.io/cs-notes/content/Architecture/Kubernetes)
 
-## [POD](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes/POD)
+## [POD](https://mengxianbin.github.io/cs-notes/content/Architecture/Kubernetes/POD)
 
-## [Service Dependency](https://mengxianbin.github.io/cs-note/content/Architecture/Kubernetes/Service%20Dependency)
+## [Service Dependency](https://mengxianbin.github.io/cs-notes/content/Architecture/Kubernetes/Service%20Dependency)

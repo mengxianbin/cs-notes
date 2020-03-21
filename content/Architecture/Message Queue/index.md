@@ -1,12 +1,12 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
-[Message Queue](https://mengxianbin.github.io/cs-note/content/Architecture/Message%20Queue)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Architecture](https://mengxianbin.github.io/cs-notes/content/Architecture) /
+[Message Queue](https://mengxianbin.github.io/cs-notes/content/Architecture/Message%20Queue)
 
-## [ActiveMQ](https://mengxianbin.github.io/cs-note/content/Architecture/Message%20Queue/ActiveMQ/)
+## [ActiveMQ](https://mengxianbin.github.io/cs-notes/content/Architecture/Message%20Queue/ActiveMQ/)
 
-## [Kafka](https://mengxianbin.github.io/cs-note/content/Architecture/Message%20Queue/Kafka/)
+## [Kafka](https://mengxianbin.github.io/cs-notes/content/Architecture/Message%20Queue/Kafka/)
 
-## [RabbitMQ](https://mengxianbin.github.io/cs-note/content/Architecture/Message%20Queue/RabbitMQ/)
+## [RabbitMQ](https://mengxianbin.github.io/cs-notes/content/Architecture/Message%20Queue/RabbitMQ/)
 
-## [RocketMQ](https://mengxianbin.github.io/cs-note/content/Architecture/Message%20Queue/RocketMQ/)
+## [RocketMQ](https://mengxianbin.github.io/cs-notes/content/Architecture/Message%20Queue/RocketMQ/)

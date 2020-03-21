@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
-[Others](https://mengxianbin.github.io/cs-note/content/Language/Java/Others) /
-[Unsafe](https://mengxianbin.github.io/cs-note/content/Language/Java/Others/Unsafe)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
+[Others](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others) /
+[Unsafe](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others/Unsafe)
 
 # TO DO

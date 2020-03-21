@@ -1,9 +1,9 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Operating System](https://mengxianbin.github.io/cs-note/content/Operating%20System) /
-[Theory](https://mengxianbin.github.io/cs-note/content/Operating%20System/Theory) /
-[What Is OS](https://mengxianbin.github.io/cs-note/content/Operating%20System/Theory/What%20Is%20OS) /
-[Interface](https://mengxianbin.github.io/cs-note/content/Operating%20System/Theory/What%20Is%20OS/Interface)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Operating System](https://mengxianbin.github.io/cs-notes/content/Operating%20System) /
+[Theory](https://mengxianbin.github.io/cs-notes/content/Operating%20System/Theory) /
+[What Is OS](https://mengxianbin.github.io/cs-notes/content/Operating%20System/Theory/What%20Is%20OS) /
+[Interface](https://mengxianbin.github.io/cs-notes/content/Operating%20System/Theory/What%20Is%20OS/Interface)
 
 * 面向用户
     * GUI

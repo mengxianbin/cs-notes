@@ -1,7 +1,7 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Others](https://mengxianbin.github.io/cs-note/content/Others) /
-[Test](https://mengxianbin.github.io/cs-note/content/Others/Test) /
-[JUnit](https://mengxianbin.github.io/cs-note/content/Others/Test/JUnit)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Others](https://mengxianbin.github.io/cs-notes/content/Others) /
+[Test](https://mengxianbin.github.io/cs-notes/content/Others/Test) /
+[JUnit](https://mengxianbin.github.io/cs-notes/content/Others/Test/JUnit)
 
 # TO DO

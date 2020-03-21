@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Game](https://mengxianbin.github.io/cs-note/content/Game) /
-[Cocos2d-x](https://mengxianbin.github.io/cs-note/content/Game/Cocos2d-x)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Game](https://mengxianbin.github.io/cs-notes/content/Game) /
+[Cocos2d-x](https://mengxianbin.github.io/cs-notes/content/Game/Cocos2d-x)
 
 # TO DO

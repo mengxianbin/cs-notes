@@ -1,14 +1,14 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Architecture](https://mengxianbin.github.io/cs-note/content/Architecture) /
-[Network](https://mengxianbin.github.io/cs-note/content/Architecture/Network)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Architecture](https://mengxianbin.github.io/cs-notes/content/Architecture) /
+[Network](https://mengxianbin.github.io/cs-notes/content/Architecture/Network)
 
-## [HTTP](https://mengxianbin.github.io/cs-note/content/Architecture/Network/HTTP/)
+## [HTTP](https://mengxianbin.github.io/cs-notes/content/Architecture/Network/HTTP/)
 
-## [HTTPS](https://mengxianbin.github.io/cs-note/content/Architecture/Network/HTTPS/)
+## [HTTPS](https://mengxianbin.github.io/cs-notes/content/Architecture/Network/HTTPS/)
 
-## [IP](https://mengxianbin.github.io/cs-note/content/Architecture/Network/IP/)
+## [IP](https://mengxianbin.github.io/cs-notes/content/Architecture/Network/IP/)
 
-## [TCP](https://mengxianbin.github.io/cs-note/content/Architecture/Network/TCP/)
+## [TCP](https://mengxianbin.github.io/cs-notes/content/Architecture/Network/TCP/)
 
-## [UDP](https://mengxianbin.github.io/cs-note/content/Architecture/Network/UDP/)
+## [UDP](https://mengxianbin.github.io/cs-notes/content/Architecture/Network/UDP/)

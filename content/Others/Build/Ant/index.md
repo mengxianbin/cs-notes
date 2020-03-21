@@ -1,7 +1,7 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Others](https://mengxianbin.github.io/cs-note/content/Others) /
-[Build](https://mengxianbin.github.io/cs-note/content/Others/Build) /
-[Ant](https://mengxianbin.github.io/cs-note/content/Others/Build/Ant)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Others](https://mengxianbin.github.io/cs-notes/content/Others) /
+[Build](https://mengxianbin.github.io/cs-notes/content/Others/Build) /
+[Ant](https://mengxianbin.github.io/cs-notes/content/Others/Build/Ant)
 
 # TO DO

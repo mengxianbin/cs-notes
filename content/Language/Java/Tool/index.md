@@ -1,17 +1,17 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
-[Tool](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
+[Tool](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool)
 
-## [eclipse_memory_analyzer](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/eclipse_memory_analyzer)
+## [eclipse_memory_analyzer](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/eclipse_memory_analyzer)
 
-## [jinfo](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/jinfo)
+## [jinfo](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/jinfo)
 
-## [jmap](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/jmap)
+## [jmap](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/jmap)
 
-## [jps](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/jps)
+## [jps](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/jps)
 
-## [jstack](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/jstack)
+## [jstack](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/jstack)
 
-## [visualvm](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/visualvm)
+## [visualvm](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/visualvm)

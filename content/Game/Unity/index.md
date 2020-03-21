@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Game](https://mengxianbin.github.io/cs-note/content/Game) /
-[Unity](https://mengxianbin.github.io/cs-note/content/Game/Unity)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Game](https://mengxianbin.github.io/cs-notes/content/Game) /
+[Unity](https://mengxianbin.github.io/cs-notes/content/Game/Unity)
 
 # TO DO

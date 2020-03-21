@@ -1,6 +1,6 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[Go](https://mengxianbin.github.io/cs-note/content/Language/Go)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[Go](https://mengxianbin.github.io/cs-notes/content/Language/Go)
 
-## [Short Variable Declarations](https://mengxianbin.github.io/cs-note/content/Language/Go/Short%20Variable%20Declarations)
+## [Short Variable Declarations](https://mengxianbin.github.io/cs-notes/content/Language/Go/Short%20Variable%20Declarations)

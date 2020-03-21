@@ -194,6 +194,6 @@ func main() {
 
 	// 生成新索引文件
 	parents := list.New()
-	parents.PushBack("cs-note")
+	parents.PushBack("cs-notes")
 	_ = GenerateIndex(".", "https://mengxianbin.github.io", parents)
 }

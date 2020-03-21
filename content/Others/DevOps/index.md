@@ -1,10 +1,10 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Others](https://mengxianbin.github.io/cs-note/content/Others) /
-[DevOps](https://mengxianbin.github.io/cs-note/content/Others/DevOps)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Others](https://mengxianbin.github.io/cs-notes/content/Others) /
+[DevOps](https://mengxianbin.github.io/cs-notes/content/Others/DevOps)
 
-## [Agile Devlopment](https://mengxianbin.github.io/cs-note/content/Others/DevOps/Agile%20Devlopment)
+## [Agile Devlopment](https://mengxianbin.github.io/cs-notes/content/Others/DevOps/Agile%20Devlopment)
 
-## [CICD](https://mengxianbin.github.io/cs-note/content/Others/DevOps/CICD)
+## [CICD](https://mengxianbin.github.io/cs-notes/content/Others/DevOps/CICD)
 
-## [Jenkins](https://mengxianbin.github.io/cs-note/content/Others/DevOps/Jenkins)
+## [Jenkins](https://mengxianbin.github.io/cs-notes/content/Others/DevOps/Jenkins)

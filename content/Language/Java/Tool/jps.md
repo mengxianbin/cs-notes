@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
-[cs-note](https://mengxianbin.github.io/cs-note/content) /
-[Language](https://mengxianbin.github.io/cs-note/content/Language) /
-[Java](https://mengxianbin.github.io/cs-note/content/Language/Java) /
-[Tool](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool) /
-[jps](https://mengxianbin.github.io/cs-note/content/Language/Java/Tool/jps)
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
+[Tool](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool) /
+[jps](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/jps)
 
 # TO DO
