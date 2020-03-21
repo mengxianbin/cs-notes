@@ -5,6 +5,8 @@
 [Concurrent](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent) /
 [Synchronization](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization)
 
+## [AbstractOwnableSynchronizer](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization/AbstractOwnableSynchronizer)
+
 ## [AbstractQueuedSynchronizer](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization/AbstractQueuedSynchronizer/)
 
 ## [Condition](https://mengxianbin.github.io/cs-note/content/Language/Java/Concurrent/Synchronization/Condition)
