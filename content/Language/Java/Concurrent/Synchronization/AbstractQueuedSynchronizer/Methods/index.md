@@ -15,6 +15,8 @@
 
 ## [interrupt](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/AbstractQueuedSynchronizer/Methods/interrupt)
 
+## [queue](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/AbstractQueuedSynchronizer/Methods/queue)
+
 ## [release](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/AbstractQueuedSynchronizer/Methods/release)
 
 ## [transfer](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/AbstractQueuedSynchronizer/Methods/transfer)

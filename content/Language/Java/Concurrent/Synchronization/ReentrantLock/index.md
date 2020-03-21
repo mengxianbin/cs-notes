@@ -8,8 +8,8 @@
 
 ## [FairSync](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantLock/FairSync)
 
+## [NonfairSync](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantLock/NonfairSync)
+
 ## [ReenterantLock](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantLock/ReenterantLock)
 
 ## [Sync](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantLock/Sync)
-
-## [UnfairSync](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantLock/UnfairSync)

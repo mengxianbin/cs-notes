@@ -11,6 +11,8 @@
 
 ## [Condition](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Condition)
 
+## [CountDownLatch](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/CountDownLatch/)
+
 ## [CountDownLatch](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/CountDownLatch)
 
 ## [CyclicBarrier](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/CyclicBarrier)
@@ -23,7 +25,9 @@
 
 ## [ReentrantLock](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantLock/)
 
-## [ReentrantReadWriteLock](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantReadWriteLock)
+## [ReentrantReadWriteLock](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantReadWriteLock/)
+
+## [Semaphore](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Semaphore/)
 
 ## [Semaphore](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Semaphore)
 

@@ -4,6 +4,7 @@
 [Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
 [Concurrent](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent) /
 [Synchronization](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization) /
-[ReentrantReadWriteLock](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantReadWriteLock)
+[Semaphore](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Semaphore) /
+[Sync](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Semaphore/Sync)
 
 # TO DO
