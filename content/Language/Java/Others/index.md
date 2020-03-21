@@ -4,4 +4,4 @@
 [Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
 [Others](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others)
 
-## [Unsafe](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others/Unsafe)
+## [Unsafe](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others/Unsafe/)

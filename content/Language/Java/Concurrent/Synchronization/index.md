@@ -15,11 +15,13 @@
 
 ## [CyclicBarrier](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/CyclicBarrier)
 
+## [LockSupport](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/LockSupport)
+
 ## [Object Header](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Object%20Header)
 
 ## [Object](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Object)
 
-## [ReenterantLock](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReenterantLock)
+## [ReentrantLock](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantLock/)
 
 ## [ReentrantReadWriteLock](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/ReentrantReadWriteLock)
 

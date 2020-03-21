@@ -4,17 +4,14 @@
 [Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
 [Concurrent](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent) /
 [Synchronization](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization) /
-[Thread](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Thread)
+[AbstractQueuedSynchronizer](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/AbstractQueuedSynchronizer) /
+[Simplified](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/AbstractQueuedSynchronizer/Simplified)
 
-* sleep
-* join
+* Spin
+* CAS
+    * cmpxchg
+* LockSupport
+    * park
+    * unpark
 
-```java
-    /**
-     * The argument supplied to the current call to
-     * java.util.concurrent.locks.LockSupport.park.
-     * Set by (private) java.util.concurrent.locks.LockSupport.setBlocker
-     * Accessed using java.util.concurrent.locks.LockSupport.getBlocker
-     */
-    volatile Object parkBlocker;
-```
+---
