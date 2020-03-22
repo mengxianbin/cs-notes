@@ -1,0 +1,35 @@
+[Home](https://mengxianbin.github.io) /
+[cs-notes](https://mengxianbin.github.io/cs-notes/content) /
+[Language](https://mengxianbin.github.io/cs-notes/content/Language) /
+[Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
+[Concurrent](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent) /
+[Code](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Code) /
+[ForkJoin](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Code/ForkJoin) /
+[ForkJoinTask](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Code/ForkJoin/ForkJoinTask) /
+[fork](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Code/ForkJoin/ForkJoinTask/fork)
+
+```java
+    /**
+     * Arranges to asynchronously execute this task in the pool the
+     * current task is running in, if applicable, or using the {@link
+     * ForkJoinPool#commonPool()} if not {@link #inForkJoinPool}.  While
+     * it is not necessarily enforced, it is a usage error to fork a
+     * task more than once unless it has completed and been
+     * reinitialized.  Subsequent modifications to the state of this
+     * task or any data it operates on are not necessarily
+     * consistently observable by any thread other than the one
+     * executing it unless preceded by a call to {@link #join} or
+     * related methods, or a call to {@link #isDone} returning {@code
+     * true}.
+     *
+     * @return {@code this}, to simplify usage
+     */
+    public final ForkJoinTask<V> fork() {
+        Thread t;
+        if ((t = Thread.currentThread()) instanceof ForkJoinWorkerThread)
+            ((ForkJoinWorkerThread)t).workQueue.push(this);
+        else
+            ForkJoinPool.common.externalPush(this);
+        return this;
+    }
+```
