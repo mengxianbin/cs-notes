@@ -1,0 +1,3 @@
+* Atomicity
+* Visibility
+* Ordering
