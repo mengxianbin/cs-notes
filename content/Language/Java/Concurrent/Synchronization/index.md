@@ -9,7 +9,9 @@
 
 ## [AbstractQueuedSynchronizer](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/AbstractQueuedSynchronizer/)
 
-## [Condition](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Condition)
+## [AtomicInteger](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/AtomicInteger)
+
+## [Condition](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Condition/)
 
 ## [CountDownLatch](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/CountDownLatch/)
 

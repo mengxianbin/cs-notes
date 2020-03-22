@@ -6,6 +6,6 @@
 [Synchronization](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization) /
 [Condition](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Condition)
 
-* await
-* signal
-* signalAll
+## [Condition](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Condition/Condition)
+
+## [wait](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/Synchronization/Condition/wait)
