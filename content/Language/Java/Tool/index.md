@@ -4,7 +4,7 @@
 [Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
 [Tool](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool)
 
-## [eclipse_memory_analyzer](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/eclipse_memory_analyzer)
+## [Eclipse Memory Analyzer (MAT)](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/Eclipse%20Memory%20Analyzer%20%28MAT%29)
 
 ## [jinfo](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/jinfo)
 

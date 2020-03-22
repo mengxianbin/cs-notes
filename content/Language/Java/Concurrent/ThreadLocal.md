@@ -2,7 +2,7 @@
 [cs-notes](https://mengxianbin.github.io/cs-notes/content) /
 [Language](https://mengxianbin.github.io/cs-notes/content/Language) /
 [Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
-[Tool](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool) /
-[eclipse_memory_analyzer](https://mengxianbin.github.io/cs-notes/content/Language/Java/Tool/eclipse_memory_analyzer)
+[Concurrent](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent) /
+[ThreadLocal](https://mengxianbin.github.io/cs-notes/content/Language/Java/Concurrent/ThreadLocal)
 
 # TO DO
