@@ -1,1 +1,8 @@
-![Class Relationship](https://d3n817fwly711g.cloudfront.net/blog/wp-content/uploads/2012/03/Class-Diagram-Relationships.png)
+* Dependency
+* Association
+* Aggregation
+* Composition
+* Generalization / Inheritance
+* Realization / Implementation
+
+---
