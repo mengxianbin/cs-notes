@@ -1,0 +1,4 @@
+* name
+* problem
+* solution
+* consequence
