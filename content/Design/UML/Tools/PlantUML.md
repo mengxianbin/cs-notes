@@ -10,11 +10,11 @@
 
 * [Download](https://plantuml.com/zh/download)
 
-* [Github](https://github.com/plantuml/plantuml)
+* [GitHub](https://github.com/plantuml/plantuml)
 
 * [Playground](https://www.planttext.com/)
 
-* example
+* Example
 
 ```puml
 @startuml test
