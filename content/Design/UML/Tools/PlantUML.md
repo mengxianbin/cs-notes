@@ -6,13 +6,13 @@
 [PlantUML](https://mengxianbin.github.io/cs-notes/content/Design/UML/Tools/PlantUML)
 
 
-* [official](https://plantuml.com/)
+* [Official](https://plantuml.com/)
 
-* [download](https://plantuml.com/zh/download)
+* [Download](https://plantuml.com/zh/download)
 
-* [github](https://github.com/plantuml/plantuml)
+* [Github](https://github.com/plantuml/plantuml)
 
-* [playground](https://www.planttext.com/)
+* [Playground](https://www.planttext.com/)
 
 * example
 
