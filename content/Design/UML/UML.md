@@ -2,6 +2,6 @@
 [cs-notes](https://mengxianbin.github.io/cs-notes/content) /
 [Design](https://mengxianbin.github.io/cs-notes/content/Design) /
 [UML](https://mengxianbin.github.io/cs-notes/content/Design/UML) /
-[Class Diagram](https://mengxianbin.github.io/cs-notes/content/Design/UML/Class%20Diagram)
+[UML](https://mengxianbin.github.io/cs-notes/content/Design/UML/UML)
 
-## [Class Relationship](https://mengxianbin.github.io/cs-notes/content/Design/UML/Class%20Diagram/Class%20Relationship)
+![UML Diagram Type](https://cdn.visual-paradigm.com/guide/uml/what-is-class-diagram/01-class-diagram-in-uml-diagram-hierarchy.png)
