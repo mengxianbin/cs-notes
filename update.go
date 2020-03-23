@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/url"
 	"os"
+	"path"
 	"path/filepath"
 	"regexp"
 	"strings"
@@ -184,16 +185,17 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 func main() {
 	// 清理旧索引文件
 	_ = os.RemoveAll(contentDir)
-	_ = filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
-		if !info.IsDir() && info.Name() == "index.md" {
-			_ = os.Remove(path)
-		}
 
-		return nil
-	})
+	// 获取仓库名称
+	wd, err := os.Getwd()
+	if err != nil {
+		log.Printf("Repo name error: %#v\n", err)
+		panic(err)
+	}
+	repoName := path.Base(wd)
 
 	// 生成新索引文件
 	parents := list.New()
-	parents.PushBack("cs-notes")
+	parents.PushBack(repoName)
 	_ = GenerateIndex(".", "https://mengxianbin.github.io", parents)
 }
