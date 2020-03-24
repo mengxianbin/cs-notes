@@ -2,6 +2,6 @@
 [cs-notes](https://mengxianbin.github.io/cs-notes/content) /
 [Design](https://mengxianbin.github.io/cs-notes/content/Design) /
 [UML](https://mengxianbin.github.io/cs-notes/content/Design/UML) /
-[Class Diagram](https://mengxianbin.github.io/cs-notes/content/Design/UML/Class%20Diagram)
+[Structural Diagrams](https://mengxianbin.github.io/cs-notes/content/Design/UML/Structural%20Diagrams)
 
-## [Class Relationship](https://mengxianbin.github.io/cs-notes/content/Design/UML/Class%20Diagram/Class%20Relationship)
+## [Class Diagram](https://mengxianbin.github.io/cs-notes/content/Design/UML/Structural%20Diagrams/Class%20Diagram)

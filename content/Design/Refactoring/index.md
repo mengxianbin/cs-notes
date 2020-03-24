@@ -3,4 +3,6 @@
 [Design](https://mengxianbin.github.io/cs-notes/content/Design) /
 [Refactoring](https://mengxianbin.github.io/cs-notes/content/Design/Refactoring)
 
-# TO DO
+## [Elements](https://mengxianbin.github.io/cs-notes/content/Design/Refactoring/Elements)
+
+## [Solutions](https://mengxianbin.github.io/cs-notes/content/Design/Refactoring/Solutions)

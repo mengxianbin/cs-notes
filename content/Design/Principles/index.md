@@ -15,4 +15,4 @@
 
 ## [SDP](https://mengxianbin.github.io/cs-notes/content/Design/Principles/SDP)
 
-## [SOLID](https://mengxianbin.github.io/cs-notes/content/Design/Principles/SOLID/)
+## [SOLID](https://mengxianbin.github.io/cs-notes/content/Design/Principles/SOLID)
