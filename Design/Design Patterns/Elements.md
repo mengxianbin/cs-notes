@@ -1,4 +1,15 @@
-* name
-* problem
-* solution
-* consequence
+* Name
+* Problem
+* Solution
+* Consequence
+
+---
+
+* Intent
+* Explanation
+* Class Diagram
+* Implementation
+* Applicability
+* Typical Use Case
+
+---
