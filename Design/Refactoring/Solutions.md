@@ -1,0 +1,4 @@
+* Encapsulate
+* Extract
+* Move
+* Rename
