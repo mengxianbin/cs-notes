@@ -1,4 +1,6 @@
-## Solutions
+# Singleton
+
+## Solution
 
 * Simple
 
@@ -12,7 +14,7 @@ class Singleton {
 @enduml
 ```
 
-* Inner Class: Instance Holder
+* Inner Class
 
 
 ```puml
