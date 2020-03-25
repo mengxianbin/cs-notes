@@ -1,4 +1,19 @@
-## Class Relationship
+## Class Relationships
+
+* Dependency
+* Association
+    * Uni-Directional
+    * Bi-Directional
+    * Reflexive
+    * Multiplicity `0..*`
+        * Aggregation
+            * Composition
+* Generalization / Inheritance
+* Realization / Implementation
+
+---
+
+## Differences
 
 * Dependency
     * parameter
@@ -6,11 +21,11 @@
     * local access
 * Association
     * fields
-    * Aggregation
-        * contains-a
-    * Composition
-        * has-a
-* Generalization / Inheritance
-* Realization / Implementation
+* Aggregation
+    * contains-a
+    * lifecycle independently
+* Composition
+    * has-a
+    * lifecycle associated
 
 ---
