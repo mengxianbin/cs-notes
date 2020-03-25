@@ -1,9 +1,15 @@
 ## Class Relationship
 
 * Dependency
+    * parameter
+    * return value
+    * local access
 * Association
-* Aggregation
-* Composition
+    * fields
+    * Aggregation
+        * contains-a
+    * Composition
+        * has-a
 * Generalization / Inheritance
 * Realization / Implementation
 
