@@ -4,4 +4,6 @@
 [Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
 [Others](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others)
 
+## [Serialization](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others/Serialization/)
+
 ## [Unsafe](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others/Unsafe/)

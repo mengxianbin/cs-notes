@@ -6,4 +6,6 @@
 
 ## [ClassLoader](https://mengxianbin.github.io/cs-notes/content/Language/Java/JVM/ClassLoader/)
 
+## [GC](https://mengxianbin.github.io/cs-notes/content/Language/Java/JVM/GC/)
+
 ## [JMM](https://mengxianbin.github.io/cs-notes/content/Language/Java/JVM/JMM/)

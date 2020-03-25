@@ -8,6 +8,8 @@
 
 ## [DevOps](https://mengxianbin.github.io/cs-notes/content/Others/DevOps/)
 
+## [Editors](https://mengxianbin.github.io/cs-notes/content/Others/Editors/)
+
 ## [Test](https://mengxianbin.github.io/cs-notes/content/Others/Test/)
 
 ## [VCS](https://mengxianbin.github.io/cs-notes/content/Others/VCS/)

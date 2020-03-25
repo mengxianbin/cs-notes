@@ -4,7 +4,18 @@
 [Design Patterns](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns) /
 [Elements](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Elements)
 
-* name
-* problem
-* solution
-* consequence
+* Name
+* Problem
+* Solution
+* Consequence
+
+---
+
+* Intent
+* Explanation
+* Class Diagram
+* Implementation
+* Applicability
+* Typical Use Case
+
+---
