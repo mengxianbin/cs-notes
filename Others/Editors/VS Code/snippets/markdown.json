@@ -1,0 +1,12 @@
+{
+	"java code": {
+		"prefix": "jc",
+		"body": [
+			"```java",
+			"$1",
+			"```",
+			"$0"
+		],
+		"description": "Java Code"
+	}
+}
