@@ -9,7 +9,8 @@
 {
     "editor.fontFamily": "Sarasa Mono SC",
     "editor.fontLigatures": true,
-    "editor.tabCompletion": "on"
+    "editor.tabCompletion": "on",
+    "plantuml.server": "https://www.plantuml.com/plantuml"
 }
 
 ```

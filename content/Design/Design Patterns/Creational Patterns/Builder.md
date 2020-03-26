@@ -9,10 +9,10 @@
 @startuml
 
 class Builder {
-    + buildPart1()
-    + buildPart2()
-    + buildPart3()
-    + getResult(): Product
+    + setProperty1(prop1)
+    + setProperty2(prop2)
+    + setProperty3(prop3)
+    + build(): Product
 }
 
 class Product {

@@ -37,3 +37,10 @@ Handler <|-- HandlerB
 
 @enduml
 ```
+
+## Examples
+
+* java.lang.ClassLoader
+* DNS server - domain resolve
+
+---
