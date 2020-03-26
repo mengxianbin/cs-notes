@@ -23,3 +23,11 @@ Adapter *-> ToolB
 
 @enduml
 ```
+
+## Examples
+
+* java.io
+    * InputStream
+    * OutputStream
+
+---

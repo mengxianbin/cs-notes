@@ -5,7 +5,7 @@ class Client {
 
 }
 
-class Invoker {
+interface Invoker {
 
 }
 
@@ -23,12 +23,31 @@ class CommandB {
 
 }
 
-Client .> Command
-Command <|.. CommandA
-Command <|.. CommandB
+Client ..> CommandA
+Client ..> CommandB
+CommandA ..right|> Command
+CommandB ..up|> Command
 
 Client .> Invoker
-Invoker o-- Command
+Invoker ..> Command
+
+interface Executor {
+
+}
+
+class Executor1 {
+
+}
+
+class Executor2 {
+
+}
+
+Invoker .> Executor
+Executor1 ..up|> Executor
+Executor2 ..up|> Executor
+
+Executor ..> Command
 
 @enduml
 ```

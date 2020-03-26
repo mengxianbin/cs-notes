@@ -1,33 +1,34 @@
+
 ```puml
 @startuml
 
 interface Mediator {
-    - communicators: Collection<Communicator>
-    + communicate()
+    + requestA(a CommunicatorA)
+    + requestB(b CommunicatorB)
+    + requestC(c CommunicatorC)
 }
 
-interface Communicator {
-    + communicate(mediator: Mediator)
+interface CommunicatorA {
+    + requestA(mediator: Mediator)
+    + responseA1()
+    + responseA2()
 }
 
-class MediatorA {
-
+interface CommunicatorB {
+    + requestB(mediator: Mediator)
+    + responseB1()
 }
 
-class Communicator1 {
-
+interface CommunicatorC {
+    + requestC(mediator: Mediator)
+    + responseC1()
+    + responseC2()
+    + responseC3()
 }
 
-class Communicator2 {
-    
-}
-
-Communicator .> Mediator
-Communicator -o Mediator
-Communicator <|.. Communicator1
-Communicator <|.. Communicator2
-
-Mediator <|.. MediatorA
+Mediator -- CommunicatorA
+Mediator -- CommunicatorB
+Mediator -- CommunicatorC
 
 @enduml
 ```

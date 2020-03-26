@@ -24,3 +24,9 @@ Proxy -> SubjectA
 
 @enduml
 ```
+
+## Examples
+
+* AOP
+
+---
