@@ -4,9 +4,21 @@
 		"body": [
 			"```java",
 			"$1",
-			"```",
-			"$0"
+			"```"
 		],
 		"description": "Java Code"
+	},
+	"uml": {
+		"prefix": "u",
+		"body": [
+			"```puml",
+			"@startuml",
+			"",
+			"$1",
+			"",
+			"@enduml",
+			"```"
+		],
+		"description": "PlantUML"
 	}
 }
