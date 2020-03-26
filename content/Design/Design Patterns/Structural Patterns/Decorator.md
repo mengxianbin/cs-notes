@@ -5,4 +5,25 @@
 [Structural Patterns](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Structural%20Patterns) /
 [Decorator](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Structural%20Patterns/Decorator)
 
-# TO DO
+```puml
+@startuml
+
+class Component {
+    + operate()
+}
+
+class ComponentA {
+    + operate()
+}
+
+class Decorator {
+    - component: Component
+    + operate()
+}
+
+ComponentA --up|> Component
+Decorator --up|> Component
+Decorator *-- Component
+
+@enduml
+```

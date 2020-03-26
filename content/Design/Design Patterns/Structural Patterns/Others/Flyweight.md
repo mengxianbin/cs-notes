@@ -6,4 +6,44 @@
 [Others](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Structural%20Patterns/Others) /
 [Flyweight](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Structural%20Patterns/Others/Flyweight)
 
-# TO DO
+```puml
+@startuml
+
+class IntrinsicState {
+
+}
+
+class ExtrinsicState {
+
+}
+
+class Flyweight {
+    - intrinsicState IntrinsicState
+    # extrinsicState ExtrinsicState
+}
+
+class FlyweightA {
+}
+
+class FlyweightB {
+}
+
+class ExtrinsicStateA {
+
+}
+
+class ExtrinsicStateB {
+
+}
+
+Flyweight --up> IntrinsicState
+Flyweight -> ExtrinsicState
+
+ExtrinsicStateA --up|> ExtrinsicState
+ExtrinsicStateB --up|> ExtrinsicState
+
+FlyweightA --up|> Flyweight
+FlyweightB --up|> Flyweight
+
+@enduml
+```
