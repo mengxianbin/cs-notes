@@ -8,20 +8,19 @@ import (
 	"net/url"
 	"os"
 	"path"
-	"path/filepath"
 	"regexp"
 	"strings"
 )
 
 var contentDir = "content"
 var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s)", contentDir))
-var ignoredFileReg = regexp.MustCompile("(README|index|404)")
+var ignoredFileReg = regexp.MustCompile("(^\\d)|(^\\.git)|(^_)|(^index)|README|LICENSE|update.go")
 
 func uriEncode(input string) string {
 	return url.PathEscape(input)
 }
 
-func writeMarkdown(parent string, fileName string, home string, parents *list.List) (string, error) {
+func writeMarkdown(parent string, fileName string, home string, parents *list.List) (title string, err error) {
 	// 读取原始文件
 	fi, err := os.Open(fmt.Sprintf("%s/%s", parent, fileName))
 	if err != nil {
@@ -40,8 +39,13 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 		panic(err)
 	}
 
+	// 创建新文件名
+	ext := path.Ext(fileName)
+	title = fileName[:len(fileName)-len(ext)]
+	newFileName := title + ".md"
+
 	// 创建 markdown
-	newPath := newParent + "/" + fileName
+	newPath := newParent + "/" + newFileName
 	file, err := os.Create(newPath)
 	if err != nil {
 		log.Printf("Markdown creating error: %#v\n", err)
@@ -49,7 +53,7 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	}
 
 	// 添加上级目录链接
-	parents.PushBack(fileName[:len(fileName)-3])
+	parents.PushBack(title)
 	pathLinks, _ := toPathLink(home, parents)
 	parents.Remove(parents.Back())
 	_, err = file.WriteString(pathLinks)
@@ -58,14 +62,26 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 		content = "# TO DO\n"
 	}
 
-	// 添加原始文件内容
+	// 添加正文偏移
 	_, err = file.WriteString("\n\n")
+
+	// 添加 markdown 块开始标记
+	if ext != ".md" {
+		_, err = file.WriteString("```" + ext[1:] + "\n")
+	}
+
+	// 添加原始文件内容
 	_, err = file.WriteString(content)
+
+	// 添加 markdown 块结束标记
+	if ext != ".md" {
+		_, err = file.WriteString("\n```\n")
+	}
 
 	// 关闭文件
 	err = file.Close()
 
-	return newPath, err
+	return
 }
 
 func toPathLink(home string, parents *list.List) (full string, last string) {
@@ -87,7 +103,7 @@ func toPathLink(home string, parents *list.List) (full string, last string) {
 	return link, path
 }
 
-// GenerateIndex 为目录递归生成 index.md
+// GenerateIndex 为目录递归生成 index 文件
 func GenerateIndex(path string, home string, parents *list.List) (err error) {
 	// 生成 .gitkeep 文件
 	keep, err := os.Create(fmt.Sprintf("%s/.gitkeep", path))
@@ -101,7 +117,7 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 		panic(err)
 	}
 
-	// 创建 index.md
+	// 创建 index 文件
 	indexPath := fmt.Sprintf("%s/index.md", indexDir)
 	indexFile, err := os.Create(indexPath)
 	if err != nil {
@@ -132,7 +148,7 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 		panic(err)
 	}
 
-	// 遍历文件名，追加到 index.md
+	// 遍历文件名，追加到 index 文件
 	for _, file := range files {
 		if strings.HasPrefix(file.Name(), ".") {
 			continue
@@ -153,13 +169,11 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 			linkTitle = file.Name()
 			linkPath = fmt.Sprintf("%s/%s/", parentLink, uriEncode(linkTitle))
 		} else { // 处理文件
-			if filepath.Ext(file.Name()) != ".md" || ignoredFileReg.MatchString(file.Name()) {
+			if ignoredFileReg.MatchString(file.Name()) {
 				continue
 			}
 
-			_, err = writeMarkdown(path, file.Name(), home, parents)
-
-			linkTitle = file.Name()[:len(file.Name())-3]
+			linkTitle, err = writeMarkdown(path, file.Name(), home, parents)
 			linkPath = fmt.Sprintf("%s/%s", parentLink, uriEncode(linkTitle))
 		}
 

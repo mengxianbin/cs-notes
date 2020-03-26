@@ -4,4 +4,6 @@
 [Editors](https://mengxianbin.github.io/cs-notes/content/Others/Editors) /
 [VS Code](https://mengxianbin.github.io/cs-notes/content/Others/Editors/VS%20Code)
 
+## [settings](https://mengxianbin.github.io/cs-notes/content/Others/Editors/VS%20Code/settings)
+
 ## [snippets](https://mengxianbin.github.io/cs-notes/content/Others/Editors/VS%20Code/snippets/)
