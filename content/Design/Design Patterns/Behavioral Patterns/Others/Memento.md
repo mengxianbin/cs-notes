@@ -6,4 +6,18 @@
 [Others](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Behavioral%20Patterns/Others) /
 [Memento](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Behavioral%20Patterns/Others/Memento)
 
-# TO DO
+```puml
+@startuml
+
+class Stateful {
+
+}
+
+class State {
+
+}
+
+Stateful +. State
+
+@enduml
+```

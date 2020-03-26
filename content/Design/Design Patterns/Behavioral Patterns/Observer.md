@@ -5,4 +5,20 @@
 [Behavioral Patterns](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Behavioral%20Patterns) /
 [Observer](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Behavioral%20Patterns/Observer)
 
-# TO DO
+```puml
+@startuml
+
+interface Observable {
+    + addObserver(observer: Observer)
+    + removeObserver(observer: Observer)
+    + notifyObservers()
+}
+
+interface Observer {
+    + update()
+}
+
+Observable o-> Observer
+
+@enduml
+```

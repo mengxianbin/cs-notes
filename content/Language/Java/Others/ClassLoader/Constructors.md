@@ -2,9 +2,9 @@
 [cs-notes](https://mengxianbin.github.io/cs-notes/content) /
 [Language](https://mengxianbin.github.io/cs-notes/content/Language) /
 [Java](https://mengxianbin.github.io/cs-notes/content/Language/Java) /
-[JVM](https://mengxianbin.github.io/cs-notes/content/Language/Java/JVM) /
-[ClassLoader](https://mengxianbin.github.io/cs-notes/content/Language/Java/JVM/ClassLoader) /
-[Constructors](https://mengxianbin.github.io/cs-notes/content/Language/Java/JVM/ClassLoader/Constructors)
+[Others](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others) /
+[ClassLoader](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others/ClassLoader) /
+[Constructors](https://mengxianbin.github.io/cs-notes/content/Language/Java/Others/ClassLoader/Constructors)
 
 ```java
     private ClassLoader(Void unused, ClassLoader parent) {

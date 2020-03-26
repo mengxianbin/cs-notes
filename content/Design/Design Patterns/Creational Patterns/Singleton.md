@@ -5,7 +5,9 @@
 [Creational Patterns](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Creational%20Patterns) /
 [Singleton](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Creational%20Patterns/Singleton)
 
-## Solutions
+# Singleton
+
+## Solution
 
 * Simple
 
@@ -19,7 +21,7 @@ class Singleton {
 @enduml
 ```
 
-* Inner Class: Instance Holder
+* Inner Class
 
 
 ```puml

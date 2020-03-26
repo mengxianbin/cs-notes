@@ -12,3 +12,5 @@
 ## [Elements](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Elements)
 
 ## [Structural Patterns](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Structural%20Patterns/)
+
+## [Summary](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Summary/)

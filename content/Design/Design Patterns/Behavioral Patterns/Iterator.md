@@ -5,4 +5,29 @@
 [Behavioral Patterns](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Behavioral%20Patterns) /
 [Iterator](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Behavioral%20Patterns/Iterator)
 
-# TO DO
+```puml
+@startuml
+
+interface Iterable<T> {
+    + interator(): Iterator<T>
+}
+
+interface Iterator<T> {
+    + hasNext(): boolean
+    + next(): T
+}
+
+class IterableA {
+
+}
+
+class IteratorA {
+
+}
+
+Iterable .> Iterator
+Iterable <|.. IterableA
+Iterator <|.. IteratorA
+
+@enduml
+```

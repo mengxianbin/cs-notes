@@ -6,4 +6,23 @@
 [Others](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Behavioral%20Patterns/Others) /
 [Null Object](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Behavioral%20Patterns/Others/Null%20Object)
 
-# TO DO
+```puml
+@startuml
+
+interface Element {
+
+}
+
+class RealElement {
+
+}
+
+class NullElement {
+
+}
+
+Element <|.. RealElement
+Element <|.. NullElement
+
+@enduml
+```

@@ -12,4 +12,6 @@
 
 ## [Others](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Creational%20Patterns/Others/)
 
+## [Simple Factory](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Creational%20Patterns/Simple%20Factory)
+
 ## [Singleton](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Creational%20Patterns/Singleton)

@@ -3,30 +3,38 @@
 [Design](https://mengxianbin.github.io/cs-notes/content/Design) /
 [Design Patterns](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns) /
 [Creational Patterns](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Creational%20Patterns) /
-[Factory Method](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Creational%20Patterns/Factory%20Method)
+[Simple Factory](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Creational%20Patterns/Simple%20Factory)
 
 ```puml
 @startuml
 
-interface Factory {
-    + createProduct(): Product
+class Client {
+
+}
+
+class SimpleFactory {
++ createProduct(): Product
 }
 
 interface Product {
 
 }
 
-class FactoryA {
-    + createProduct(): Product
+class ProductA {
+
 }
 
-class FactoryB {
-    + createProduct(): Product
+class ProductB {
+    
 }
 
-Factory -> Product
-Factory <|.. FactoryA
-Factory <|.. FactoryB
+Client --> SimpleFactory
+Client --> Product
+SimpleFactory -> Product
+SimpleFactory --> ProductA
+SimpleFactory --> ProductB
+Product <|.. ProductA
+Product <|.. ProductB
 
 @enduml
 ```

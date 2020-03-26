@@ -5,13 +5,34 @@
 [Structural Diagrams](https://mengxianbin.github.io/cs-notes/content/Design/UML/Structural%20Diagrams) /
 [Class Diagram](https://mengxianbin.github.io/cs-notes/content/Design/UML/Structural%20Diagrams/Class%20Diagram)
 
-## Class Relationship
+## Class Relationships
 
 * Dependency
 * Association
-* Aggregation
-* Composition
+    * Uni-Directional
+    * Bi-Directional
+    * Reflexive
+    * Multiplicity `0..*`
+        * Aggregation
+            * Composition
 * Generalization / Inheritance
 * Realization / Implementation
+
+---
+
+## Differences
+
+* Dependency
+    * parameter
+    * return value
+    * local access
+* Association
+    * fields
+* Aggregation
+    * contains-a
+    * lifecycle independently
+* Composition
+    * has-a
+    * lifecycle associated
 
 ---
