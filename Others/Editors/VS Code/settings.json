@@ -1,6 +1,5 @@
 {
     "editor.fontFamily": "Sarasa Mono SC",
     "editor.fontLigatures": true,
-    "editor.tabCompletion": "on",
-    "editor.autoClosingBrackets": "never"
+    "editor.tabCompletion": "on"
 }
