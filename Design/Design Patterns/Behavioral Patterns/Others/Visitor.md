@@ -1,37 +1,36 @@
 ```puml
 @startuml
 
-class Composite {
-    - elementA: ElementA
-    - elementB: ElementB
-    - elementC: ElementC
+class Structure {
+    - a: Element
+    - b: Element
+    - c: Element
     + accept(visitor: Visitor)
 }
 
-class ElementA {
-    + acceptA(visitor: Visitor)
-}
-
-class ElementB {
-    + acceptB(visitor: Visitor)
-}
-
-class ElementC {
-    + acceptC(visitor: Visitor)
+interface Element {
 }
 
 interface Visitor {
-    + visit(element: ElementA)
-    + visit(element: ElementB)
-    + visit(element: ElementC)
+    + visitA(a: Element)
+    + visitB(b: Element)
+    + visitC(c: Element)
 }
 
-Composite *--> ElementA
-Composite *--> ElementB
-Composite *--> ElementC
-ElementA -- Visitor
-ElementB -- Visitor
-ElementC -- Visitor
+Structure *-> Element
+Structure .> Visitor
+Visitor ..up> Element
 
 @enduml
 ```
+
+## Intent
+
+* Seperate an algorithm from a structure on which it operates.
+    * Add new oprations without modifying the structure.
+
+## Principles
+
+* Open-closed Principle
+
+---

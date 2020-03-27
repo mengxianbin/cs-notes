@@ -1,15 +1,18 @@
 ```puml
 @startuml
 
-class Stateful {
-
+class Stateful <State> {
+    - state: State
+    + createMemento(): Memento
+    + restore(m: Memento)
 }
 
-class State {
-
+class Memento <State> {
+    - state: State
+    + getState(): State
 }
 
-Stateful +. State
+Stateful +- Memento
 
 @enduml
 ```

@@ -8,7 +8,7 @@ interface Observable {
 }
 
 interface Observer {
-    + update()
+    + update(observable: Observable)
 }
 
 Observable o-> Observer

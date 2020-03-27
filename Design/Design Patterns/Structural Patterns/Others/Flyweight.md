@@ -1,41 +1,24 @@
 ```puml
 @startuml
 
-class IntrinsicState {
-
-}
-
-class ExtrinsicState {
-
-}
-
-class Flyweight {
-    - intrinsicState IntrinsicState
-    # extrinsicState ExtrinsicState
+interface Flyweight {
+    + operate(extrinsicState)
 }
 
 class FlyweightA {
+    - intrinsicState
+    + operate(extrinsicState)
 }
 
-class FlyweightB {
+FlyweightA ..up|> Flyweight
+
+class FlyweightFactory {
+    + getFlyweight(key): Flyweight
 }
 
-class ExtrinsicStateA {
-
-}
-
-class ExtrinsicStateB {
-
-}
-
-Flyweight --up> IntrinsicState
-Flyweight -> ExtrinsicState
-
-ExtrinsicStateA --up|> ExtrinsicState
-ExtrinsicStateB --up|> ExtrinsicState
-
-FlyweightA --up|> Flyweight
-FlyweightB --up|> Flyweight
+FlyweightFactory o. Flyweight
+Client ..up> FlyweightFactory
+Client .> FlyweightA
 
 @enduml
 ```

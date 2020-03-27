@@ -5,7 +5,7 @@ class Client {
 
 }
 
-interface Invoker {
+class Invoker {
 
 }
 
@@ -15,39 +15,23 @@ interface Command {
     + redo()
 }
 
-class CommandA {
+class CocreteCommand {
 
 }
 
-class CommandB {
+Client ..> CocreteCommand
+CocreteCommand ..up|> Command
 
-}
+Client -> Invoker
+Invoker o-> Command
 
-Client ..> CommandA
-Client ..> CommandB
-CommandA ..right|> Command
-CommandB ..up|> Command
-
-Client .> Invoker
-Invoker ..> Command
-
-interface Executor {
-
-}
-
-class Executor1 {
-
-}
-
-class Executor2 {
-
-}
-
-Invoker .> Executor
-Executor1 ..up|> Executor
-Executor2 ..up|> Executor
-
-Executor ..> Command
+CocreteCommand --> CocreteReceiver
 
 @enduml
 ```
+
+## Examples
+
+* java.util.concurrent.Executor
+
+---

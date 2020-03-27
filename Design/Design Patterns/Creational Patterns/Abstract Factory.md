@@ -40,18 +40,13 @@ class ProductB1 {
     
 }
 
-class Client {
-
-}
-
-Client -> AbstractFactory
-Client --> ProductA
-Client --> ProductB
-
 ProductB <|.. ProductB1
 ProductB <|.. ProductB2
 ProductA <|.. ProductA1
 ProductA <|.. ProductA2
+
+AbstractFactory ..> ProductA
+AbstractFactory ..> ProductB
 
 AbstractFactory <|.. Factory1
 AbstractFactory <|.. Factory2

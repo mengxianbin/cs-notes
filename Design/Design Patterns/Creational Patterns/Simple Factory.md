@@ -21,11 +21,11 @@ class ProductB {
     
 }
 
-Client --> SimpleFactory
-Client --> Product
-SimpleFactory -> Product
-SimpleFactory --> ProductA
-SimpleFactory --> ProductB
+Client ..> SimpleFactory
+Client ..> Product
+SimpleFactory .> Product
+SimpleFactory ..> ProductA
+SimpleFactory ..> ProductB
 Product <|.. ProductA
 Product <|.. ProductB
 
