@@ -7,7 +7,7 @@ storage ReactorThread {
 }
 
 (Client) -> Reactor
-Reactor --> (Acceptor)
+Reactor -- (Acceptor)
 
 (Dispatcher) --> (Handlers): read\nencode
 (Dispatcher) <-- (Handlers): write\ndecode
