@@ -12,4 +12,6 @@
 
 ## [Decorator vs Proxy](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Summary/Decorator%20vs%20Proxy)
 
+## [Flyweight vs Object Pool](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Summary/Flyweight%20vs%20Object%20Pool)
+
 ## [State vs Strategy](https://mengxianbin.github.io/cs-notes/content/Design/Design%20Patterns/Summary/State%20vs%20Strategy)

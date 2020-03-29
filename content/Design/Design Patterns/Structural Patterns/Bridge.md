@@ -8,25 +8,26 @@
 ```puml
 @startuml
 
-interface Consumer {
-    + consume()
+class Abstract {
+    - implement: Implement
+    + work()
 }
 
-interface Supplier {
-    + supply()
+interface Implement {
+    + handle()
 }
 
-class ConsumerA {
-
-}
-
-class SupplierA {
+class AbstractA {
 
 }
 
-Consumer - Supplier
-ConsumerA ..up|> Consumer
-SupplierA ..up|> Supplier
+class ImplementA {
+
+}
+
+Abstract -> Implement
+AbstractA --up|> Abstract
+ImplementA ..up|> Implement
 
 @enduml
 ```

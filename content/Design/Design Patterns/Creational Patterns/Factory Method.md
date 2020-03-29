@@ -16,6 +16,17 @@ interface Product {
 
 }
 
+class ProductA {
+
+}
+
+class ProductB {
+    
+}
+
+ProductA ..up|> Product
+ProductB ...up|> Product
+
 class FactoryA {
     + createProduct(): Product
 }
@@ -26,7 +37,10 @@ class FactoryB {
 
 Factory -> Product
 Factory <|.. FactoryA
-Factory <|.. FactoryB
+Factory <|... FactoryB
+
+FactoryA .> ProductA
+FactoryB .> ProductB
 
 @enduml
 ```

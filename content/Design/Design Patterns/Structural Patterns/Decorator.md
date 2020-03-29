@@ -8,7 +8,7 @@
 ```puml
 @startuml
 
-class Component {
+interface Component {
     + operate()
 }
 
@@ -16,14 +16,25 @@ class ComponentA {
     + operate()
 }
 
-class Decorator {
-    - component: Component
+interface Decorator {
+    # getDecorated(): Component
     + operate()
 }
 
-ComponentA --up|> Component
+ComponentA ..up|> Component
 Decorator --up|> Component
 Decorator *-- Component
+
+class Decorator1 {
+
+}
+
+class Decorator2 {
+    
+}
+
+Decorator1 ..up|> Decorator
+Decorator2 ..up|> Decorator
 
 @enduml
 ```

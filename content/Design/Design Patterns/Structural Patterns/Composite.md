@@ -22,7 +22,7 @@ class Composite {
 
 Leaf ..up|> Component
 Composite ..up|> Component
-Composite o.. Component
+Composite o-- Component
 
 class Client {
 
