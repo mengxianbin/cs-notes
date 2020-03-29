@@ -1,4 +1,6 @@
-* Time: O(n^3)
-* Space: O(n^2)
+Graph(V, E):
+
+* Time: O(V^3)
+* Space: O(V^2)
 
 ---
