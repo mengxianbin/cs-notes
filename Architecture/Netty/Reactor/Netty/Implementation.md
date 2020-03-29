@@ -3,14 +3,14 @@
 
 'left to right direction
 
-storage Client {
+'storage Client {
     (Client) as Client1
     (Client) as Client2
     (Client) as Client3
 
     Client1 -[hidden]- Client2
     Client2 -[hidden]- Client3
-}
+'}
 
 storage BossGroup <<Acceptor Pool>> {
     (NioEventLoopGroup) as NioEventLoopGroupBoss
@@ -28,7 +28,7 @@ storage EventLoop as EventLoop2 {
     queue TaskQueue as TaskQueue2
 }
 
-Client1 -> NioEventLoopGroupBoss
+Client1 -[norank]-> NioEventLoopGroupBoss
 Client2 -> NioEventLoopGroupBoss
 Client3 -[norank]-> NioEventLoopGroupBoss
 NioEventLoopGroupBoss -> NioEventLoopGroupWorker: Dispatcher
