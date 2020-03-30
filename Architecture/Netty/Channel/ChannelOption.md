@@ -7,4 +7,8 @@
 * SO_BACKLOG    // Acceptor 连接队列大小
 * SO_TIMEOUT
 
+* TCP_NODELAY
+
+* CONNECT_TIMEOUT_MILLIS
+
 ---
