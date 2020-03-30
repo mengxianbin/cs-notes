@@ -22,5 +22,19 @@
 			""
 		],
 		"description": "PlantUML"
+	},
+	"realize": {
+		"prefix": "r",
+		"body": [
+			".up.|>"
+		],
+		"description": "PlantUML Realize"
+	},
+	"generalize": {
+		"prefix": "g",
+		"body": [
+			"-up-|>"
+		],
+		"description": "PlantUML Generalize"
 	}
 }
