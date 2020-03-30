@@ -1,24 +1,3 @@
-* AbstractChannel.Unsafe
-
-```java
-    @SuppressWarnings("deprecation")
-    protected void flush0() {
-        ...
-        doWrite(outboundBuffer);
-        ...
-    }
-```
-
-* AbstractChannel
-
-```java
-    /**
-     * Flush the content of the given buffer to the remote peer.
-     */
-    protected abstract void doWrite(ChannelOutboundBuffer in) throws Exception;
-```
-
-* NioSocketChannel
 
 ```java
     @Override
