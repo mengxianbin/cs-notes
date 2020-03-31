@@ -19,3 +19,12 @@
         }
     }
 ```
+
+```java
+    final boolean offerTask(Runnable task) {
+        if (isShutdown()) {
+            reject();
+        }
+        return taskQueue.offer(task);
+    }
+```

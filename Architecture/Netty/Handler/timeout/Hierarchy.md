@@ -13,3 +13,26 @@ WriteTimeoutHandler -up-|> ChannelOutboundHandlerAdapter
 ```
 
 ---
+
+```puml
+@startuml
+
+AbstractIdleTask .up.|> Runnable
+
+class AllIdleTimeoutTask
+class ReaderIdleTimeoutTask
+class WriterIdleTimeoutTask
+
+ReaderIdleTimeoutTask -[hidden]- AllIdleTimeoutTask
+AllIdleTimeoutTask -[hidden]- WriterIdleTimeoutTask
+
+AllIdleTimeoutTask -right-|> AbstractIdleTask
+ReaderIdleTimeoutTask -[norank]-|> AbstractIdleTask
+WriterIdleTimeoutTask -[norank]-|> AbstractIdleTask
+
+IdleStateHandler +-right- AllIdleTimeoutTask
+IdleStateHandler +-[norank]- ReaderIdleTimeoutTask
+IdleStateHandler +-[norank]- WriterIdleTimeoutTask
+
+@enduml
+```
