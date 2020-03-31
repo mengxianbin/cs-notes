@@ -1,0 +1,2 @@
+* doResolveAndConnect `Bootstrap`
+    * initAndRegister `AbstractBootstrap`
