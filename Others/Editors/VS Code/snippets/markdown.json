@@ -26,14 +26,14 @@
 	"realize": {
 		"prefix": "r",
 		"body": [
-			".up.|>"
+			".up.|> "
 		],
 		"description": "PlantUML Realize"
 	},
 	"generalize": {
 		"prefix": "g",
 		"body": [
-			"-up-|>"
+			"-up-|> "
 		],
 		"description": "PlantUML Generalize"
 	}
