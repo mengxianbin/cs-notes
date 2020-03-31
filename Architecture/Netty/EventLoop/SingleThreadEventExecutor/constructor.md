@@ -34,3 +34,5 @@
         this.rejectedExecutionHandler = ObjectUtil.checkNotNull(rejectedHandler, "rejectedHandler");
     }
 ```
+
+* @See MultithreadEventExecutorGroup.constructor

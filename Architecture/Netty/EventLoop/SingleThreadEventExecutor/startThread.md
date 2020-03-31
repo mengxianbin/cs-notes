@@ -1,4 +1,8 @@
 ```java
+private volatile Thread thread;
+```
+
+```java
     @Override
     public void execute(Runnable task) {
         ObjectUtil.checkNotNull(task, "task");
