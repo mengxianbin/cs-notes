@@ -12,8 +12,8 @@ import (
 	"strings"
 )
 
-var contentDir = "content"
-var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s)", contentDir))
+var outDir = "site"
+var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s)", outDir))
 var ignoredFileReg = regexp.MustCompile("(^\\d)|(^\\.git)|(^_)|(^index)|README|LICENSE|update.go")
 
 func uriEncode(input string) string {
@@ -32,7 +32,7 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	content := string(fd)
 
 	// 创建多级目录
-	newParent := fmt.Sprintf("%s/%s", contentDir, parent)
+	newParent := fmt.Sprintf("%s/%s", outDir, parent)
 	err = os.MkdirAll(newParent, 0777)
 	if err != nil {
 		log.Printf("Directory making error: %#v\n", err)
@@ -91,7 +91,7 @@ func toPathLink(home string, parents *list.List) (full string, last string) {
 	// repo / content
 	repo := parents.Front()
 	repoName := repo.Value.(string)
-	path := fmt.Sprintf("%s/%s/%s", home, repoName, contentDir)
+	path := fmt.Sprintf("%s/%s/%s", home, repoName, outDir)
 	link += fmt.Sprintf(" /\n[%s](%s)", repoName, path)
 
 	// path list
@@ -110,7 +110,7 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 	err = keep.Close()
 
 	// 生成索引目录
-	indexDir := fmt.Sprintf("%s/%s", contentDir, path)
+	indexDir := fmt.Sprintf("%s/%s", outDir, path)
 	err = os.MkdirAll(indexDir, 0777)
 	if err != nil {
 		log.Printf("Directory making error: %#v\n", err)
@@ -198,7 +198,7 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 
 func main() {
 	// 清理旧索引文件
-	_ = os.RemoveAll(contentDir)
+	_ = os.RemoveAll(outDir)
 
 	// 获取仓库名称
 	wd, err := os.Getwd()
