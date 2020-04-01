@@ -1,11 +1,11 @@
-[content]: https://mengxianbin.github.io/cs-notes/content
+[site]: https://mengxianbin.github.io/cs-notes/site
 
-# [cs-notes][content]
+# [cs-notes][site]
 
 > brief computer science note  
 > keep updating  
 
-* [Read][content]
+* [Read][site]
 * Write
     * add or update markdown files
     * go run `update.go` to regenerate the `content` directory
