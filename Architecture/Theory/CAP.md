@@ -1,0 +1,7 @@
+## Consistency
+
+## Availability
+
+## Partition tolerance
+
+---

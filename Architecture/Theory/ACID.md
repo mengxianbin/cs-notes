@@ -1,0 +1,9 @@
+## Atomicity
+
+## Consistency
+
+## Isolation
+
+## Durability
+
+---
