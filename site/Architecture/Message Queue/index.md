@@ -5,6 +5,8 @@
 
 ## [ActiveMQ](https://mengxianbin.github.io/cs-notes/site/Architecture/Message%20Queue/ActiveMQ/)
 
+## [Compare](https://mengxianbin.github.io/cs-notes/site/Architecture/Message%20Queue/Compare)
+
 ## [Kafka](https://mengxianbin.github.io/cs-notes/site/Architecture/Message%20Queue/Kafka/)
 
 ## [RabbitMQ](https://mengxianbin.github.io/cs-notes/site/Architecture/Message%20Queue/RabbitMQ/)

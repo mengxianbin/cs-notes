@@ -2,7 +2,7 @@
 [cs-notes](https://mengxianbin.github.io/cs-notes/site) /
 [Architecture](https://mengxianbin.github.io/cs-notes/site/Architecture)
 
-## [Database Connection Pool](https://mengxianbin.github.io/cs-notes/site/Architecture/Database%20Connection%20Pool/)
+## [Database](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/)
 
 ## [Docker](https://mengxianbin.github.io/cs-notes/site/Architecture/Docker/)
 
@@ -14,9 +14,7 @@
 
 ## [Message Queue](https://mengxianbin.github.io/cs-notes/site/Architecture/Message%20Queue/)
 
-## [MongoDB](https://mengxianbin.github.io/cs-notes/site/Architecture/MongoDB/)
-
-## [Mysql](https://mengxianbin.github.io/cs-notes/site/Architecture/Mysql/)
+## [Microservice](https://mengxianbin.github.io/cs-notes/site/Architecture/Microservice/)
 
 ## [Netty](https://mengxianbin.github.io/cs-notes/site/Architecture/Netty/)
 
