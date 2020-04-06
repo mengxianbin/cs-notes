@@ -5,4 +5,8 @@
 [Collection](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection) /
 [HashMap](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/HashMap)
 
-# TO DO
+## [get](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/HashMap/get)
+
+## [hash](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/HashMap/hash)
+
+## [put](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/HashMap/put)

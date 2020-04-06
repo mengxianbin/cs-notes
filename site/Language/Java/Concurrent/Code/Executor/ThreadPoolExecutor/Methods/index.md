@@ -8,4 +8,8 @@
 [ThreadPoolExecutor](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Executor/ThreadPoolExecutor) /
 [Methods](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Executor/ThreadPoolExecutor/Methods)
 
+## [execute](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Executor/ThreadPoolExecutor/Methods/execute)
+
+## [getTask](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Executor/ThreadPoolExecutor/Methods/getTask)
+
 ## [run](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Executor/ThreadPoolExecutor/Methods/run)

@@ -7,4 +7,6 @@
 
 ## [Directory](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Directory/)
 
+## [Syscalls](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Syscalls/)
+
 ## [Vim](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Vim/)

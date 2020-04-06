@@ -6,4 +6,6 @@
 
 ## [Linux](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/)
 
+## [MacOS](https://mengxianbin.github.io/cs-notes/site/Operating%20System/MacOS/)
+
 ## [Theory](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Theory/)

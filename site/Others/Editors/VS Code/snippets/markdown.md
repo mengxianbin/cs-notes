@@ -8,15 +8,15 @@
 
 ```json
 {
-	"java code": {
-		"prefix": "jc",
+	"java": {
+		"prefix": "j",
 		"body": [
 			"```java",
 			"$1",
 			"```",
 			"$0"
 		],
-		"description": "Java Code"
+		"description": "Java Code Block"
 	},
 	"uml": {
 		"prefix": "u",
@@ -45,6 +45,33 @@
 			"-up-|> "
 		],
 		"description": "PlantUML Generalize"
+	},
+	"rectangle": {
+		"prefix": "t",
+		"body": [
+			"rectangle $1 {",
+			"\t$2",
+			"}",
+			""
+		],
+		"description": "PlantUML Rectangle"
+	},
+	"storage": {
+		"prefix": "s",
+		"body": [
+			"storage $1 {",
+			"\t$2",
+			"}",
+			""
+		],
+		"description": "PlantUML Storage"
+	},
+	"hidden": {
+		"prefix": "h",
+		"body": [
+			"-[hidden]- ",
+		],
+		"description": "PlantUML Hidden"
 	}
 }
 ```

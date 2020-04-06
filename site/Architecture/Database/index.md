@@ -7,6 +7,6 @@
 
 ## [MongoDB](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MongoDB/)
 
-## [Mysql](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Mysql/)
+## [MySQL](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/)
 
 ## [Theory](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Theory/)

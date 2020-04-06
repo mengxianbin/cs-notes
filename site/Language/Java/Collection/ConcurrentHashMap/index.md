@@ -5,4 +5,10 @@
 [Collection](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection) /
 [ConcurrentHashMap](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/ConcurrentHashMap)
 
-# TO DO
+## [get](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/ConcurrentHashMap/get)
+
+## [node hash](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/ConcurrentHashMap/node%20hash)
+
+## [put](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/ConcurrentHashMap/put)
+
+## [spread](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/ConcurrentHashMap/spread)

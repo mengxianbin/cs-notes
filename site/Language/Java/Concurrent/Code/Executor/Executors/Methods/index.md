@@ -19,3 +19,5 @@
 ## [newScheduledThreadPool](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Executor/Executors/Methods/newScheduledThreadPool)
 
 ## [newSingleThreadExecutor](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Executor/Executors/Methods/newSingleThreadExecutor)
+
+## [newSingleThreadScheduledExecutor](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Executor/Executors/Methods/newSingleThreadScheduledExecutor)
