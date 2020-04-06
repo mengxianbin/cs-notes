@@ -1,6 +1,7 @@
 ## Pros
 
 * skip heavy config of Spring
+    * `Convention is better than configuration.`
     * auto configuration
     * no xml
     * no code generation    
