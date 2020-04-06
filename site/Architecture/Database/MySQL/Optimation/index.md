@@ -5,4 +5,8 @@
 [MySQL](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL) /
 [Optimation](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/Optimation)
 
-# TO DO
+## [data access](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/Optimation/data%20access)
+
+## [explain](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/Optimation/explain)
+
+## [query](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/Optimation/query)

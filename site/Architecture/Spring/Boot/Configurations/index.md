@@ -11,6 +11,8 @@
 
 ## [Format](https://mengxianbin.github.io/cs-notes/site/Architecture/Spring/Boot/Configurations/Format)
 
+## [Innter and Outer](https://mengxianbin.github.io/cs-notes/site/Architecture/Spring/Boot/Configurations/Innter%20and%20Outer)
+
 ## [Load Order](https://mengxianbin.github.io/cs-notes/site/Architecture/Spring/Boot/Configurations/Load%20Order)
 
 ## [Profile](https://mengxianbin.github.io/cs-notes/site/Architecture/Spring/Boot/Configurations/Profile/)
