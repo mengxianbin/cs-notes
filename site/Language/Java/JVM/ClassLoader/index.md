@@ -9,6 +9,8 @@
 
 ## [Custom](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/ClassLoader/Custom)
 
+## [Instance Creation Flow](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/ClassLoader/Instance%20Creation%20Flow)
+
 ## [Launcher](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/ClassLoader/Launcher/)
 
 ## [findBootstrapClassOrNull](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/ClassLoader/findBootstrapClassOrNull)

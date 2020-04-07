@@ -18,3 +18,5 @@
 ## [Operating System](https://mengxianbin.github.io/cs-notes/site/Operating%20System/)
 
 ## [Others](https://mengxianbin.github.io/cs-notes/site/Others/)
+
+## [Pictures](https://mengxianbin.github.io/cs-notes/site/Pictures/)
