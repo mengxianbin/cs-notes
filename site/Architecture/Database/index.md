@@ -9,4 +9,6 @@
 
 ## [MySQL](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/)
 
+## [Redis](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/)
+
 ## [Theory](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Theory/)

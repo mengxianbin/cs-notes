@@ -24,8 +24,6 @@
 
 ## [Object Relational Mapping](https://mengxianbin.github.io/cs-notes/site/Architecture/Object%20Relational%20Mapping/)
 
-## [Redis](https://mengxianbin.github.io/cs-notes/site/Architecture/Redis/)
-
 ## [Spring](https://mengxianbin.github.io/cs-notes/site/Architecture/Spring/)
 
 ## [Theory](https://mengxianbin.github.io/cs-notes/site/Architecture/Theory/)
