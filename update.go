@@ -20,7 +20,12 @@ func uriEncode(input string) string {
 	return url.PathEscape(input)
 }
 
-func writeMarkdown(parent string, fileName string, home string, parents *list.List) (title string, err error) {
+func getMarkdownContent(home string, parent string, fileName string, title string, ext string) string {
+	// 处理图片
+	if strings.Contains(parent, "Pictures") {
+		return fmt.Sprintf("![%s](%s/%s/%s)", title, home, parent, uriEncode(fileName))
+	}
+
 	// 读取原始文件
 	fi, err := os.Open(fmt.Sprintf("%s/%s", parent, fileName))
 	if err != nil {
@@ -31,6 +36,15 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	fd, err := ioutil.ReadAll(fi)
 	content := string(fd)
 
+	// 添加 markdown 块标记
+	if ext != ".md" {
+		return fmt.Sprintf("```%s\n%s\n```\n", ext[1:], content)
+	}
+
+	return content
+}
+
+func writeMarkdown(parent string, fileName string, home string, parents *list.List) (title string, err error) {
 	// 创建多级目录
 	newParent := fmt.Sprintf("%s/%s", outDir, parent)
 	err = os.MkdirAll(newParent, 0777)
@@ -58,25 +72,16 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	parents.Remove(parents.Back())
 	_, err = file.WriteString(pathLinks)
 
-	if len(strings.Trim(content, "")) == 0 {
-		content = "# TO DO\n"
-	}
-
 	// 添加正文偏移
 	_, err = file.WriteString("\n\n")
 
-	// 添加 markdown 块开始标记
-	if ext != ".md" {
-		_, err = file.WriteString("```" + ext[1:] + "\n")
-	}
-
 	// 添加原始文件内容
-	_, err = file.WriteString(content)
-
-	// 添加 markdown 块结束标记
-	if ext != ".md" {
-		_, err = file.WriteString("\n```\n")
+	root := fmt.Sprintf("%s/%s", home, parents.Front().Value.(string))
+	content := getMarkdownContent(root, parent, fileName, title, ext)
+	if len(strings.Trim(content, "")) == 0 {
+		content = "# TO DO\n"
 	}
+	_, err = file.WriteString(content)
 
 	// 关闭文件
 	err = file.Close()
