@@ -8,6 +8,8 @@
 
 ## [Command](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/Command/)
 
+## [Direct Memory](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/Direct%20Memory/)
+
 ## [GC](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/GC/)
 
 ## [JMM](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/JMM/)

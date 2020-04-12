@@ -20,7 +20,7 @@
 
 ## [CyclicBarrier](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Synchronization/CyclicBarrier)
 
-## [LockSupport](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Synchronization/LockSupport)
+## [LockSupport](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Synchronization/LockSupport/)
 
 ## [Object Header](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Synchronization/Object%20Header)
 

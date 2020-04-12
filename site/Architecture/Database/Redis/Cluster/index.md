@@ -5,6 +5,8 @@
 [Redis](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis) /
 [Cluster](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Cluster)
 
+## [Cluster](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Cluster/Cluster)
+
 ## [Hash](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Cluster/Hash)
 
 ## [Replication](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Cluster/Replication)

@@ -4,6 +4,8 @@
 [TCP](https://mengxianbin.github.io/cs-notes/site/Network/TCP) /
 [connect](https://mengxianbin.github.io/cs-notes/site/Network/TCP/connect)
 
+* three-way handshake
+
 ```puml
 @startuml
 
@@ -16,3 +18,16 @@ c -> s: ACK
 
 @enduml
 ```
+
+* Server
+    * CLOSED
+    * LISTEN
+    * SYN_RCVD
+    * ESTABLISHED
+
+* Client
+    * CLOSED
+    * SYN_SENT
+    * ESTABLISHED
+
+---

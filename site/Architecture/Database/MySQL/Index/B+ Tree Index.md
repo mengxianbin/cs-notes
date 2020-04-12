@@ -32,9 +32,10 @@
 ## Primary Index
 
 * unique each table
+* save data in `data` field
 
 ## Secondary Index
 
-* save primary key in node
+* save primary key in `data` field
 
 ---

@@ -13,6 +13,6 @@
 
 ## [Set](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Data%20Types/Set)
 
-## [Sorted Set](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Data%20Types/Sorted%20Set)
-
 ## [String](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Data%20Types/String)
+
+## [ZSet](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Data%20Types/ZSet/)

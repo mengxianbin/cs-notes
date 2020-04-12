@@ -5,6 +5,8 @@
 [Concurrent](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent) /
 [Code](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code)
 
+## [Atomic](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Atomic/)
+
 ## [Executor](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Executor/)
 
 ## [ForkJoin](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/ForkJoin/)
@@ -15,4 +17,4 @@
 
 ## [Thread](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/Thread/)
 
-## [ThreadLocal](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/ThreadLocal)
+## [ThreadLocal](https://mengxianbin.github.io/cs-notes/site/Language/Java/Concurrent/Code/ThreadLocal/)

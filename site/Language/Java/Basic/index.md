@@ -14,4 +14,6 @@
 
 ## [Reference](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Reference/)
 
+## [Serialization](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Serialization/)
+
 ## [instanceof](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/instanceof/)

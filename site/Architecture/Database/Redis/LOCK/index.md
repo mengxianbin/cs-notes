@@ -5,4 +5,4 @@
 [Redis](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis) /
 [LOCK](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/LOCK)
 
-## [SETNX](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/LOCK/SETNX)
+## [commands](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/LOCK/commands)

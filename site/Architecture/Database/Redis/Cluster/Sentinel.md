@@ -6,4 +6,7 @@
 [Cluster](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Cluster) /
 [Sentinel](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/Redis/Cluster/Sentinel)
 
-# TO DO
+* 高可用
+    * master 宕机时，自动将 slave 升级为 master
+
+---

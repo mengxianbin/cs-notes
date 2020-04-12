@@ -8,4 +8,6 @@
 
 ## [MacOS](https://mengxianbin.github.io/cs-notes/site/Operating%20System/MacOS/)
 
+## [Problems](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Problems/)
+
 ## [Theory](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Theory/)

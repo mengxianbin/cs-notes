@@ -1,0 +1,36 @@
+[Home](https://mengxianbin.github.io) /
+[cs-notes](https://mengxianbin.github.io/cs-notes/site) /
+[Operating System](https://mengxianbin.github.io/cs-notes/site/Operating%20System) /
+[Linux](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux) /
+[Syscalls](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Syscalls) /
+[epoll](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Syscalls/epoll) /
+[intro](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Syscalls/epoll/intro)
+
+* 什么是 IO 多路复用
+    * 一个操作同时监听多个输入输出源
+    * 其中有一个或多个输入输出源可用时，返回
+        * 对其执行读写操作
+
+---
+
+* IO 对象
+    * 文件： file
+    * 网络： socket
+    * 进程间管道： pipe
+
+---
+
+* 事件
+    * 可读事件
+        * 当 fd 关联的内核读缓冲区可读时触发
+            * 内核缓冲区非空
+    * 可写事件
+        * 当 fd 关联的内核写缓冲区可写时触发
+            * 内核缓冲区不满
+
+---
+
+* 通知机制
+    * 事件发生时，主动通知，而非轮询
+
+---

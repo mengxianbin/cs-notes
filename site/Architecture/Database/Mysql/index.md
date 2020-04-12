@@ -10,7 +10,7 @@
 
 ## [Optimation](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/Optimation/)
 
-## [Replication](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/Replication/)
+## [Replication](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/Replication)
 
 ## [Split](https://mengxianbin.github.io/cs-notes/site/Architecture/Database/MySQL/Split)
 
