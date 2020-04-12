@@ -53,3 +53,45 @@
         interrupt0();
     }
 ```
+
+## Native
+
+* thread.cpp
+
+```cpp
+void Thread::interrupt(Thread* thread) {
+  trace("interrupt", thread);
+  debug_only(check_for_dangling_thread_pointer(thread);)
+  os::interrupt(thread);
+}
+```
+
+* os_windows.cpp
+
+```cpp
+void os::interrupt(Thread* thread) {
+  assert(!thread->is_Java_thread() || Thread::current() == thread || Threads_lock->owned_by_self(),
+         "possibility of dangling Thread pointer");
+
+  OSThread* osthread = thread->osthread();
+  osthread->set_interrupted(true);
+  // More than one thread can get here with the same value of osthread,
+  // resulting in multiple notifications.  We do, however, want the store
+  // to interrupted() to be visible to other threads before we post
+  // the interrupt event.
+  OrderAccess::release();
+  SetEvent(osthread->interrupt_event());
+  // For JSR166:  unpark after setting status
+  if (thread->is_Java_thread())
+    ((JavaThread*)thread)->parker()->unpark();
+
+  ParkEvent * ev = thread->_ParkEvent ;
+  if (ev != NULL) ev->unpark() ;
+
+}
+```
+
+* osthread->set_interrupted(true);
+* ((JavaThread*)thread)->parker()->unpark();
+
+---
