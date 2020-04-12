@@ -1,43 +1,4 @@
 ```java
-    public static void park() {
-        UNSAFE.park(false, 0L);
-    }
-```
-
-```java
-    public static void park(Object blocker) {
-        Thread t = Thread.currentThread();
-        setBlocker(t, blocker);
-        UNSAFE.park(false, 0L);
-        setBlocker(t, null);
-    }
-```
-
-```java
-    public static void unpark(Thread thread) {
-        if (thread != null)
-            UNSAFE.unpark(thread);
-    }
-```
-
-```java
-private static final sun.misc.Unsafe UNSAFE;
-
-private static final long parkBlockerOffset;
-
-static {
-    try {
-        UNSAFE = sun.misc.Unsafe.getUnsafe();
-
-        Class<?> tk = Thread.class;
-        parkBlockerOffset = UNSAFE.objectFieldOffset
-            (tk.getDeclaredField("parkBlocker"));
-
-    } catch (Exception ex) { throw new Error(ex); }
-}
-```
-
-```java
     private static void setBlocker(Thread t, Object arg) {
         // Even though volatile, hotspot doesn't need a write barrier here.
         UNSAFE.putObject(t, parkBlockerOffset, arg);
