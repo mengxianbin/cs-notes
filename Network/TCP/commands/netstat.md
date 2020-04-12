@@ -1,3 +1,9 @@
+* netstat
+    * show net status
+
+* 查看 TCP 各个状态的数量
+
+
 ```sh
 netstat -n | awk '/^tcp/ {++state[$NF]} END {for(key in state) print key,"\t",state[key]}'
 ```
@@ -14,7 +20,6 @@ CLOSING      1
 ---
 
 * 只看正常的并发连接
-
-
+    * netstat -nat|grep ESTABLISHED|wc -l
 
 ---

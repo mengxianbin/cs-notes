@@ -1,6 +1,19 @@
 * TCP
-    * 基于流
+    * Connection-based
+    * Stream oriented
+    * Reliable
+        * Sequence Number
+            * Acknowledge
+                * Re-send if lost
+            * Reassemble if out of sequence
+
 * UDP
-    * 基于数据报
+    * Connectionless
+    * Message (/ Datagram / Packet) oriented
+    * Unreliable
+        * no guarantee of
+            * reaching
+            * sequence keeping
+        * but faster
 
 ---
