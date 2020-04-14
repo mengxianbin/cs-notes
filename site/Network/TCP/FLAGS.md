@@ -21,6 +21,7 @@
     * Reset
         * condition
             * sender feels something is wrong with the TCP connection
+                * eg. receive unexpected `FLAG` or sequence number
             * the conversation should not exist
         * tell the other side to stop communication
         * the whole conversation is stopped
