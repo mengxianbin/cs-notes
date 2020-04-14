@@ -1,9 +1,8 @@
 [Home](https://mengxianbin.github.io) /
 [cs-notes](https://mengxianbin.github.io/cs-notes/site) /
 [Network](https://mengxianbin.github.io/cs-notes/site/Network) /
-[TCP](https://mengxianbin.github.io/cs-notes/site/Network/TCP) /
-[commands](https://mengxianbin.github.io/cs-notes/site/Network/TCP/commands) /
-[ping](https://mengxianbin.github.io/cs-notes/site/Network/TCP/commands/ping)
+[commands](https://mengxianbin.github.io/cs-notes/site/Network/commands) /
+[ping](https://mengxianbin.github.io/cs-notes/site/Network/commands/ping)
 
 * 检测网络连接是否正常
     * 延时
