@@ -110,10 +110,6 @@ func toPathLink(home string, parents *list.List) (full string, last string) {
 
 // GenerateIndex 为目录递归生成 index 文件
 func GenerateIndex(path string, home string, parents *list.List) (err error) {
-	// 生成 .gitkeep 文件
-	keep, err := os.Create(fmt.Sprintf("%s/.gitkeep", path))
-	err = keep.Close()
-
 	// 生成索引目录
 	indexDir := fmt.Sprintf("%s/%s", outDir, path)
 	err = os.MkdirAll(indexDir, 0777)
@@ -138,10 +134,21 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 	itemCount := 0
 	defer func() {
 		if itemCount == 0 {
+			// 生成 TO DO
 			_, err = indexFile.WriteString("\n\n# TO DO")
+
+			// 生成 .gitkeep 文件
+			keep, _ := os.Create(fmt.Sprintf("%s/.gitkeep", path))
+			err = keep.Close()
+		} else {
+			// 移除冗余的 .gitkeep 文件
+			os.Remove(fmt.Sprintf("%s/.gitkeep", path))
 		}
 
+		// 添加结束行
 		_, err = indexFile.WriteString("\n")
+
+		// 关闭索引文件
 		err = indexFile.Close()
 		log.Printf("Index file closed: path=%s, itemCount=%d.", path, itemCount)
 	}()
