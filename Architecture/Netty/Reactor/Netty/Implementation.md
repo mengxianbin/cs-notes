@@ -42,22 +42,22 @@ TaskQueue1 --> Channel1
 TaskQueue1 --> Channel2
 
 storage Pipeline as Pipeline1 {
-    [Channel Handler] as ChannelHandler1
-    [Channel Handler] as ChannelHandler2
-    [Channel Handler] as ChannelHandler3
+    [Channel Handler Context] as ChannelHandlerContext1
+    [Channel Handler Context] as ChannelHandlerContext2
+    [Channel Handler Context] as ChannelHandlerContext3
 
-    ChannelHandler1 --> ChannelHandler2
-    ChannelHandler2 --> ChannelHandler3
+    ChannelHandlerContext1 --> ChannelHandlerContext2
+    ChannelHandlerContext2 --> ChannelHandlerContext3
 }
 
 storage Pipeline as Pipeline2 {
 
 }
 
-Channel1 --> ChannelHandler1
+Channel1 --> ChannelHandlerContext1
 Channel2 --> Pipeline2
 
-ChannelHandler1 -left- [ChannelHandlerContext]
+ChannelHandlerContext1 -left- [ChannelHandler]
 
 @enduml
 ```
