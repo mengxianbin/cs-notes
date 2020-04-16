@@ -6,6 +6,8 @@
 
 ## [Design Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/)
 
+## [Others](https://mengxianbin.github.io/cs-notes/site/Design/Others/)
+
 ## [Principles](https://mengxianbin.github.io/cs-notes/site/Design/Principles/)
 
 ## [Refactoring](https://mengxianbin.github.io/cs-notes/site/Design/Refactoring/)

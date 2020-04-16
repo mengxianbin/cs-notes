@@ -10,6 +10,8 @@
 
 ## [IO](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/IO/)
 
+## [Math](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Math/)
+
 ## [Object](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Object/)
 
 ## [Reference](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Reference/)
