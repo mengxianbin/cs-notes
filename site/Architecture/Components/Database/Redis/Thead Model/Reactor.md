@@ -1,0 +1,29 @@
+[Home](https://mengxianbin.github.io) /
+[cs-notes](https://mengxianbin.github.io/cs-notes/site) /
+[Architecture](https://mengxianbin.github.io/cs-notes/site/Architecture) /
+[Components](https://mengxianbin.github.io/cs-notes/site/Architecture/Components) /
+[Database](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database) /
+[Redis](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis) /
+[Thead Model](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Thead%20Model) /
+[Reactor](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Thead%20Model/Reactor)
+
+# Reactor 模式
+
+* 网络事件处理器
+* 文件事件处理器
+
+## 组成
+
+* 多个套接字
+* IO 多路复用程序
+* 文件事件分派器
+* 事件处理器
+
+---
+
+## 所谓 “单线程”
+
+* 文件事件分派器队列的消费是单线程的
+    * 所以才叫单线程模型
+
+---

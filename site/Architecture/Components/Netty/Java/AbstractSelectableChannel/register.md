@@ -1,0 +1,64 @@
+[Home](https://mengxianbin.github.io) /
+[cs-notes](https://mengxianbin.github.io/cs-notes/site) /
+[Architecture](https://mengxianbin.github.io/cs-notes/site/Architecture) /
+[Components](https://mengxianbin.github.io/cs-notes/site/Architecture/Components) /
+[Netty](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty) /
+[Java](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java) /
+[AbstractSelectableChannel](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/AbstractSelectableChannel) /
+[register](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/AbstractSelectableChannel/register)
+
+```java
+    /**
+     * Registers this channel with the given selector, returning a selection key.
+     *
+     * <p>  This method first verifies that this channel is open and that the
+     * given initial interest set is valid.
+     *
+     * <p> If this channel is already registered with the given selector then
+     * the selection key representing that registration is returned after
+     * setting its interest set to the given value.
+     *
+     * <p> Otherwise this channel has not yet been registered with the given
+     * selector, so the {@link AbstractSelector#register register} method of
+     * the selector is invoked while holding the appropriate locks.  The
+     * resulting key is added to this channel's key set before being returned.
+     * </p>
+     *
+     * @throws  ClosedSelectorException {@inheritDoc}
+     *
+     * @throws  IllegalBlockingModeException {@inheritDoc}
+     *
+     * @throws  IllegalSelectorException {@inheritDoc}
+     *
+     * @throws  CancelledKeyException {@inheritDoc}
+     *
+     * @throws  IllegalArgumentException {@inheritDoc}
+     */
+    public final SelectionKey register(Selector sel, int ops, Object att)
+        throws ClosedChannelException
+    {
+        if ((ops & ~validOps()) != 0)
+            throw new IllegalArgumentException();
+        if (!isOpen())
+            throw new ClosedChannelException();
+        synchronized (regLock) {
+            if (isBlocking())
+                throw new IllegalBlockingModeException();
+            synchronized (keyLock) {
+                // re-check if channel has been closed
+                if (!isOpen())
+                    throw new ClosedChannelException();
+                SelectionKey k = findKey(sel);
+                if (k != null) {
+                    k.attach(att);
+                    k.interestOps(ops);
+                } else {
+                    // New registration
+                    k = ((AbstractSelector)sel).register(this, ops, att);
+                    addKey(k);
+                }
+                return k;
+            }
+        }
+    }
+```
