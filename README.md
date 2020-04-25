@@ -8,7 +8,7 @@
 * [Read][site]
 * Write
     * add or update markdown files
-    * go run `update.go` to regenerate the `content` directory
+    * go run `update.go` to regenerate the `site` directory
     * commit and push
 
 ---
