@@ -2,7 +2,7 @@
 
 # [cs-notes][site]
 
-> brief computer science note  
+> brief computer science notes  
 > keep updating  
 
 * [Read][site]
