@@ -83,5 +83,12 @@
 			"$0"
 		],
 		"description": "HTTP"
+	},
+	"left": {
+		"prefix": "l",
+		"body": [
+			"<- "
+		],
+		"description": "Left Arrow"
 	}
 }
