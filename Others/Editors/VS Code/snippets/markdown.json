@@ -90,5 +90,9 @@
 			"<- "
 		],
 		"description": "Left Arrow"
+	},
+	"arrow with comment": {
+		"prefix": "t",
+		"body": "-$1-> "
 	}
 }
