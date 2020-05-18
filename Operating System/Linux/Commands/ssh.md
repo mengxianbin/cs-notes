@@ -1,3 +1,7 @@
-* 指定用户名
-    * `ssh -l username host`
-    
+* -l login_name
+
+---
+
+* sshpass
+
+---
