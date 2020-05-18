@@ -1,14 +1,26 @@
-* 网络客户端 -> 本地 DNS 服务器（LDNS）
-    * LDNS -> DNS 根服务器
-        * DNS 根服务器 -> LDNS   ：域名服务器 (如 .com)
-    * LDNS -> 域名服务器
-        * 域名服务器 -> LDNS     ：网站授权 DNS 服务器（如 163.com）
-    * LDNS -> 授权 DNS 服务器
-        * 授权 DNS 服务器 -> LDNS    ：智能 DNS 调度
-    * LDNS -> 智能 DNS 调度
-        * 智能调度 -> LDNS      ：根据客户来源返回不同 IP 地址
+> 无 CDN
 
-* LDNS -> 网络客户端    ：本地 CDN 边缘节点 IP
+* 用户 -> LDNS
+* LDNS -> 根域名服务器
+* LDNS -> 顶级域名服务器
+* LDNS -> 二级域名服务器
+* LDNS -> 权威域名服务器
+* 用户 -> 源站
+
+---
+
+> 有 CDN
+
+* 用户 -> LDNS
+* LDNS -> 根域名服务器
+* LDNS -> 顶级域名服务器
+* LDNS -> 二级域名服务器
+* LDNS -> 权威域名服务器
+* LDNS -> 智能调度 DNS
+* 用户 -> CDN 边缘节点
+* CDN 边缘节点 -> CDN 内部 DNS
+* CDN 边缘节点 -> CDN 上层节点
+* CDN 上层节点 -> 源站
 
 ---
 
