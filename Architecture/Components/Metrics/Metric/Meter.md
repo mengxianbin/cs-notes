@@ -1,4 +1,14 @@
 ```java
+/**
+ * A meter metric which measures mean throughput and one-, five-, and fifteen-minute
+ * exponentially-weighted moving average throughputs.
+ *
+ * @see EWMA
+ */
+public class Meter implements Metered {
+```
+
+```java
     private final EWMA m1Rate = EWMA.oneMinuteEWMA();
     private final EWMA m5Rate = EWMA.fiveMinuteEWMA();
     private final EWMA m15Rate = EWMA.fifteenMinuteEWMA();

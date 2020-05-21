@@ -1,4 +1,8 @@
 ```java
+/**
+ * A timer metric which aggregates timing durations and provides duration statistics, plus
+ * throughput statistics via {@link Meter}.
+ */
 public class Timer implements Metered, Sampling {
     /**
      * A timing context.
