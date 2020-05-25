@@ -10,7 +10,8 @@
     "editor.fontFamily": "Sarasa Mono SC",
     "editor.fontLigatures": true,
     "editor.tabCompletion": "on",
-    "plantuml.server": "https://www.plantuml.com/plantuml"
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": false
 }
 
 ```
