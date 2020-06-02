@@ -1,4 +1,4 @@
-* -n
-* -r
+* -n, --numeric-sort
+* -r, --reverse
 
 ---
