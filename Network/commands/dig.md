@@ -1,3 +1,0 @@
-* dig - DNS lookup utility
-
----
