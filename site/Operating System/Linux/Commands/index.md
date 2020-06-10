@@ -38,6 +38,8 @@
 
 ## [gzip](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/gzip)
 
+## [head](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/head)
+
 ## [ifconfig](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ifconfig)
 
 ## [iptables](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/iptables)
@@ -52,6 +54,8 @@
 
 ## [man](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/man)
 
+## [md5sum](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/md5sum)
+
 ## [mkdir](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/mkdir)
 
 ## [mount](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/mount)
@@ -59,6 +63,8 @@
 ## [mv](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/mv)
 
 ## [netstat](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/netstat)
+
+## [nohup](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/nohup)
 
 ## [passwd](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/passwd)
 
@@ -82,13 +88,21 @@
 
 ## [ssh](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ssh)
 
+## [sudo](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/sudo)
+
 ## [tail](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/tail)
 
 ## [tar](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/tar)
 
+## [tee](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/tee)
+
+## [telnet](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/telnet)
+
 ## [top](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/top)
 
 ## [uname](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/uname)
+
+## [uniq](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/uniq)
 
 ## [uptime](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/uptime)
 

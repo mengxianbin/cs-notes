@@ -5,8 +5,6 @@
 
 ## [Database](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/)
 
-## [Distribution](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Distribution/)
-
 ## [Docker](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Docker/)
 
 ## [Dubbo](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Dubbo/)
@@ -17,7 +15,11 @@
 
 ## [Kubernetes](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Kubernetes/)
 
+## [Log](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Log/)
+
 ## [Message Queue](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Message%20Queue/)
+
+## [Metrics](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Metrics/)
 
 ## [Microservice](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Microservice/)
 
@@ -28,6 +30,10 @@
 ## [Nginx](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Nginx/)
 
 ## [Object Relational Mapping](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Object%20Relational%20Mapping/)
+
+## [Others](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Others/)
+
+## [Scheduler](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Scheduler/)
 
 ## [Spring](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Spring/)
 

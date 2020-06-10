@@ -5,4 +5,9 @@
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands) /
 [curl](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/curl)
 
-# TO DO
+* `-d/--data <data>`
+* `-H, --header <header/@file>`
+* `-X, --request <command>`
+* `-i/--include`
+
+---

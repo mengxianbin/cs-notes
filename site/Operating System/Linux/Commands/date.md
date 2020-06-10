@@ -5,4 +5,7 @@
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands) /
 [date](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/date)
 
-# TO DO
+* 毫秒时间戳
+    * date +%s%3N
+
+---

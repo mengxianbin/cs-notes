@@ -1,0 +1,7 @@
+[Home](https://mengxianbin.github.io) /
+[cs-notes](https://mengxianbin.github.io/cs-notes/site) /
+[Network](https://mengxianbin.github.io/cs-notes/site/Network) /
+[CDN](https://mengxianbin.github.io/cs-notes/site/Network/CDN) /
+[Problems](https://mengxianbin.github.io/cs-notes/site/Network/CDN/Problems)
+
+## [动态页面如何加速](https://mengxianbin.github.io/cs-notes/site/Network/CDN/Problems/%E5%8A%A8%E6%80%81%E9%A1%B5%E9%9D%A2%E5%A6%82%E4%BD%95%E5%8A%A0%E9%80%9F)

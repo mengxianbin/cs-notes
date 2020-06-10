@@ -18,6 +18,16 @@
 		],
 		"description": "Java Code Block"
 	},
+	"c": {
+		"prefix": "c",
+		"body": [
+			"```c",
+			"$1",
+			"```",
+			"$0"
+		],
+		"description": "C Code Block"
+	},
 	"uml": {
 		"prefix": "u",
 		"body": [
@@ -72,6 +82,27 @@
 			"-[hidden]- ",
 		],
 		"description": "PlantUML Hidden"
+	},
+	"http": {
+		"prefix": "ht",
+		"body": [
+			"```http",
+			"$1",
+			"```",
+			"$0"
+		],
+		"description": "HTTP"
+	},
+	"left": {
+		"prefix": "l",
+		"body": [
+			"<- "
+		],
+		"description": "Left Arrow"
+	},
+	"arrow with comment": {
+		"prefix": "t",
+		"body": "-$1-> "
 	}
 }
 ```

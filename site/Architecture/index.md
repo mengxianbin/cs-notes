@@ -5,3 +5,5 @@
 ## [Components](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/)
 
 ## [Problems](https://mengxianbin.github.io/cs-notes/site/Architecture/Problems/)
+
+## [Theme](https://mengxianbin.github.io/cs-notes/site/Architecture/Theme/)

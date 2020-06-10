@@ -1,13 +1,13 @@
 [Home](https://mengxianbin.github.io) /
 [cs-notes](https://mengxianbin.github.io/cs-notes/site) /
 [Network](https://mengxianbin.github.io/cs-notes/site/Network) /
-[commands](https://mengxianbin.github.io/cs-notes/site/Network/commands) /
-[others](https://mengxianbin.github.io/cs-notes/site/Network/commands/others)
+[Commands](https://mengxianbin.github.io/cs-notes/site/Network/Commands) /
+[others](https://mengxianbin.github.io/cs-notes/site/Network/Commands/others)
 
-## [mtr](https://mengxianbin.github.io/cs-notes/site/Network/commands/others/mtr)
+## [mtr](https://mengxianbin.github.io/cs-notes/site/Network/Commands/others/mtr)
 
-## [pathping](https://mengxianbin.github.io/cs-notes/site/Network/commands/others/pathping)
+## [pathping](https://mengxianbin.github.io/cs-notes/site/Network/Commands/others/pathping)
 
-## [sar](https://mengxianbin.github.io/cs-notes/site/Network/commands/others/sar)
+## [sar](https://mengxianbin.github.io/cs-notes/site/Network/Commands/others/sar)
 
-## [traceroot](https://mengxianbin.github.io/cs-notes/site/Network/commands/others/traceroot)
+## [traceroot](https://mengxianbin.github.io/cs-notes/site/Network/Commands/others/traceroot)
