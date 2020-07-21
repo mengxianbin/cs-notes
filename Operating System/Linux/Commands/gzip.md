@@ -6,7 +6,6 @@ OPTIONS
               Decompress.
 ```
 
-
 ```man
 OPTIONS
        -c --stdout --to-stdout
