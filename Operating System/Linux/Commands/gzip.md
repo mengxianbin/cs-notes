@@ -2,6 +2,8 @@
 OPTIONS
        -k --keep
               Keep (don't delete) input files during compression or decompression.
+       -d --decompress --uncompress
+              Decompress.
 ```
 
 
