@@ -1,9 +1,10 @@
-* -c --count
-* -i --ignore-case
-* -v --invert-match
+* -c, --count
+* -i, --ignore-case
+* -v, --invert-match
 * -m NUM, --max-count=NUM
-* -o --only-matching
-* -w --word-regexp
+* -o, --only-matching
+* -w, --word-regexp
+* -P, --perl-regexp
 
 ---
 
