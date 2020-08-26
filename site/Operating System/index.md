@@ -12,4 +12,6 @@
 
 ## [Theory](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Theory/)
 
+## [WSL](https://mengxianbin.github.io/cs-notes/site/Operating%20System/WSL/)
+
 ## [Windows](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Windows/)

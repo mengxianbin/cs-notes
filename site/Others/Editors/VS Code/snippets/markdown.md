@@ -103,6 +103,20 @@
 	"arrow with comment": {
 		"prefix": "t",
 		"body": "-$1-> "
+	},
+	"strikethrough": {
+		"prefix": "st",
+		"body": "~~$1~~"
+	},
+	"shell": {
+		"prefix": "sh",
+		"body": [
+			"```sh",
+			"$1",
+			"```",
+			"$0"
+		],
+		"description": "Shell Code Block"
 	}
 }
 ```

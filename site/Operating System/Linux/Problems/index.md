@@ -5,3 +5,5 @@
 [Problems](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Problems)
 
 ## [CPU 100% Used](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Problems/CPU%20100%25%20Used)
+
+## [file type](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Problems/file%20type)

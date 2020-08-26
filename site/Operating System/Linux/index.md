@@ -9,6 +9,10 @@
 
 ## [Problems](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Problems/)
 
+## [Shell](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Shell/)
+
 ## [Syscalls](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Syscalls/)
+
+## [Terminal](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Terminal/)
 
 ## [Vim](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Vim/)
