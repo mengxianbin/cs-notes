@@ -1,3 +1,5 @@
+> sudo, sudoedit — execute a command as another user
+
 ```man
      -i [command]
                  The -i (simulate initial login) option runs the shell specified by the password database
