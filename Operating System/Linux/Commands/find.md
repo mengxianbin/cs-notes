@@ -6,3 +6,14 @@
 # find . -type f -perm 644 -exec ls -l {} \;
 # find / -type f -size 0 -exec ls -l {} \;
 ```
+
+---
+
+```man
+-name
+-type
+
+-maxdepth
+```
+
+---
