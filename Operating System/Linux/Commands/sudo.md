@@ -12,3 +12,34 @@
                  Environment section in the sudoers(5) manual documents how the -i option affects the envi-
                  ronment in which a command is run when the sudoers policy is in use.
 ```
+
+```man
+     -U user     The -U (other user) option is used in conjunction with the -l
+                 option to specify the user whose privileges should be listed.
+                 The security policy may restrict listing other users’ privi-
+                 leges.  The sudoers policy only allows root or a user with
+                 the ALL privilege on the current host to use this option.
+
+     -u user     The -u (user) option causes sudo to run the specified command
+                 as a user other than root.  To specify a uid instead of a
+                 user name, #uid.  When running commands as a uid, many shells
+                 require that the ‘#’ be escaped with a backslash (‘\’).
+                 Security policies may restrict uids to those listed in the
+                 password database.  The sudoers policy allows uids that are
+                 not in the password database as long as the targetpw option
+                 is not set.  Other security policies may not support this.
+```
+
+```man
+     -l[l] [command]
+                 If no command is specified, the -l (list) option will list
+                 the allowed (and forbidden) commands for the invoking user
+                 (or the user specified by the -U option) on the current host.
+                 If a command is specified and is permitted by the security
+                 policy, the fully-qualified path to the command is displayed
+                 along with any command line arguments.  If command is speci-
+                 fied but not allowed, sudo will exit with a status value of
+                 1.  If the -l option is specified with an l argument (i.e.
+                 -ll), or if -l is specified multiple times, a longer list
+                 format is used.
+```
