@@ -10,6 +10,8 @@
 
 ## [diff](https://mengxianbin.github.io/cs-notes/site/Others/VCS/Git/diff)
 
+## [log](https://mengxianbin.github.io/cs-notes/site/Others/VCS/Git/log)
+
 ## [rebase](https://mengxianbin.github.io/cs-notes/site/Others/VCS/Git/rebase)
 
 ## [reset](https://mengxianbin.github.io/cs-notes/site/Others/VCS/Git/reset)

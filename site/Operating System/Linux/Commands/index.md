@@ -4,7 +4,15 @@
 [Linux](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux) /
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands)
 
+## [Concepts](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/Concepts/)
+
+## [Problems](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/Problems/)
+
+## [alternatives](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/alternatives)
+
 ## [awk](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/awk)
+
+## [basename](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/basename)
 
 ## [cat](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/cat)
 
@@ -23,6 +31,8 @@
 ## [date](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/date)
 
 ## [diff](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/diff)
+
+## [disown](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/disown)
 
 ## [echo](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/echo)
 
@@ -64,6 +74,8 @@
 
 ## [netstat](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/netstat)
 
+## [nl](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/nl)
+
 ## [nohup](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/nohup)
 
 ## [passwd](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/passwd)
@@ -82,6 +94,8 @@
 
 ## [service](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/service)
 
+## [sh](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/sh)
+
 ## [shutdown](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/shutdown)
 
 ## [sort](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/sort)
@@ -94,11 +108,17 @@
 
 ## [tar](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/tar)
 
+## [tcpdump](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/tcpdump)
+
 ## [tee](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/tee)
 
 ## [telnet](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/telnet)
 
+## [test](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/test)
+
 ## [top](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/top)
+
+## [tr](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/tr)
 
 ## [uname](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/uname)
 
@@ -112,10 +132,14 @@
 
 ## [w](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/w)
 
+## [wc](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/wc)
+
 ## [wget](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/wget)
 
 ## [whatis](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/whatis)
 
 ## [whereis](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/whereis)
+
+## [xargs](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/xargs)
 
 ## [yum](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/yum)

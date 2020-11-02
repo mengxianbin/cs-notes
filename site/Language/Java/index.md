@@ -13,4 +13,6 @@
 
 ## [Others](https://mengxianbin.github.io/cs-notes/site/Language/Java/Others/)
 
+## [Problems](https://mengxianbin.github.io/cs-notes/site/Language/Java/Problems/)
+
 ## [Tool](https://mengxianbin.github.io/cs-notes/site/Language/Java/Tool/)

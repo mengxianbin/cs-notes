@@ -1,6 +1,7 @@
 * -e script, --expression=script
 * -n, --quiet, --silent
 * -r, --regexp-extended
+* -i[SUFFIX], --in-place[=SUFFIX]
 
 ---
 
