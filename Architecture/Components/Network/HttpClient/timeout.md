@@ -1,3 +1,0 @@
-* connectionRequestTimeout
-* connectTimeout
-* socketTimeout
