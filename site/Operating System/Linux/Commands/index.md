@@ -14,6 +14,8 @@
 
 ## [basename](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/basename)
 
+## [bg](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/bg)
+
 ## [cat](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/cat)
 
 ## [cd](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/cd)
@@ -36,7 +38,11 @@
 
 ## [echo](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/echo)
 
+## [env](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/env)
+
 ## [export](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/export)
+
+## [fg](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/fg)
 
 ## [find](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/find)
 
@@ -50,9 +56,13 @@
 
 ## [head](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/head)
 
+## [help](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/help)
+
 ## [ifconfig](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ifconfig)
 
 ## [iptables](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/iptables)
+
+## [jobs](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/jobs)
 
 ## [kill](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/kill)
 
@@ -62,7 +72,11 @@
 
 ## [lsof](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/lsof)
 
+## [make](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/make)
+
 ## [man](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/man)
+
+## [mapfile](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/mapfile)
 
 ## [md5sum](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/md5sum)
 
@@ -84,23 +98,45 @@
 
 ## [ps](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ps)
 
+## [putenv](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/putenv)
+
 ## [pwd](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/pwd)
+
+## [rcp](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/rcp)
+
+## [read](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/read)
 
 ## [rm](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/rm)
 
 ## [rpm](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/rpm)
 
+## [scp](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/scp)
+
 ## [sed](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/sed)
+
+## [seq](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/seq)
 
 ## [service](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/service)
 
+## [set](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/set)
+
+## [setenv](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/setenv)
+
 ## [sh](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/sh)
+
+## [shopt](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/shopt)
 
 ## [shutdown](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/shutdown)
 
 ## [sort](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/sort)
 
+## [source](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/source)
+
 ## [ssh](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ssh)
+
+## [strace](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/strace)
+
+## [su](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/su)
 
 ## [sudo](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/sudo)
 
@@ -119,6 +155,8 @@
 ## [top](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/top)
 
 ## [tr](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/tr)
+
+## [tty](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/tty)
 
 ## [uname](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/uname)
 
@@ -140,6 +178,10 @@
 
 ## [whereis](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/whereis)
 
+## [which](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/which)
+
 ## [xargs](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/xargs)
 
 ## [yum](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/yum)
+
+## [zcat](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/zcat)

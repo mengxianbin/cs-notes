@@ -5,4 +5,7 @@
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands) /
 [echo](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/echo)
 
-# TO DO
+* -n     do not output the trailing newline
+* -e     enable interpretation of backslash escapes
+
+---

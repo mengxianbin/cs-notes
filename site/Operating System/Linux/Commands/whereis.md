@@ -5,4 +5,6 @@
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands) /
 [whereis](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/whereis)
 
-# TO DO
+> whereis - locate the binary, source, and manual page files for a command
+
+---

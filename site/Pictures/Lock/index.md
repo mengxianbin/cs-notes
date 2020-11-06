@@ -7,6 +7,10 @@
 
 ## [Synchronization](https://mengxianbin.github.io/cs-notes/site/Pictures/Lock/Synchronization)
 
+## [monitor](https://mengxianbin.github.io/cs-notes/site/Pictures/Lock/monitor)
+
+## [synchronized & object header](https://mengxianbin.github.io/cs-notes/site/Pictures/Lock/synchronized%20&%20object%20header)
+
 ## [synchronized 原理](https://mengxianbin.github.io/cs-notes/site/Pictures/Lock/synchronized%20%E5%8E%9F%E7%90%86)
 
 ## [偏向锁的获得和撤销流程](https://mengxianbin.github.io/cs-notes/site/Pictures/Lock/%E5%81%8F%E5%90%91%E9%94%81%E7%9A%84%E8%8E%B7%E5%BE%97%E5%92%8C%E6%92%A4%E9%94%80%E6%B5%81%E7%A8%8B)
