@@ -5,7 +5,7 @@
 [Structural Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns) /
 [Bridge](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns/Bridge)
 
-```puml
+```plantuml
 @startuml
 
 class Abstract {

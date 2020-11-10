@@ -7,7 +7,7 @@
 [SelectorProvider](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/SelectorProvider) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/SelectorProvider/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 SelectorProviderImpl -up-|> SelectorProvider

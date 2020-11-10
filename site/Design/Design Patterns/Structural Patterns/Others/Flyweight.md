@@ -6,7 +6,7 @@
 [Others](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns/Others) /
 [Flyweight](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns/Others/Flyweight)
 
-```puml
+```plantuml
 @startuml
 
 interface Flyweight {

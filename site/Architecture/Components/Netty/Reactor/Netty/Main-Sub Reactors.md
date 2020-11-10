@@ -7,7 +7,7 @@
 [Netty](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Reactor/Netty) /
 [Main-Sub Reactors](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Reactor/Netty/Main-Sub%20Reactors)
 
-```puml
+```plantuml
 @startuml
 
 (Client\nClient\nClient) as Client

@@ -3,7 +3,7 @@
 
 ---
 
-```puml
+```plantuml
 @startuml
 
 epoll_create -> RB Tree

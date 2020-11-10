@@ -7,7 +7,7 @@
 [Mediator](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns/Others/Mediator)
 
 
-```puml
+```plantuml
 @startuml
 
 interface Mediator {

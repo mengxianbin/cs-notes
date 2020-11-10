@@ -7,7 +7,7 @@
 [timeout](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Handler/timeout) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Handler/timeout/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 ChannelInboundHandlerAdapter -up-|> ChannelHandlerAdapter
@@ -23,7 +23,7 @@ WriteTimeoutHandler -up-|> ChannelOutboundHandlerAdapter
 
 ---
 
-```puml
+```plantuml
 @startuml
 
 AbstractIdleTask .up.|> Runnable

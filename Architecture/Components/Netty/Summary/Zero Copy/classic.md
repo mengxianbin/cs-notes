@@ -1,5 +1,5 @@
 
-```puml
+```plantuml
 @startuml
 
 rectangle "User Context" as uc1 {

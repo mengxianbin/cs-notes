@@ -6,7 +6,7 @@
 [Channel](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Channel) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Channel/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 AbstractChannel -up-|> DefaultAttributeMap

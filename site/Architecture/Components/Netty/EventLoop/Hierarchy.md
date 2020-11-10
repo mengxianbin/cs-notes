@@ -6,7 +6,7 @@
 [EventLoop](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/EventLoop) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/EventLoop/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 package java.util.concurrent {

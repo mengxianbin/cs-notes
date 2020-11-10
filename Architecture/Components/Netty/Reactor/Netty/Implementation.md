@@ -1,4 +1,4 @@
-```puml
+```plantuml
 @startuml
 
 'left to right direction

@@ -6,7 +6,7 @@
 [Bootstrap](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Bootstrap) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Bootstrap/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 class AbstractBootstrap {

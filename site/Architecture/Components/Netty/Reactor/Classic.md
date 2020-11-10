@@ -6,7 +6,7 @@
 [Reactor](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Reactor) /
 [Classic](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Reactor/Classic)
 
-```puml
+```plantuml
 @startuml
 
 (Reactor) -- (Acceptor)

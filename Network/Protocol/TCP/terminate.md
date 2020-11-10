@@ -1,4 +1,4 @@
-```puml
+```plantuml
 @startuml
 
 actor Client as c

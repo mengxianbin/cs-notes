@@ -31,7 +31,7 @@
 	"uml": {
 		"prefix": "u",
 		"body": [
-			"```puml",
+			"```plantuml",
 			"@startuml",
 			"",
 			"$0",

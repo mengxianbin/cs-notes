@@ -7,7 +7,7 @@
 [DefaultChannelPipeline](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Pipeline/DefaultChannelPipeline) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Pipeline/DefaultChannelPipeline/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 HeadContext -up-+ DefaultChannelPipeline

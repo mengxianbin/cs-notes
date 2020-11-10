@@ -5,7 +5,7 @@
 [Structural Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns) /
 [Adapter](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns/Adapter)
 
-```puml
+```plantuml
 @startuml
 
 class Client {

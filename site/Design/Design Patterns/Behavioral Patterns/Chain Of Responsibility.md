@@ -5,7 +5,7 @@
 [Behavioral Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns) /
 [Chain Of Responsibility](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns/Chain%20Of%20Responsibility)
 
-```puml
+```plantuml
 @startuml
 
 class Client {

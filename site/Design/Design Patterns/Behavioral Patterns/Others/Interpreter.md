@@ -6,7 +6,7 @@
 [Others](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns/Others) /
 [Interpreter](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns/Others/Interpreter)
 
-```puml
+```plantuml
 @startuml
 
 class Client {

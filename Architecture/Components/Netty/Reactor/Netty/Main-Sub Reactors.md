@@ -1,4 +1,4 @@
-```puml
+```plantuml
 @startuml
 
 (Client\nClient\nClient) as Client

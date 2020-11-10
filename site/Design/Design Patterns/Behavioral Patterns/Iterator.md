@@ -5,7 +5,7 @@
 [Behavioral Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns) /
 [Iterator](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns/Iterator)
 
-```puml
+```plantuml
 @startuml
 
 interface Iterable<T> {

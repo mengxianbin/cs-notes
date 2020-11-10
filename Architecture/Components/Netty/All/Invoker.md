@@ -1,5 +1,5 @@
 
-```puml
+```plantuml
 @startuml
 
 interface ChannelInboundInvoker {

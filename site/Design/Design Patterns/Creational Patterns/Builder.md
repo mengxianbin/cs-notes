@@ -5,7 +5,7 @@
 [Creational Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Creational%20Patterns) /
 [Builder](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Creational%20Patterns/Builder)
 
-```puml
+```plantuml
 @startuml
 
 class Builder {

@@ -6,7 +6,7 @@
 [Others](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns/Others) /
 [Facade](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns/Others/Facade)
 
-```puml
+```plantuml
 @startuml
 
 class Client {

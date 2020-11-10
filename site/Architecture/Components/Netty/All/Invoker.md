@@ -7,7 +7,7 @@
 [Invoker](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/All/Invoker)
 
 
-```puml
+```plantuml
 @startuml
 
 interface ChannelInboundInvoker {

@@ -7,7 +7,7 @@
 [Deploy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Message%20Queue/RocketMQ/Deploy) /
 [Logical](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Message%20Queue/RocketMQ/Deploy/Logical)
 
-```puml
+```plantuml
 @startuml
 
 usecase Brokers as bs

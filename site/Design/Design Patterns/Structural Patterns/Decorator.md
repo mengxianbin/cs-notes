@@ -5,7 +5,7 @@
 [Structural Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns) /
 [Decorator](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Structural%20Patterns/Decorator)
 
-```puml
+```plantuml
 @startuml
 
 interface Component {

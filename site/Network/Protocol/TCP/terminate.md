@@ -5,7 +5,7 @@
 [TCP](https://mengxianbin.github.io/cs-notes/site/Network/Protocol/TCP) /
 [terminate](https://mengxianbin.github.io/cs-notes/site/Network/Protocol/TCP/terminate)
 
-```puml
+```plantuml
 @startuml
 
 actor Client as c

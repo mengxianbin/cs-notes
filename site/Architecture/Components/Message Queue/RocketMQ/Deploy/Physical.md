@@ -7,7 +7,7 @@
 [Deploy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Message%20Queue/RocketMQ/Deploy) /
 [Physical](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Message%20Queue/RocketMQ/Deploy/Physical)
 
-```puml
+```plantuml
 @startuml
 
 cloud NameServer as ns
@@ -26,7 +26,7 @@ bs - cs
 @enduml
 ```
 
-```puml
+```plantuml
 @startuml
 
 cloud Brokers as bs {

@@ -7,7 +7,7 @@
 [ChannelPromise](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Channel/ChannelPromise) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Channel/ChannelPromise/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 namespace java.util.concurrent {

@@ -7,7 +7,7 @@
 [SelectionKey](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/SelectionKey) /
 [SelectionKey](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/SelectionKey/SelectionKey)
 
-```puml
+```plantuml
 @startuml
 
 class SelectionKey {

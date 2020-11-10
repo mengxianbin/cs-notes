@@ -5,7 +5,7 @@
 [Behavioral Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns) /
 [Command](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns/Command)
 
-```puml
+```plantuml
 @startuml
 
 class Client {

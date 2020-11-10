@@ -5,7 +5,7 @@
 [Creational Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Creational%20Patterns) /
 [Abstract Factory](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Creational%20Patterns/Abstract%20Factory)
 
-```puml
+```plantuml
 @startuml
 
 interface AbstractFactory {

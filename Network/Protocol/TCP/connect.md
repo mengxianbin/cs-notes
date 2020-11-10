@@ -1,6 +1,6 @@
 * three-way handshake
 
-```puml
+```plantuml
 @startuml
 
 actor Client as c

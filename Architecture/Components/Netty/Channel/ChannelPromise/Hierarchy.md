@@ -1,4 +1,4 @@
-```puml
+```plantuml
 @startuml
 
 namespace java.util.concurrent {

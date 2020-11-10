@@ -6,7 +6,7 @@
 [Others](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns/Others) /
 [Memento](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns/Others/Memento)
 
-```puml
+```plantuml
 @startuml
 
 class Stateful <State> {

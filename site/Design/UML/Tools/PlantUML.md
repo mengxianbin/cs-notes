@@ -16,7 +16,7 @@
 
 * Example
 
-```puml
+```plantuml
 @startuml test
 
 Alice -> Bob : message 1
@@ -43,7 +43,7 @@ Alice -> Bob : message 6
 
 > 1
 
-```puml
+```plantuml
 ' force class diagram mode
 class c1
  
@@ -59,7 +59,7 @@ c1 -left-> c4
 
 > 2
 
-```puml
+```plantuml
 class c4
 
 c1 --> c2
@@ -71,7 +71,7 @@ c4 -[norank]-> c2
 
 > 3
 
-```puml
+```plantuml
 @startuml
 
 class c2
@@ -89,7 +89,7 @@ c2 -[hidden]-> c4
 
 > 4
 
-```puml
+```plantuml
 @startuml
 
 class c2
@@ -110,7 +110,7 @@ c2 -[hidden]- c4
 
 > 5
 
-```puml
+```plantuml
 @startuml
 
 class c1 
@@ -126,7 +126,7 @@ c4 --> c2
 
 > 6
 
-```puml
+```plantuml
 @startuml
 
 class c2
@@ -140,7 +140,7 @@ c2 <-- c4
 
 > 7
 
-```puml
+```plantuml
 @startuml
 
 c4 -up-> c2
@@ -152,7 +152,7 @@ c4 -up-> c2
 
 > 8
 
-```puml
+```plantuml
 @startuml
 
 left to right direction
@@ -169,7 +169,7 @@ c2 <-- c4
 
 > 9
 
-```puml
+```plantuml
 @startuml
 
 SkinParam {

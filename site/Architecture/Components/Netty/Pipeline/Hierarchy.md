@@ -6,7 +6,7 @@
 [Pipeline](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Pipeline) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Pipeline/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 interface ChannelPipeline
