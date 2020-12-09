@@ -10,10 +10,10 @@ R: Creepy Jig
 K: Em
 |:"Em"EEE E2G|"C7"_B2A G2F|"Em"EEE E2G|\
 "C7"_B2A "B7"=B3|"Em"EEE E2G|
-"C7"_B2A G2F|"Em"GFE "D (Bm7)"F2D|\
-1"Em"E3-E3:|2"Em"E3-E2B|:"Em"e2e gfe|
+"C7"_B2A G2F|"Em"GFE "D (Bm7)"F2D|1"Em"E3-E3:|2"Em"E3-E2B|:"Em"e2e gfe|
 "G"g2ab3|"Em"gfeg2e|"D"fedB2A|"Em"e2e gfe|\
 "G"g2ab3|"Em"gfe"D"f2d|"Em"e3-e3:|
 ```
 
 [https://v.youku.com/v_show/id_XNDk3ODE0NDAxNg==.html?spm=a2h0c.8166622.PhoneSokuUgcSeries_2.dtitle_2](https://v.youku.com/v_show/id_XNDk3ODE0NDAxNg==.html?spm=a2h0c.8166622.PhoneSokuUgcSeries_2.dtitle_2)
+
