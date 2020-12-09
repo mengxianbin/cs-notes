@@ -163,45 +163,11 @@ $$
 
 ## Excecises
 - $$E=mc^2$$
+- $$x = \frac {-b \pm \sqrt {\Delta}} {2a} \quad\quad (\Delta = b^2 - 4ac)$$
+- $$a^2 + b^2 = c^2$$
+- $$d_{circle} = 2\pi r$$
+- $$S_{circle} = \pi r^2$$
+- $$V_{sphere} = \frac{4}{3} \pi r^3$$
 
-- $$x = \cfrac {-b \pm \sqrt {\Delta}} {2a} \quad\quad (\Delta = b^2 - 4ac)$$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
