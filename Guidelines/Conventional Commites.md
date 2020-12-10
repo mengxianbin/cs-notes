@@ -8,7 +8,7 @@
 
 ---
 
-- Format of the commit message
+- Format
 
 ```
 <type>(<scope>): <subject>
