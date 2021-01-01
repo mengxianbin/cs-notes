@@ -38,6 +38,7 @@
 - docs
 - style
 - test
+- chore
 - refactor
 - perf
 - build
