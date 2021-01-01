@@ -1,10 +1,10 @@
 # LaTeX
 
-[https://en.wikibooks.org/wiki/LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics%E2%80%B8)
+[https://en.wikibooks.org/wiki/LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 
 ## Symbols
 
-* `+ - = ! / ( ) [ ] < > | ' : *`
+* $ + - = ! / ( ) [ ] < > | ' : * \leftarrow \Rightarrow $
 * $\forall x \in X, \quad \exists y \leq \epsilon$
 
 ## Greek letters
