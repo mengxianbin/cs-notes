@@ -4,7 +4,7 @@
 
 ## Symbols
 
-* $ + - = ! / ( ) [ ] < > | ' : * \leftarrow \Rightarrow $
+* $ + - \cdot \times \div = ! / ( ) [ ] < > | ' : * \leftarrow \Rightarrow $
 * $\forall x \in X, \quad \exists y \leq \epsilon$
 
 ## Greek letters
@@ -17,6 +17,7 @@
 * $\lim\limits_{x \to \infty} \exp(-x) = 0$
 * $a \bmod b$
 * $x \equiv a \pmod b$
+* $\cfrac {dy} {dx}$ vs $\cfrac {\mathrm d y} {\mathrm d x}$ vs $\cfrac {\operatorname d y} {\operatorname d x}$ vs $\cfrac {\operatorname d \operatorname y} {\operatorname d \operatorname x}$
 
 ## Powers and indices
 
@@ -54,17 +55,18 @@
 * $\sqrt{\cfrac{a}{b}}$
 * $\sqrt[n]{1+x+x^2+x^3+\dots+x^n}$
 
-## Sums and integrals
+## Sums, products and integrals
 
 * $\sum_{i=1}^{10} t_i$    vs     $\displaystyle\sum_{i=1}^{10} t_i$    vs     $\sum\limits_{i=1}^{10} t_i$
-* $\int_0^\infty \mathrm{e}^{-x}\, \mathrm{d}x$
-* $\sum_{\substack{
+* $\displaystyle\int_0^\infty \mathrm{e}^{-x}\, \mathrm{d}x$
+* $\displaystyle\sum_{\substack{
   0<i<m \\
   0<j<n
   }}
   P(i, j)
   $
 * $\int_a^b$    vs     $\int\limits_a^b$    vs    $\displaystyle\int_a^b$
+* $\displaystyle \prod _{x_m} ^{x_n} = {x_m} $
 
 ## Brackets, braces and delimiters
 
@@ -159,6 +161,8 @@
 
 ## Dots
 
+* $ \dot A$
+* $A \cdot B$
 * $A \dots B$
 * $A \ldots B$
 * $A \cdots B$
