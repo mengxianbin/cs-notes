@@ -43,3 +43,8 @@
                  -ll), or if -l is specified multiple times, a longer list
                  format is used.
 ```
+
+```man
+     -S, --stdin
+                 Write the prompt to the standard error and read the password from the standard input instead of using the terminal device.
+```
