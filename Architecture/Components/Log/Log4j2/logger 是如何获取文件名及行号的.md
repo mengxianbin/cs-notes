@@ -66,4 +66,45 @@ log4j-core-2.6.2.jar
     }
 ```
 
+## MutableLogEvent
+
+> org.apache.logging.log4j.core.impl
+
+```java
+    @Override
+    public StackTraceElement getSource() {
+        if (source != null) {
+            return source;
+        }
+        if (loggerFqcn == null || !includeLocation) {
+            return null;
+        }
+        source = Log4jLogEvent.calcLocation(loggerFqcn);
+        return source;
+    }
+```
+
+## Log4jLogEvent
+
+> org.apache.logging.log4j.core.impl
+
+```java
+    public static StackTraceElement calcLocation(final String fqcnOfLogger) {
+        if (fqcnOfLogger == null) {
+            return null;
+        }
+        // LOG4J2-1029 new Throwable().getStackTrace is faster than Thread.currentThread().getStackTrace().
+        final StackTraceElement[] stackTrace = new Throwable().getStackTrace();
+        StackTraceElement last = null;
+        for (int i = stackTrace.length - 1; i > 0; i--) {
+            final String className = stackTrace[i].getClassName();
+            if (fqcnOfLogger.equals(className)) {
+                return last;
+            }
+            last = stackTrace[i];
+        }
+        return null;
+    }
+```
+
 ---
