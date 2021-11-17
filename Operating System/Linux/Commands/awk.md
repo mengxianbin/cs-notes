@@ -108,7 +108,7 @@ AWK PROGRAM EXECUTION
 ```
 
 ---
-//
+
 - '{print $1}'
 - '{print $NF}'
 
@@ -148,6 +148,56 @@ awk '$1==2 {print $1,$3}' log.txt
 awk '$1>2 && $2=="Are" {print $1,$2,$3}' log.txt
 ```
 
+```sh
+# build-in variables
+
+awk -F\' 'BEGIN{printf "%4s %4s %4s %4s %4s %4s %4s %4s %4s\n", "FILENAME","ARGC","FNR","FS","NF","NR","OFS","ORS","RS";
+                printf "---------------------------------------------\n"}
+                 {printf "%4s %4s %4s %4s %4s %4s %4s %4s %4s\n", FILENAME,ARGC,FNR,FS,NF,NR,OFS,ORS,RS}' log.txt
+
+awk '{print NR,FNR,$1,$2,$3}' log.txt
+
+awk '{print $1,$2,$5}' OFS=" $ "  log.txt
+```
+
+```sh
+# regular expression
+
+awk '$2 ~ /th/ {print $2,$4}' log.txt
+
+awk '$2 !~ /th/ {print $2,$4}' log.txt
+awk '!/th/ {print $2,$4}' log.txt
+```
+
+```sh
+# case
+
+awk 'BEGIN{IGNORECASE=1} /this/' log.txt
+```
+
+```sh
+# awk script
+
+# cat script.awk
+
+BEGIN {}
+{}
+END {}
+```
+
+```sh
+# file size
+ls -l *.txt | awk '{sum+=$5} END {print sum}'
+```
+
+```sh
+# filter line length
+awk 'length>80' log.txt
+```
+
+```sh
+seq 9 | sed 'H;g' | awk -v RS='' '{for(i=1;i<=NF;i++)printf("%dx%d=%d%s", i, NR, i*NR, i==NR?"\n":"\t")}'
+```
 
 ---
 
