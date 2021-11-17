@@ -69,3 +69,12 @@ DESCRIPTION
 
        g G    Copy/append hold space to pattern space.
 ```
+
+---
+
+> Reference
+
+<https://www.runoob.com/linux/linux-comm-sed.html>
+<https://www.cnblogs.com/276815076/p/7879666.html>
+
+---
