@@ -63,3 +63,9 @@ DESCRIPTION
 ```
 
 ---
+
+```
+       h H    Copy/append pattern space to hold space.
+
+       g G    Copy/append hold space to pattern space.
+```
