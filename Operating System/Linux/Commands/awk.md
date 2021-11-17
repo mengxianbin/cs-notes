@@ -27,8 +27,73 @@ SYNOPSIS
 ```
 
 ```
-The variable NF is set to the total number of fields in the input record.
+    Fields
+        The variable NF is set to the total number of fields in the input record.
 ```
+
+```
+    Built-in Variables
+
+       FILENAME    The  name  of the current input file.  If no files are specified on the command line, the value of FILE‐
+                  NAME is “-”.  However, FILENAME is undefined inside the BEGIN rule (unless set by getline).
+
+       FS          The input field separator, a space by default.  See Fields, above.
+
+       NF          The number of fields in the current input record.
+
+       NR          The total number of input records seen so far.
+
+       OFMT        The output format for numbers, "%.6g", by default.
+
+       OFS         The output field separator, a space by default.
+
+       ORS         The output record separator, by default a newline.
+
+       RS          The input record separator, by default a newline.
+
+       RT          The  record terminator.  Gawk sets RT to the input text that matched the character or regular expression
+                   specified by RS.
+
+```
+
+```
+   Octal and Hexadecimal Constants
+       You may use C-style octal and hexadecimal constants in your AWK program source code.  For example, the  octal  value
+       011 is equal to decimal 9, and the hexadecimal value 0x11 is equal to decimal 17.
+
+   String Constants
+       String  constants in AWK are sequences of characters enclosed between double quotes (like "value").  Within strings,
+       certain escape sequences are recognized, as in C.  These are:
+
+       \\   A literal backslash.
+
+       \a   The “alert” character; usually the ASCII BEL character.
+
+       \b   Backspace.
+
+       \f   Form-feed.
+
+       \n   Newline.
+
+       \r   Carriage return.
+
+       \t   Horizontal tab.
+
+       \v   Vertical tab.
+
+       \xhex digits
+            The character represented by the string of hexadecimal digits following the \x.  Up to two following  hexadeci‐
+            mal digits are considered part of the escape sequence.  E.g., "\x1B" is the ASCII ESC (escape) character.
+
+       \ddd The  character  represented  by the 1-, 2-, or 3-digit sequence of octal digits.  E.g., "\033" is the ASCII ESC
+            (escape) character.
+
+       \c   The literal character c.
+
+       In compatibility mode, the characters represented by octal and hexadecimal escape sequences  are  treated  literally
+       when used in regular expression constants.  Thus, /a\52b/ is equivalent to /a\*b/.
+```
+
 
 ```
 AWK PROGRAM EXECUTION
@@ -43,7 +108,7 @@ AWK PROGRAM EXECUTION
 ```
 
 ---
-
+//
 - '{print $1}'
 - '{print $NF}'
 
