@@ -4,6 +4,8 @@
 [Editors](https://mengxianbin.github.io/cs-notes/site/Others/Editors) /
 [VS Code](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code)
 
+## [extensions](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/extensions/)
+
 ## [keybindings](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/keybindings)
 
 ## [settings](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/settings)

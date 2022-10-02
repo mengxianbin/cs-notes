@@ -8,4 +8,6 @@
 
 ## [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/ByteBuf/summary/Hierarchy)
 
+## [default type](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/ByteBuf/summary/default%20type)
+
 ## [vs ByteBuffer](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/ByteBuf/summary/vs%20ByteBuffer)

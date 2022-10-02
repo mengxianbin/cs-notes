@@ -8,9 +8,13 @@
 
 ## [Arrays](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Arrays/)
 
+## [Enum](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Enum/)
+
 ## [IO](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/IO/)
 
 ## [Math](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Math/)
+
+## [Naming](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Naming/)
 
 ## [Network](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Network/)
 

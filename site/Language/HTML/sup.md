@@ -4,6 +4,9 @@
 [HTML](https://mengxianbin.github.io/cs-notes/site/Language/HTML) /
 [sup](https://mengxianbin.github.io/cs-notes/site/Language/HTML/sup)
 
-* 上标
+# Superscript
+
+E = m c <sup>2</sup>
+$E = m c^2$
 
 ---

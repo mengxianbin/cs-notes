@@ -11,6 +11,8 @@
 
 ## [Game](https://mengxianbin.github.io/cs-notes/site/Game/)
 
+## [Guidelines](https://mengxianbin.github.io/cs-notes/site/Guidelines/)
+
 ## [Language](https://mengxianbin.github.io/cs-notes/site/Language/)
 
 ## [Network](https://mengxianbin.github.io/cs-notes/site/Network/)

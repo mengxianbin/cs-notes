@@ -31,6 +31,8 @@
 
 ## [Thead Model](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Thead%20Model/)
 
+## [Tools](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Tools/)
+
 ## [Transaction](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Transaction/)
 
 ## [features](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/features)

@@ -7,3 +7,5 @@
 [Concrete](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/Options/Concrete)
 
 ## [dump](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/Options/Concrete/dump)
+
+## [gc log](https://mengxianbin.github.io/cs-notes/site/Language/Java/JVM/Options/Concrete/gc%20log)

@@ -15,5 +15,3 @@
 ## [Test](https://mengxianbin.github.io/cs-notes/site/Others/Test/)
 
 ## [VCS](https://mengxianbin.github.io/cs-notes/site/Others/VCS/)
-
-## [XML](https://mengxianbin.github.io/cs-notes/site/Others/XML/)

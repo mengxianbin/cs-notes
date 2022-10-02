@@ -30,6 +30,8 @@
 
 ## [curl](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/curl)
 
+## [cut](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/cut)
+
 ## [date](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/date)
 
 ## [diff](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/diff)
@@ -96,6 +98,8 @@
 
 ## [ping](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ping)
 
+## [printf](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/printf)
+
 ## [ps](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ps)
 
 ## [putenv](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/putenv)
@@ -109,6 +113,8 @@
 ## [rm](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/rm)
 
 ## [rpm](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/rpm)
+
+## [rsync](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/rsync)
 
 ## [scp](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/scp)
 
@@ -131,6 +137,8 @@
 ## [sort](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/sort)
 
 ## [source](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/source)
+
+## [ss](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ss)
 
 ## [ssh](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ssh)
 
@@ -165,6 +173,8 @@
 ## [uptime](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/uptime)
 
 ## [vim](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/vim)
+
+## [visudo](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/visudo)
 
 ## [vmstat](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/vmstat)
 

@@ -5,4 +5,4 @@
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands) /
 [ls](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ls)
 
-# TO DO
+* -d
