@@ -6,7 +6,7 @@
 [Channel](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Channel) /
 [Channel](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Channel/Channel)
 
-```puml
+```plantuml
 @startuml
 
 interface Channel {

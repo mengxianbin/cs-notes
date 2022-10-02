@@ -6,6 +6,8 @@
 [Redis](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis) /
 [Problems](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Problems)
 
+## [Pipeline](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Problems/Pipeline)
+
 ## [单点吞吐量](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Problems/%E5%8D%95%E7%82%B9%E5%90%9E%E5%90%90%E9%87%8F)
 
 ## [哈希槽](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Problems/%E5%93%88%E5%B8%8C%E6%A7%BD)

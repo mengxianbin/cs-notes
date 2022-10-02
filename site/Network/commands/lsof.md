@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
 [cs-notes](https://mengxianbin.github.io/cs-notes/site) /
 [Network](https://mengxianbin.github.io/cs-notes/site/Network) /
-[commands](https://mengxianbin.github.io/cs-notes/site/Network/commands) /
-[lsof](https://mengxianbin.github.io/cs-notes/site/Network/commands/lsof)
+[Commands](https://mengxianbin.github.io/cs-notes/site/Network/Commands) /
+[lsof](https://mengxianbin.github.io/cs-notes/site/Network/Commands/lsof)
 
 lsof -i:port
 

@@ -1,4 +1,4 @@
-```puml
+```plantuml
 @startuml
 
 cloud NameServer as ns
@@ -17,7 +17,7 @@ bs - cs
 @enduml
 ```
 
-```puml
+```plantuml
 @startuml
 
 cloud Brokers as bs {

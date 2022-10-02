@@ -4,7 +4,7 @@
 
 * Simple
 
-```puml
+```plantuml
 @startuml
 class Singleton {
     - instance: Singleton {static}
@@ -17,7 +17,7 @@ class Singleton {
 * Inner Class
 
 
-```puml
+```plantuml
 @startuml
 class Singleton {
     - Singleton()
@@ -34,7 +34,7 @@ Singleton +. InstanceHolder
 
 * Enumeration
 
-```puml
+```plantuml
 @startuml
 enum Singleton {
     + INSTANCE {static}

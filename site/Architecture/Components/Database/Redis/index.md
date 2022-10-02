@@ -7,6 +7,8 @@
 
 ## [Cluster](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Cluster/)
 
+## [Commands](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Commands/)
+
 ## [Data Structure](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Data%20Structure/)
 
 ## [Data Types](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Database/Redis/Data%20Types/)

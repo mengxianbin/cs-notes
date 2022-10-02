@@ -5,4 +5,4 @@
 [Collection](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection) /
 [ArrayList](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/ArrayList)
 
-# TO DO
+## [ArrayList](https://mengxianbin.github.io/cs-notes/site/Language/Java/Collection/ArrayList/ArrayList)

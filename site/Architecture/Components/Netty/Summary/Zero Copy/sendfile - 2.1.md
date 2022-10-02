@@ -7,7 +7,7 @@
 [Zero Copy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Summary/Zero%20Copy) /
 [sendfile - 2.1](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Summary/Zero%20Copy/sendfile%20-%202.1)
 
-```puml
+```plantuml
 @startuml
 
 rectangle "User Context" as uc1 {

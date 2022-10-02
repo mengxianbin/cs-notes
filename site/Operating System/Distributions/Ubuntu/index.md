@@ -5,3 +5,5 @@
 [Ubuntu](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Distributions/Ubuntu)
 
 ## [Problems](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Distributions/Ubuntu/Problems/)
+
+## [apt](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Distributions/Ubuntu/apt/)

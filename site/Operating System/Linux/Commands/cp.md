@@ -5,4 +5,7 @@
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands) /
 [cp](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/cp)
 
-# TO DO
+* cp path1/{f1,f2,f3} path2/
+* cp path1/prefix{f1,f2,f3} path2
+
+---

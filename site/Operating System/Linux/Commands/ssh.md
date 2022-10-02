@@ -5,4 +5,11 @@
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands) /
 [ssh](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/ssh)
 
-# TO DO
+* -l login_name
+
+---
+
+* sshpass
+    * `sshpass -p [passwd] ssh -p [port] user@host`
+
+---

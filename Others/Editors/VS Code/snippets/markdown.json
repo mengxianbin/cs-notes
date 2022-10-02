@@ -22,7 +22,7 @@
 	"uml": {
 		"prefix": "u",
 		"body": [
-			"```puml",
+			"```plantuml",
 			"@startuml",
 			"",
 			"$0",
@@ -83,5 +83,30 @@
 			"$0"
 		],
 		"description": "HTTP"
+	},
+	"left": {
+		"prefix": "l",
+		"body": [
+			"<- "
+		],
+		"description": "Left Arrow"
+	},
+	"arrow with comment": {
+		"prefix": "t",
+		"body": "-$1-> "
+	},
+	"strikethrough": {
+		"prefix": "st",
+		"body": "~~$1~~"
+	},
+	"shell": {
+		"prefix": "sh",
+		"body": [
+			"```sh",
+			"$1",
+			"```",
+			"$0"
+		],
+		"description": "Shell Code Block"
 	}
 }

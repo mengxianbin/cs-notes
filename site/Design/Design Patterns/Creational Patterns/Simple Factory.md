@@ -5,7 +5,7 @@
 [Creational Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Creational%20Patterns) /
 [Simple Factory](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Creational%20Patterns/Simple%20Factory)
 
-```puml
+```plantuml
 @startuml
 
 class Client {

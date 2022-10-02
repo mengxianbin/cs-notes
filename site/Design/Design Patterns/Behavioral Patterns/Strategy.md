@@ -5,7 +5,7 @@
 [Behavioral Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns) /
 [Strategy](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Behavioral%20Patterns/Strategy)
 
-```puml
+```plantuml
 @startuml
 
 class Context {

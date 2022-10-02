@@ -7,7 +7,7 @@
 [Netty](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Reactor/Netty) /
 [Implementation](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Reactor/Netty/Implementation)
 
-```puml
+```plantuml
 @startuml
 
 'left to right direction

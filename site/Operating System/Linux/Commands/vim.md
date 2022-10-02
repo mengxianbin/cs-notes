@@ -5,4 +5,8 @@
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands) /
 [vim](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/vim)
 
-# TO DO
+* search: `/`
+    * `n`: next
+    * `N`: previous
+
+---

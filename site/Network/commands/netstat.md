@@ -1,8 +1,8 @@
 [Home](https://mengxianbin.github.io) /
 [cs-notes](https://mengxianbin.github.io/cs-notes/site) /
 [Network](https://mengxianbin.github.io/cs-notes/site/Network) /
-[commands](https://mengxianbin.github.io/cs-notes/site/Network/commands) /
-[netstat](https://mengxianbin.github.io/cs-notes/site/Network/commands/netstat)
+[Commands](https://mengxianbin.github.io/cs-notes/site/Network/Commands) /
+[netstat](https://mengxianbin.github.io/cs-notes/site/Network/Commands/netstat)
 
 * netstat
     * show net status

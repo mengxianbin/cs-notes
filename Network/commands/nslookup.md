@@ -1,1 +1,0 @@
-* query Internet name servers interactively

@@ -1,0 +1,3 @@
+* --amend               amend previous commit
+
+---

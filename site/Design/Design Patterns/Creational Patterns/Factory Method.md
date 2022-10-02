@@ -5,7 +5,7 @@
 [Creational Patterns](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Creational%20Patterns) /
 [Factory Method](https://mengxianbin.github.io/cs-notes/site/Design/Design%20Patterns/Creational%20Patterns/Factory%20Method)
 
-```puml
+```plantuml
 @startuml
 
 interface Factory {

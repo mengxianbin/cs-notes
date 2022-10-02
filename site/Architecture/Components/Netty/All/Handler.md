@@ -6,7 +6,7 @@
 [All](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/All) /
 [Handler](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/All/Handler)
 
-```puml
+```plantuml
 @startuml
 
 interface ChannelHandler {

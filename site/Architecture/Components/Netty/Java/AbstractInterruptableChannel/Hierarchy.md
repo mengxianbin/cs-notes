@@ -7,7 +7,7 @@
 [AbstractInterruptableChannel](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/AbstractInterruptableChannel) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/AbstractInterruptableChannel/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 SelectableChannel -up-|> AbstractInterruptibleChannel

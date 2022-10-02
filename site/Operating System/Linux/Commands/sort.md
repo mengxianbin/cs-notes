@@ -5,4 +5,8 @@
 [Commands](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands) /
 [sort](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/sort)
 
-# TO DO
+* -n, --numeric-sort
+* -r, --reverse
+* -k, --key=POS1[,POS2]
+
+---

@@ -1,4 +1,4 @@
-```puml
+```plantuml
 @startuml
 
 SelectableChannel -up-|> AbstractInterruptibleChannel

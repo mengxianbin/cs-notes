@@ -12,7 +12,11 @@
 
 ## [Math](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Math/)
 
+## [Network](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Network/)
+
 ## [Object](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Object/)
+
+## [Problems](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Problems/)
 
 ## [Reference](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Reference/)
 

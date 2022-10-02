@@ -27,7 +27,7 @@
 
 ## Class Loading
 
-```puml
+```plantuml
 @startuml
 
 (Current Class) -> (Interface)

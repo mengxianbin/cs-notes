@@ -1,4 +1,4 @@
-```puml
+```plantuml
 @startuml
 
 ChannelInboundHandlerAdapter -up-|> ChannelHandlerAdapter
@@ -14,7 +14,7 @@ WriteTimeoutHandler -up-|> ChannelOutboundHandlerAdapter
 
 ---
 
-```puml
+```plantuml
 @startuml
 
 AbstractIdleTask .up.|> Runnable

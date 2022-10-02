@@ -1,4 +1,4 @@
-```puml
+```plantuml
 @startuml
 
 HeadContext -up-+ DefaultChannelPipeline

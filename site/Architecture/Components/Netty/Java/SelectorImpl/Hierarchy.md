@@ -7,7 +7,7 @@
 [SelectorImpl](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/SelectorImpl) /
 [Hierarchy](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Java/SelectorImpl/Hierarchy)
 
-```puml
+```plantuml
 @startuml
 
 class PollSelectorImpl <<Common>> {

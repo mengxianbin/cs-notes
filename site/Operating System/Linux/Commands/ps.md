@@ -33,3 +33,12 @@ EXAMPLES
           ps ax
           ps axu              
 ```
+
+---
+
+```
+       -w              Wide output. Use this option twice for unlimited width.
+       w               Wide output. Use this option twice for unlimited width.
+```
+
+---

@@ -8,7 +8,7 @@
 [classic](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Netty/Summary/Zero%20Copy/classic)
 
 
-```puml
+```plantuml
 @startuml
 
 rectangle "User Context" as uc1 {
