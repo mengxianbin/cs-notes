@@ -3,16 +3,16 @@
 [Pictures](https://mengxianbin.github.io/cs-notes/site/Pictures) /
 [IO](https://mengxianbin.github.io/cs-notes/site/Pictures/IO)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/)
+## [IO - DMA](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/IO%20-%20DMA)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/)
+## [IO - Performance - transferTO](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/IO%20-%20Performance%20-%20transferTO)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/)
+## [IO - RW copy](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/IO%20-%20RW%20copy)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/)
+## [IO - SG DMA](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/IO%20-%20SG%20DMA)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/)
+## [IO - async IO & direct IO](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/IO%20-%20async%20IO%20&%20direct%20IO)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/)
+## [IO - before DMA](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/IO%20-%20before%20DMA)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/)
+## [IO - mmap](https://mengxianbin.github.io/cs-notes/site/Pictures/IO/IO%20-%20mmap)

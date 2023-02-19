@@ -4,14 +4,14 @@
 [Markdown](https://mengxianbin.github.io/cs-notes/site/Language/Markdown) /
 [plantuml](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/)
+## [Activity Diagram](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/Activity%20Diagram)
 
 ## [Class Diagram](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/Class%20Diagram/)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/)
+## [Deploy Diagram](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/Deploy%20Diagram)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/)
+## [Mindmap Diagram](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/Mindmap%20Diagram)
 
 ## [Sequence Diagram](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/Sequence%20Diagram/)
 
-## [](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/)
+## [State Diagram](https://mengxianbin.github.io/cs-notes/site/Language/Markdown/plantuml/State%20Diagram)

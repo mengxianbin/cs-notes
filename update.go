@@ -53,6 +53,22 @@ func getMarkdownContent(home string, parent string, fileName string, title strin
 	return content
 }
 
+func copyFile(src, dst string) (err error) {
+	source, err := os.Open(src)
+	if err != nil {
+		return err
+	}
+
+	defer source.Close()
+	destination, err := os.Create(dst)
+	if err != nil {
+		return err
+	}
+
+	_, err = io.Copy(source, destination)
+	return err
+}
+
 func writeMarkdown(parent string, fileName string, home string, parents *list.List) (title string, err error) {
 	// 创建多级目录
 	newParent := fmt.Sprintf("%s/%s", outDir, parent)
@@ -64,15 +80,11 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 
 	ext := filepath.Ext(fileName)
 	if ext != ".md" {
-		source, _err := os.Open(parent + "/" + fileName)
-		err = _err
-
-		defer source.Close()
-		destination, _err := os.Create(newParent + "/" + fileName)
-		err = _err
-
-		_, err = io.Copy(source, destination)
-		return
+		err = copyFile(parent+"/"+fileName, newParent+"/"+fileName)
+		if err != nil {
+			log.Printf("Markdown creating error: %#v\n", err)
+			panic(err)
+		}
 	}
 
 	// 创建新文件名
