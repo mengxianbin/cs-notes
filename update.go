@@ -13,8 +13,8 @@ import (
 )
 
 var outDir = "site"
-var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s|%s)", outDir, "pkg"))
-var ignoredFileReg = regexp.MustCompile("(^\\.)|(^_)|README|LICENSE|update.go|go.mod|404.md")
+var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("^\\.|%s|%s", outDir, "pkg"))
+var ignoredFileReg = regexp.MustCompile("^\\.|^_|README|LICENSE|update.go|go.mod|404.md")
 
 func uriEncode(input string) string {
 	return url.PathEscape(input)
