@@ -15,8 +15,6 @@
 
 ## [HTTP](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/HTTP/)
 
-## [LVS](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/LVS/)
-
 ## [LVS](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/LVS)
 
 ## [Log](https://mengxianbin.github.io/cs-notes/site/Architecture/Components/Log/)
