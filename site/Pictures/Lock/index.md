@@ -3,6 +3,8 @@
 [Pictures](https://mengxianbin.github.io/cs-notes/site/Pictures) /
 [Lock](https://mengxianbin.github.io/cs-notes/site/Pictures/Lock)
 
+## [32位对象头](https://mengxianbin.github.io/cs-notes/site/Pictures/Lock/32%E4%BD%8D%E5%AF%B9%E8%B1%A1%E5%A4%B4)
+
 ## [ObjectMonitor](https://mengxianbin.github.io/cs-notes/site/Pictures/Lock/ObjectMonitor)
 
 ## [Synchronization](https://mengxianbin.github.io/cs-notes/site/Pictures/Lock/Synchronization)

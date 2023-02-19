@@ -14,7 +14,7 @@ import (
 
 var outDir = "site"
 var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s|%s)", outDir, "pkg"))
-var ignoredFileReg = regexp.MustCompile("(^\\d)|(^\\.git)|(^_)|(^index)|README|LICENSE|update.go|go.mod")
+var ignoredFileReg = regexp.MustCompile("(^\\.)|(^_)|README|LICENSE|update.go|go.mod|404.md")
 
 func uriEncode(input string) string {
 	return url.PathEscape(input)
@@ -78,6 +78,7 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 		panic(err)
 	}
 
+	// 非 markdown 文件, 先拷贝一次
 	ext := filepath.Ext(fileName)
 	if ext != ".md" {
 		err = copyFile(parent+"/"+fileName, newParent+"/"+fileName)
