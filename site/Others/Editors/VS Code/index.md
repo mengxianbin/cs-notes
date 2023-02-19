@@ -6,8 +6,8 @@
 
 ## [extensions](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/extensions/)
 
-## [keybindings](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/keybindings)
+## [](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/)
 
-## [settings](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/settings)
+## [](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/)
 
 ## [snippets](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/snippets/)

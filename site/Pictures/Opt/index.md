@@ -3,4 +3,4 @@
 [Pictures](https://mengxianbin.github.io/cs-notes/site/Pictures) /
 [Opt](https://mengxianbin.github.io/cs-notes/site/Pictures/Opt)
 
-## [Agile CICD DevOps](https://mengxianbin.github.io/cs-notes/site/Pictures/Opt/Agile%20CICD%20DevOps)
+## [](https://mengxianbin.github.io/cs-notes/site/Pictures/Opt/)

@@ -3,6 +3,6 @@
 [Pictures](https://mengxianbin.github.io/cs-notes/site/Pictures) /
 [Collection](https://mengxianbin.github.io/cs-notes/site/Pictures/Collection)
 
-## [ConcurrentHashMap_7](https://mengxianbin.github.io/cs-notes/site/Pictures/Collection/ConcurrentHashMap_7)
+## [](https://mengxianbin.github.io/cs-notes/site/Pictures/Collection/)
 
-## [HashMap.put](https://mengxianbin.github.io/cs-notes/site/Pictures/Collection/HashMap.put)
+## [](https://mengxianbin.github.io/cs-notes/site/Pictures/Collection/)

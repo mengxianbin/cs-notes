@@ -22,7 +22,7 @@ func uriEncode(input string) string {
 
 func getMarkdownContent(home string, parent string, fileName string, title string, ext string) string {
 	// 处理图片
-	if strings.Contains(parent, "Pictures") {
+	if ext == ".png" || strings.Contains(parent, "Pictures") {
 		return fmt.Sprintf("![%s](%s/%s/%s)", title, home, parent, uriEncode(fileName))
 	}
 
@@ -62,8 +62,20 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 		panic(err)
 	}
 
-	// 创建新文件名
 	ext := filepath.Ext(fileName)
+	if ext != ".md" {
+		source, _err := os.Open(parent + "/" + fileName)
+		err = _err
+
+		defer source.Close()
+		destination, _err := os.Create(newParent + "/" + fileName)
+		err = _err
+
+		_, err = io.Copy(source, destination)
+		return
+	}
+
+	// 创建新文件名
 	title = fileName[:len(fileName)-len(ext)]
 	newFileName := title + ".md"
 

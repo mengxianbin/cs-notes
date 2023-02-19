@@ -5,4 +5,4 @@
 [VS Code](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code) /
 [snippets](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/snippets)
 
-## [markdown](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/snippets/markdown)
+## [](https://mengxianbin.github.io/cs-notes/site/Others/Editors/VS%20Code/snippets/)

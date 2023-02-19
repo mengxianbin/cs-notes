@@ -5,4 +5,4 @@
 [Basic](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic) /
 [Enum](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Enum)
 
-## [Enum.dio](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Enum/Enum.dio)
+## [](https://mengxianbin.github.io/cs-notes/site/Language/Java/Basic/Enum/)
