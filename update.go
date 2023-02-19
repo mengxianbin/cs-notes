@@ -3,18 +3,18 @@ package main
 import (
 	"container/list"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/url"
 	"os"
-	"path"
+	"path/filepath"
 	"regexp"
 	"strings"
 )
 
 var outDir = "site"
-var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s)", outDir))
-var ignoredFileReg = regexp.MustCompile("(^\\d)|(^\\.git)|(^_)|(^index)|README|LICENSE|update.go")
+var ignoredDirReg = regexp.MustCompile(fmt.Sprintf("(\\.|%s|%s)", outDir, "pkg"))
+var ignoredFileReg = regexp.MustCompile("(^\\d)|(^\\.git)|(^_)|(^index)|README|LICENSE|update.go|go.mod")
 
 func uriEncode(input string) string {
 	return url.PathEscape(input)
@@ -26,6 +26,11 @@ func getMarkdownContent(home string, parent string, fileName string, title strin
 		return fmt.Sprintf("![%s](%s/%s/%s)", title, home, parent, uriEncode(fileName))
 	}
 
+	// 处理 PDF
+	if ext == ".pdf" {
+		return fmt.Sprintf("[%s](%s/%s/%s)", title, home, parent, uriEncode(fileName))
+	}
+
 	// 读取原始文件
 	fi, err := os.Open(fmt.Sprintf("%s/%s", parent, fileName))
 	if err != nil {
@@ -33,12 +38,16 @@ func getMarkdownContent(home string, parent string, fileName string, title strin
 		panic(err)
 	}
 	defer func() { _ = fi.Close() }()
-	fd, err := ioutil.ReadAll(fi)
+	fd, err := io.ReadAll(fi)
 	content := string(fd)
 
 	// 添加 markdown 块标记
 	if ext != ".md" {
-		return fmt.Sprintf("```%s\n%s\n```\n", ext[1:], content)
+		lang := ext
+		if len(ext) > 0 {
+			lang = ext[1:]
+		}
+		return fmt.Sprintf("```%s\n%s\n```\n", lang, content)
 	}
 
 	return content
@@ -54,7 +63,7 @@ func writeMarkdown(parent string, fileName string, home string, parents *list.Li
 	}
 
 	// 创建新文件名
-	ext := path.Ext(fileName)
+	ext := filepath.Ext(fileName)
 	title = fileName[:len(fileName)-len(ext)]
 	newFileName := title + ".md"
 
@@ -96,16 +105,16 @@ func toPathLink(home string, parents *list.List) (full string, last string) {
 	// repo / content
 	repo := parents.Front()
 	repoName := repo.Value.(string)
-	path := fmt.Sprintf("%s/%s/%s", home, repoName, outDir)
-	link += fmt.Sprintf(" /\n[%s](%s)", repoName, path)
+	curPath := fmt.Sprintf("%s/%s/%s", home, repoName, outDir)
+	link += fmt.Sprintf(" /\n[%s](%s)", repoName, curPath)
 
-	// path list
+	// curPath list
 	for p := repo.Next(); p != nil; p = p.Next() {
-		path = fmt.Sprintf("%s/%s", path, uriEncode(p.Value.(string)))
-		link += fmt.Sprintf(" /\n[%s](%s)", p.Value.(string), path)
+		curPath = fmt.Sprintf("%s/%s", curPath, uriEncode(p.Value.(string)))
+		link += fmt.Sprintf(" /\n[%s](%s)", p.Value.(string), curPath)
 	}
 
-	return link, path
+	return link, curPath
 }
 
 // GenerateIndex 为目录递归生成 index 文件
@@ -137,12 +146,12 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 			// 生成 TO DO
 			_, err = indexFile.WriteString("\n\n# TO DO")
 
-			// 生成 .gitkeep 文件
+			// 生成 git keep 文件
 			keep, _ := os.Create(fmt.Sprintf("%s/.gitkeep", path))
 			err = keep.Close()
 		} else {
-			// 移除冗余的 .gitkeep 文件
-			os.Remove(fmt.Sprintf("%s/.gitkeep", path))
+			// 移除冗余的 git keep 文件
+			err = os.Remove(fmt.Sprintf("%s/.gitkeep", path))
 		}
 
 		// 添加结束行
@@ -154,7 +163,7 @@ func GenerateIndex(path string, home string, parents *list.List) (err error) {
 	}()
 
 	// 读取文件列表
-	files, err := ioutil.ReadDir(path)
+	files, err := os.ReadDir(path)
 	if err != nil {
 		log.Printf("Directory reading error: %#v\n", err)
 		panic(err)
@@ -218,7 +227,7 @@ func main() {
 		log.Printf("Repo name error: %#v\n", err)
 		panic(err)
 	}
-	repoName := path.Base(wd)
+	repoName := filepath.Base(wd)
 
 	// 生成新索引文件
 	parents := list.New()
