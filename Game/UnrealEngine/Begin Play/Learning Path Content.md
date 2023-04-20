@@ -4,8 +4,8 @@
 
 ## Engine Structure
 
-![Engine Structure](./Engine%20Structure.jpg)
+![Engine Structure](./Engine%20Structure@2x.jpg)
 
 ## Programming
 
-![Programming](./Programming.jpg)
+![Programming](./Programming@2x.jpg)

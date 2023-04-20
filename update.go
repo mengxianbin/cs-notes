@@ -22,7 +22,7 @@ func uriEncode(input string) string {
 
 func getMarkdownContent(home string, parent string, fileName string, title string, ext string) string {
 	// 处理图片
-	if ext == ".png" || strings.Contains(parent, "Pictures") {
+	if ext == ".png" || ext == ".jpg" || strings.Contains(parent, "Pictures") {
 		return fmt.Sprintf("![%s](%s/%s/%s)", title, home, parent, uriEncode(fileName))
 	}
 
