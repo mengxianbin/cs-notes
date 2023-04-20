@@ -22,3 +22,5 @@
 ## [Others](https://mengxianbin.github.io/cs-notes/site/Others/)
 
 ## [Pictures](https://mengxianbin.github.io/cs-notes/site/Pictures/)
+
+## [diagram](https://mengxianbin.github.io/cs-notes/site/diagram)

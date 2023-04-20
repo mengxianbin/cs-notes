@@ -88,6 +88,8 @@
 
 ## [mv](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/mv)
 
+## [nc](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/nc)
+
 ## [netstat](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/netstat)
 
 ## [nl](https://mengxianbin.github.io/cs-notes/site/Operating%20System/Linux/Commands/nl)
